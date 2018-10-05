@@ -1,0 +1,104 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem{vass2004}
+\abntrefinfo{Vass}{VASS}{2004}
+{VASS, J. {Automatic Transcription of Audio Signals}.
+\emph{Master of Science Thesis, Czech Technical University in Prague}, Prague,
+  2004.}
+
+\bibitem{amado2008}
+\abntrefinfo{Amado e Filho}{AMADO; FILHO}{2008}
+{AMADO, R.~G.; FILHO, J.~V. {Pitch Detection Algorithms Based on Zero-Cross
+  Rate and Autocorrelation Function for Musical Notes}.
+\emph{Sao Paulo State University}, São Paulo, 2008.}
+
+\bibitem{aoqui2014}
+\abntrefinfo{Aoqui et al.}{AOQUI et al.}{2014}
+{AOQUI, C.~J. et al. {Methods to Musical Notes Recognition from Sheet Music:
+  Preliminary Results}.
+\emph{X Workshop de Visão Computacional - Universidade Estadual de São
+  Paulo}, São Paulo, 2014.}
+
+\bibitem{benson2006}
+\abntrefinfo{Benson}{BENSON}{2006}
+{BENSON, D. \emph{Music: A Mathematical Offering}. 1ª. ed. UK: Cambridge:
+  Cambridge University Press, 2006. 8 -- 12~p.}
+
+\bibitem{hartmann1996}
+\abntrefinfo{Hartmann}{HARTMANN}{1996}
+{HARTMANN, W. Pitch, periodicity, and auditory organization.
+\emph{{Journal of the Acoustical Society of America}}, n. 100(6), p. 3491 --
+  3502, 1996.}
+
+\bibitem{klapuri2006}
+\abntrefinfo{Klapuri e Davy}{KLAPURI; DAVY}{2006}
+{KLAPURI, A.; DAVY, M. \emph{{Signal Processing Methods for Music
+  Transcription}}. 1ª. ed. US: New York: Springer Science, 2006.}
+
+\bibitem{gerhard2003}
+\abntrefinfo{Gerhard}{GERHARD}{2003}
+{GERHARD, D. {Pitch Extraction and Fundamental Frequency: History and Current
+  Techniques}.
+\emph{{Technical Report TR-CS}}, n. 2003-6, 2003.}
+
+\bibitem{lathi2007}
+\abntrefinfo{LATHI}{LATHI}{2007}
+{LATHI, B. \emph{{Sinais e Sistemas Lineares}}. 2ª. ed. Porto Alegre: Bookman,
+  2007.}
+
+\bibitem{mathworks2018audioread}
+\abntrefinfo{MATHWORKS}{MATHWORKS}{2018}
+{MATHWORKS. {Documentation: audioread - Read audio file}.
+2018.
+Dispon{\'\i}vel em:
+  $<$https://www.mathworks.com/help/matlab/ref/audioread.html$>$. Acesso em: 13
+  jul. 2018.}
+
+\bibitem{open1999}
+\abntrefinfo{Oppennheim, Schafer e Buck}{OPPENNHEIM; SCHAFER; BUCK}{1999}
+{OPPENNHEIM, A.~V.; SCHAFER, R.~W.; BUCK, J.~R. \emph{{Discrete-Time Signal
+  Processing}}. 2ª. ed. New Jersey: Prentice Hall, 1999.}
+
+\bibitem{mathworks2018}
+\abntrefinfo{MATHWORKS}{MATHWORKS}{2018a}
+{MATHWORKS. {Documentation: fft - Fast Fourier Transform}.
+2018.
+Dispon{\'\i}vel em: $<$https://www.mathworks.com/help/matlab/ref/fft.html$>$.
+  Acesso em: 11 jul. 2018.}
+
+\bibitem{mathworks2018spectrogram}
+\abntrefinfo{MATHWORKS}{MATHWORKS}{2018b}
+{MATHWORKS. {Documentation: spectrogram - Spectrogram using Short-Time Fourier
+  Transform}.
+2018.
+Dispon{\'\i}vel em:
+  $<$https://www.mathworks.com/help/signal/ref/spectrogram.html$>$. Acesso em:
+  11 jul. 2018.}
+
+\bibitem{mathworks2018guide}
+\abntrefinfo{MATHWORKS}{MATHWORKS}{2018c}
+{MATHWORKS. {Documentation: guide - Open GUIDE}.
+2018.
+Dispon{\'\i}vel em: $<$https://www.mathworks.com/help/matlab/ref/guide.html$>$.
+  Acesso em: 21 jul. 2018.}
+
+\bibitem{cruzjr2018}
+\abntrefinfo{{CRUZ JR, A. C. V.}}{{CRUZ JR, A. C. V.}}{2018}
+{{CRUZ JR, A. C. V.} {F0Detection - Bitbucket Repository}.
+2018.
+Dispon{\'\i}vel em: $<$https://bitbucket.org/juninhocruz/f0detection$>$. Acesso
+  em: 21 jul. 2018.}
+
+\bibitem{audacity2018}
+\abntrefinfo{AUDACITY}{AUDACITY}{2018}
+{AUDACITY. {Audacity: Free, open source, cross-platform audio software}.
+2018.
+Dispon{\'\i}vel em: $<$https://www.audacityteam.org$>$. Acesso em: 21 jul.
+  2018.}
+
+\end{thebibliography}

@@ -1,0 +1,45 @@
+\pagenumbering{arabic}
+
+\chapter{Introdução} %Contextualização, motivação e justificativa.
+
+% [Contemporâneo - Como as tecnologias ajudam na música (de forma geral)]
+Como em todas as outras áreas, a música também vem progredindo com a tecnologia, tornando-se com maior praticidade, acessibilidade e inovações. A praticidade pode ser vista através das inúmeras ferramentas musicais que estão disponíveis no mercado, como os afinadores digitais, que podem ser encontrados até mesmo em aplicativos para \textit{smartphone}. A evolução do poder computacional também reduziu o custo de desenvolvimento nesse setor, e ampliou os horizontes para uma infinidade de novas possibilidades para as ferramentas musicais. Atualmente, a transcrição de fala já é uma realidade em processamento digital de sinais, e tem-se empreendido grande esforço na tentativa de transcrever notas musicais\cite{vass2004} \cite{amado2008} \cite{aoqui2014}.
+
+
+Existem diferentes caminhos para o reconhecimento de notas musicais, e um deles é por meio da frequência fundamental ($f_0$). Muitas soluções e métodos de detecção automática de $f_0$ já foram desenvolvidas e apresentadas, obtendo resultados positivos. Todavia, é difícil que uma única solução de detecção de $f_0$ seja de fato eficaz em todos os contextos possíveis. Deste modo, cada solução de detecção tem sua aplicação para a qual é ideal, e não há garantias de bons resultados em alguns outros contextos, como, por exemplo, ambientes ruidosos. Por isso, cada contexto demanda que as soluções propostas sejam analisadas, tendo em vista os fenômenos ao qual o sistema será submetido, para só então eleger-se o ideal para tal situação.
+
+
+Dentro dessa realidade, o presente projeto aborda o desenvolvimento de um sistema de detecção de $f_0$ para áudios musicais monofônicos, através de processamento digital de sinais, com o intuito de mapear os áudios, fornecendo as frequências fundamentais soadas em cada instante de tempo e identificando os fenômenos aos quais um sistema nesse contexto é submetido. A detecção de $f_0$ será realizada por meio da Transformada de Fourier de Curto Tempo (STFT), considerando $f_0$ como a frequência de maior amplitude dentro de cada janela. Foi construída uma base de dados com áudios de 4 tipos de instrumentos musicais para a realização de experimentos, visando validar as detecções realizadas pelo sistema. Este trabalho propõe-se ainda a avaliar a metodologia adotada por meio desses experimentos realizados.
+
+
+\section{Organização do Trabalho}
+
+Este trabalho escrito está organizado 3 capítulos, onde discorrem-se os fundamentos teóricos, os detalhes do sistema proposto e os experimentos realizados.
+
+
+No Capítulo \ref{cap2}, Fundamentação Teórica, são abordados, de modo sucinto, os termos e conceitos utilizados na execução deste projeto. Serão tratado os conceitos de sinal de som e suas características, frequência fundamental e sua detecção, \textit{pitch}, digitalização de um sinal, mencionando os processos de amostragem, quantização e codificação, conceitos de notas musicais, ressonância, domínios e transformadas, transformada discreta de fourier, transformada rápida de fourier e transformada de curto-tempo, além dos espectrogramas e suas formas.
+
+
+O Capítulo \ref{cap3}, Sistema Proposto, detalha o desenvolvimento do sistema, especificando a metodologia adotada para o projeto. É apresentado, inicialmente, uma visão geral do sistema, com uso de diagrama de blocos. Os blocos de pré-processamento e de detecção da frequência fundamental são abordados de forma mais detalhada e expõe-se também o algoritmo usado para a detecção da $f_0$. Explica-se ainda como foi implementada a análise por janelas de curto-tempo, bem como a forma de visualização dos resultados obtidos. O capítulo aborda ainda como foi desenvolvida a interface de experimentação e como construiu-se a base de dados.
+
+
+Por fim, o Capítulo \ref{cap4}, Experimentos, explica as métricas utilizadas para a avaliação do sistema, os objetivos do experimento, os resultados obtidos e as discussões acerca desses resultados. Os resultados são apresentados de forma detalhada, para cada áudio da base de dados, separados por instrumento. Os resultados vão sendo analisados à medida em que são apresentados, sendo feito, ao fim de todos os experimentos, uma discussão mais detalhada acerca das informações obtidas por meio da experimentação.
+
+
+
+%O texto de introdução deve conter três tipos de informações: apresentação do problema, estado da arte e justificativa do projeto.
+%A apresentação ou formulação do problema deve deixar, de forma bem clara, qual será o objeto de estudo do projeto. As razões para a escolha do tema deverão ser justificadas. Desta forma devem ser indicadas: a importância do estudo, quais as possíveis repercussões, quais hipóteses a serem verificadas, entre outras. 
+%O estado da arte serve para embasar tanto a formulação do problema como sua justificativa. É preciso situar historicamente a evolução do tema, quais as abordagens já investigadas, qual o estágio atual do conhecimento sobre o assunto ou quais as tendências que se apresentam. Indique as palavras-chave que foram utilizadas para a pesquisa bibliográfica.
+%A justificativa do projeto deve indicar por que o projeto deve ser feito, ou seja, por que o problema tratado é relevante. Descreva os fatores de motivação que o(s) levaram a abordar e trabalhar no assunto.
+%O final da introdução deve incluir uma descrição de como o documento está estruturado (um parágrafo para indicar o conteúdo de cada seção do Plano do Projeto).
+
+\section{Objetivo}
+Este projeto tem por objetivo desenvolver um sistema de detecção de frequência fundamental para áudios musicais monofônicos, através de processamento digital de sinais, com o intuito de mapear os áudios, fornecendo as fundamentais soadas em cada instante de tempo.
+Para isso, faz-se necessário:
+\begin{enumerate}
+	\item Implementar um sistema de processamento digital de áudio que, por meio da STFT, possibilite uma análise do sinal no domínio da frequência.
+	\item Construir uma base de dados contendo áudios monofônicos para diferentes instrumentos, e seus respectivos arquivos de registro dos tempos de notas soadas e suas frequências fundamentais.
+	\item Desenvolver uma interface gráfica de experimentação para avaliar o sistema desenvolvido.
+\end{enumerate}
+
+% Fim Capítulo
