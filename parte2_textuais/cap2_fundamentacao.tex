@@ -5,17 +5,64 @@ Este capítulo aborda, de forma sucinta, os fundamentos teóricos que foram apli
 
 
 
-\section{O Som}
+\section{Aprendizado de Máquina}
 
-Os sons são ondas mecânicas causadas pela vibração de objetos. Essa vibração resulta na variação de pressão no ar, que pode ser captada pelo ouvido e interpretada pelo cérebro. Os seres humanos são capazes de ouvir vibrações entre 20 Hz e 20 kHz \cite{benson2006}. Um som pode ser caracterizado pela sua altura, intensidade, duração e timbre. Em relação a altura, um som pode ser grave (vibrações de baixa frequência) ou agudo (vibrações de alta frequência). Quanto a intensidade, os sons podem ser fortes ou fracos, sendo os sons fortes aqueles que transportam grande quantidade de energia. Por fim, o timbre é a característica mais particular de um som. Por meio dele, é possível discernir entre uma nota dó tocada por um violino de uma nota dó tocada por um piano. A Figura \ref{fig-teoria-som} ilustra a diferença entre as vibrações desses dois instrumentos.
+Aprendizado de máquina é uma área da inteligência artificial cujo objetivo é o desenvolvimento de técnicas computacionais sobre o aprendizado, bem como a construção de sistemas capazes de adquirir conhecimento de forma automática. Um sistema baseado em aprendizado trabalha por meio de experiências acumuladas e de soluções bem-sucedidas de problemas anteriores  \cite{monard2003}. Normalmente, algoritmos de aprendizado utilizam experiências anteriores, denominadas amostras de treino, para auxiliar no processo de tomada de decisão.  
+
+De acordo com a característica desses casos ou exemplos têm-se três diferentes modos de aprendizado: supervisionado, não-supervisionado e semi-supervisionado. O que distingue esses modos de aprendizado é a presença ou não do atributo classe, que rotula os exemplos do conjunto de dados fornecido ao algoritmo, denominado conjunto de treinamento. No aprendizado supervisionado, esse rótulo é conhecido, enquanto que no aprendizado não-supervisionado os exemplos não estão previamente rotulados. Já no aprendizado semi-supervisionado, o conjunto de treinamento consiste de uns poucos exemplos rotulados e muitos não rotulados\cite{chappelle2006}. O escopo deste trabalho se encontra no aprendizado supervisionado. 
 
 
-\begin{figure}[h]
+\subsection{Aprendizado Supervisionado}
+O objetivo do aprendizado supervisionado é construir um modelo que consegue fazer predição através de instancias de uma base de dados rotuladas. Cada instância da base de dados é representado por um conjunto de características. Na Tabela \ref{table-dataset} é mostrada a estrutura de uma base de dados.
+A base de dados é representada por um conjunto $E={E_1,E_2,...,E_N}$  cada instância está relacionada com um rótulo $y_N$. As colunas $A_1$ até $A_N$ se referem as características de cada instância.
+
+A idéia da aprendizagem supervisionada é o conseguir encontrar uma função desconhecida $f$(função conceito) tal que $y=f(\mathbf{x})$, onde o vetor $\mathbf{x}$ são os atributos de uma instância específica. Na prática, a função $f$ deve conseguir prever o valor correto $y_i$ de uma instância $E_i$ não vista. Quase sempre, o número de exemplos da base de dados não é suficiente para descrever a função conceito. Nesse caso, o classificador é visto como uma hipótese $h$ que aproxima $f$, ou seja, $h(x)\approx f(x)$ . Caso os valores dos rótulos $y_1,y_2,...,y_N$ sejam numéricos o problema é denominado de \textit{regressão}, caso sejam valores categóricos o problema é denominado de \textit{classificação}. 
+
+\begin{table}[]
 	\centering
-	\includegraphics[width=\linewidth/2]{pasta1_figuras/rect4664.png}
-	\caption{Comparativo entre timbre de violino e piano.}
-	\label{fig-teoria-som}
-\end{figure}
+	\begin{tabular}{c|cccc|c}
+		\hline
+		& $A_1$ & $A_2$ & \dots & $A_M$  & Classe(Y) \\
+		\hline 
+		\hline
+		$E_1$ & $x_{11}$ & $x_{12}$ & \vdots & $x_{1M}$ & $y_1$ \\
+		$E_2$ & $x_{21}$ & $x_{22}$ & \vdots & $x_{2M}$ & $y_2$ \\
+		\vdots & \vdots & \vdots &  $\ddots$ & \vdots & \vdots \\
+		$E_N$ & $x_{N1}$ & $x_{N2}$ & \vdots & $x_{NM}$ & $y_N$ \\
+		\hline
+		
+		
+	\end{tabular}	
+	\caption{Representação da base de dados}
+	\label{table-dataset}
+\end{table}
+
+
+De maneira geral, a base de dados é dividida em dois conjuntos: conjunto de \textit{treino} e conjunto de \textit{teste}. O conjunto de treinamento é utilizado para ajustar o classificador. Como dito anteriormente, o classificador é uma hipótese da função conceito $f$ ,logo, é fundamental que o conjunto de treinamento tenha uma distribuição o mais semelhante possível do conjunto original.  O conjunto de teste é utilizado para avaliar o modelo construído. Idealmente, esse conjunto não deve ter exemplos em comum com o conjunto de treinamento.
+
+Em alguns casos, pode ser necessário utilizar um conjunto de \textit{validacao}, extraído do conjunto de treinamento, para realizar ajustes no modelo construído pelo algoritmo de aprendizado. Logo tem-se três conjuntos: \textit{treino}, \textit{validação} e \textit{teste}. O treino é utilizado para aprendizagem do algoritmo. O modelo é avaliado através do conjunto de validação. É feita uma alteração dos parâmetros do classificador e outro treinamento é realizado. O intuito é melhorar o desempenho do modelo, através desses "ajustes". Dessa maneira os exemplos de validação são indiretamente "vistos" durante o processo de aprendizado, o que obriga que esses exemplos sejam diferentes dos exemplos de testes.
+
+
+\section{Séries Temporais}
+
+Série temporal é uma sequência de observações de um fenômeno ao longo do tempo. Geralmente essas medições são feitas em um intervalo de tempo regular. A ordem das amostras é crucial, pois há um dependência entre os dados e uma alteração da ordem pode modificar o significado dos dados. Uma série temporal pode ser definida como:
+
+\begin{equation} \label{eq_TS}
+X(t) = (x_1,x_2,...,x_n)
+\end{equation}
+onde $x_n$ representa uma observação no instante $t$, $n$ o número de observações e $X(t)$ a função que descreve a série temporal em termos de t. Caso a série seja constituída de uma observação em cada instante de tempo ela é chamada de \textit{univariada}. Caso a série foi obtida por uma coleta simultânea de dois ou mais fenômenos ela é chamada de \textit{multivariada}.
+
+As séries temporais estão em diversas áreas do conhecimento como Economia (preços diários dea ações, taxa mensal de desemprego, produção industrial), Medicina (eletrocardiograma, eletroencefalograma), Epidemiologia (número mensal de novos casos de meningite), Meteorologia( precipitação pluviométrica, temperatura diária, velocidade do vento).
+
+\subsection{Aplicações de Séries Temporais}
+A análise de séries temporais tem atraído muitos pesquisadores em aprendizado de máquina ao redor do mundo. As principais tarefas envolvendo séries temporais na qual se utiliza aprendizagem de máquina são as seguintes:
+
+\begin{itemize}
+	\item \textit{Classificação}: cada série temporal representa uma classe distinta de objetos. Dada uma série temporal, o objetivo é descobrir qual é a classe de objetos ela representa; 
+	\item Agrupamento: Dado um conjunto de séries temporais, o objetivo é encontrar uma estrutura natural que permita distribuir as séries em grupos; 
+	\item Detecção de Motivos: também conhecido como detecção de \textit{motifs}; o objetivo é encontrar uma ou mais subsequências que aparecem frequentemente na séries;
+	\item Detecção de Anomalias: encontrar subsequências ou séries que são inesperadas em algum contexto.
+\end{itemize}
 
 
 \section{Frequência Fundamental}

@@ -24,10 +24,21 @@
 \emph{X Workshop de Visão Computacional - Universidade Estadual de São
   Paulo}, São Paulo, 2014.}
 
-\bibitem{benson2006}
-\abntrefinfo{Benson}{BENSON}{2006}
-{BENSON, D. \emph{Music: A Mathematical Offering}. 1ª. ed. UK: Cambridge:
-  Cambridge University Press, 2006. 8 -- 12~p.}
+\bibitem{monard2003}
+\abntrefinfo{Monard e Baranauskas}{MONARD; BARANAUSKAS}{2003}
+{MONARD, M.; BARANAUSKAS, J. \emph{Conceitos sobre aprendizado de máquinas. Em
+  Sistemas Inteligentes: Fundamentos e Aplicações}. 1º. ed. [S.l.]: Editora
+  Manole, 2003.}
+
+\bibitem{chappelle2006}
+\abntrefinfo{Chapelle, Schölkopf e Zien}{CHAPELLE; SCHöLKOPF; ZIEN}{2006}
+{CHAPELLE, O.; SCHöLKOPF, B.; ZIEN, A. \emph{Semi-Supervised Learning.} 1º.
+  ed. [S.l.]: MIT Press, Cambridge, 2006. 12 -- 13~p.}
+
+\bibitem{moretin2006}
+\abntrefinfo{Moretin e Toloi}{MORETIN; TOLOI}{2006}
+{MORETIN, P.; TOLOI, C. \emph{Análise de séries temporais.} 1º. ed. [S.l.]:
+  Edgar Blucher, 2006.}
 
 \bibitem{hartmann1996}
 \abntrefinfo{Hartmann}{HARTMANN}{1996}

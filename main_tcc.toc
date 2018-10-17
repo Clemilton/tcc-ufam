@@ -5,48 +5,51 @@
 \contentsline {section}{\numberline {1.1}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Objetivo}{3}{section.1.2}
 \contentsline {chapter}{\numberline {2}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}O Som}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Frequ\IeC {\^e}ncia Fundamental}{4}{section.2.2}
-\contentsline {section}{\numberline {2.3}Pitch}{5}{section.2.3}
-\contentsline {section}{\numberline {2.4}Detec\IeC {\c c}\IeC {\~a}o Autom\IeC {\'a}tica de $f_0$}{5}{section.2.4}
-\contentsline {section}{\numberline {2.5}Digitaliza\IeC {\c c}\IeC {\~a}o de um Sinal de Som}{6}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Amostragem}{6}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Quantiza\IeC {\c c}\IeC {\~a}o}{6}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Codifica\IeC {\c c}\IeC {\~a}o}{7}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}Notas Musicais}{7}{section.2.6}
-\contentsline {section}{\numberline {2.7}Resson\IeC {\^a}ncia}{8}{section.2.7}
-\contentsline {section}{\numberline {2.8}Dom\IeC {\'\i }nios}{8}{section.2.8}
-\contentsline {section}{\numberline {2.9}Transformada de Fourier}{9}{section.2.9}
-\contentsline {section}{\numberline {2.10}Transformada Discreta de Fourier}{9}{section.2.10}
-\contentsline {section}{\numberline {2.11}Transformada R\IeC {\'a}pida de Fourier}{10}{section.2.11}
-\contentsline {section}{\numberline {2.12}Transformada de Fourier de Tempo Curto}{11}{section.2.12}
-\contentsline {section}{\numberline {2.13}Espectrograma}{11}{section.2.13}
-\contentsline {chapter}{\numberline {3}Sistema Proposto}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Vis\IeC {\~a}o geral}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}Bloco de Pr\IeC {\'e}-Processamento}{14}{section.3.2}
-\contentsline {section}{\numberline {3.3}Bloco de Detec\IeC {\c c}\IeC {\~a}o de $f_0$}{15}{section.3.3}
-\contentsline {section}{\numberline {3.4}Interface GUIDE}{18}{section.3.4}
-\contentsline {section}{\numberline {3.5}Constru\IeC {\c c}\IeC {\~a}o da Base de Dados}{20}{section.3.5}
-\contentsline {chapter}{\numberline {4}Experimentos}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}M\IeC {\'e}tricas}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Objetivos}{24}{section.4.2}
-\contentsline {section}{\numberline {4.3}Resultados Obtidos}{24}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Clarinete}{25}{subsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.1.1}Escala: Bb Maior}{25}{subsubsection.4.3.1.1}
-\contentsline {subsubsection}{\numberline {4.3.1.2}M\IeC {\'u}sica: \textit {Agnus Dei}}{26}{subsubsection.4.3.1.2}
-\contentsline {subsubsection}{\numberline {4.3.1.3}M\IeC {\'u}sica: Super M\IeC {\'a}rio Br\IeC {\'o}s}{26}{subsubsection.4.3.1.3}
-\contentsline {subsection}{\numberline {4.3.2}Sax Alto}{29}{subsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.2.1}Escala: Eb Maior}{31}{subsubsection.4.3.2.1}
-\contentsline {subsubsection}{\numberline {4.3.2.2}M\IeC {\'u}sica: Deus Cuida de Mim}{33}{subsubsection.4.3.2.2}
-\contentsline {subsubsection}{\numberline {4.3.2.3}M\IeC {\'u}sica: \textit {Summertime}}{33}{subsubsection.4.3.2.3}
-\contentsline {subsection}{\numberline {4.3.3}Piano Eletr\IeC {\^o}nico}{35}{subsection.4.3.3}
-\contentsline {subsubsection}{\numberline {4.3.3.1}Escala: C Maior}{35}{subsubsection.4.3.3.1}
-\contentsline {subsubsection}{\numberline {4.3.3.2}M\IeC {\'u}sica: Eu Navegarei}{39}{subsubsection.4.3.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3.3}M\IeC {\'u}sica: \textit {Skyfall}}{39}{subsubsection.4.3.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Viol\IeC {\~a}o}{41}{subsection.4.3.4}
-\contentsline {subsubsection}{\numberline {4.3.4.1}Escala: C Maior}{42}{subsubsection.4.3.4.1}
-\contentsline {subsubsection}{\numberline {4.3.4.2}M\IeC {\'u}sica: Nona Sinfonia}{43}{subsubsection.4.3.4.2}
-\contentsline {subsubsection}{\numberline {4.3.4.3}M\IeC {\'u}sica: Deus de Abra\IeC {\~a}o}{44}{subsubsection.4.3.4.3}
-\contentsline {section}{\numberline {4.4}Discuss\IeC {\~o}es}{47}{section.4.4}
-\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{49}{chapter.5}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{51}{chapter*.50}
+\contentsline {section}{\numberline {2.1}Aprendizado de M\IeC {\'a}quina}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Aprendizado Supervisionado}{5}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}S\IeC {\'e}ries Temporais}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Aplica\IeC {\c c}\IeC {\~o}es de S\IeC {\'e}ries Temporais}{6}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Frequ\IeC {\^e}ncia Fundamental}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}Pitch}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}Detec\IeC {\c c}\IeC {\~a}o Autom\IeC {\'a}tica de $f_0$}{7}{section.2.5}
+\contentsline {section}{\numberline {2.6}Digitaliza\IeC {\c c}\IeC {\~a}o de um Sinal de Som}{8}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Amostragem}{8}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Quantiza\IeC {\c c}\IeC {\~a}o}{8}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Codifica\IeC {\c c}\IeC {\~a}o}{9}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}Notas Musicais}{9}{section.2.7}
+\contentsline {section}{\numberline {2.8}Resson\IeC {\^a}ncia}{10}{section.2.8}
+\contentsline {section}{\numberline {2.9}Dom\IeC {\'\i }nios}{10}{section.2.9}
+\contentsline {section}{\numberline {2.10}Transformada de Fourier}{11}{section.2.10}
+\contentsline {section}{\numberline {2.11}Transformada Discreta de Fourier}{11}{section.2.11}
+\contentsline {section}{\numberline {2.12}Transformada R\IeC {\'a}pida de Fourier}{12}{section.2.12}
+\contentsline {section}{\numberline {2.13}Transformada de Fourier de Tempo Curto}{13}{section.2.13}
+\contentsline {section}{\numberline {2.14}Espectrograma}{13}{section.2.14}
+\contentsline {chapter}{\numberline {3}Sistema Proposto}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Vis\IeC {\~a}o geral}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}Bloco de Pr\IeC {\'e}-Processamento}{16}{section.3.2}
+\contentsline {section}{\numberline {3.3}Bloco de Detec\IeC {\c c}\IeC {\~a}o de $f_0$}{17}{section.3.3}
+\contentsline {section}{\numberline {3.4}Interface GUIDE}{20}{section.3.4}
+\contentsline {section}{\numberline {3.5}Constru\IeC {\c c}\IeC {\~a}o da Base de Dados}{22}{section.3.5}
+\contentsline {chapter}{\numberline {4}Experimentos}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}M\IeC {\'e}tricas}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Objetivos}{26}{section.4.2}
+\contentsline {section}{\numberline {4.3}Resultados Obtidos}{26}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Clarinete}{27}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Escala: Bb Maior}{27}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.2}M\IeC {\'u}sica: \textit {Agnus Dei}}{28}{subsubsection.4.3.1.2}
+\contentsline {subsubsection}{\numberline {4.3.1.3}M\IeC {\'u}sica: Super M\IeC {\'a}rio Br\IeC {\'o}s}{28}{subsubsection.4.3.1.3}
+\contentsline {subsection}{\numberline {4.3.2}Sax Alto}{31}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Escala: Eb Maior}{33}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}M\IeC {\'u}sica: Deus Cuida de Mim}{35}{subsubsection.4.3.2.2}
+\contentsline {subsubsection}{\numberline {4.3.2.3}M\IeC {\'u}sica: \textit {Summertime}}{35}{subsubsection.4.3.2.3}
+\contentsline {subsection}{\numberline {4.3.3}Piano Eletr\IeC {\^o}nico}{37}{subsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.1}Escala: C Maior}{37}{subsubsection.4.3.3.1}
+\contentsline {subsubsection}{\numberline {4.3.3.2}M\IeC {\'u}sica: Eu Navegarei}{41}{subsubsection.4.3.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3.3}M\IeC {\'u}sica: \textit {Skyfall}}{41}{subsubsection.4.3.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Viol\IeC {\~a}o}{43}{subsection.4.3.4}
+\contentsline {subsubsection}{\numberline {4.3.4.1}Escala: C Maior}{44}{subsubsection.4.3.4.1}
+\contentsline {subsubsection}{\numberline {4.3.4.2}M\IeC {\'u}sica: Nona Sinfonia}{45}{subsubsection.4.3.4.2}
+\contentsline {subsubsection}{\numberline {4.3.4.3}M\IeC {\'u}sica: Deus de Abra\IeC {\~a}o}{46}{subsubsection.4.3.4.3}
+\contentsline {section}{\numberline {4.4}Discuss\IeC {\~o}es}{49}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{51}{chapter.5}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{53}{chapter*.50}
