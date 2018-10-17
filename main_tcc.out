@@ -4,49 +4,52 @@
 \BOOKMARK [0][-]{chapter.2}{Fundamenta\347\343o Te\363rica}{}% 4
 \BOOKMARK [1][-]{section.2.1}{Aprendizado de M\341quina}{chapter.2}% 5
 \BOOKMARK [2][-]{subsection.2.1.1}{Aprendizado Supervisionado}{section.2.1}% 6
-\BOOKMARK [1][-]{section.2.2}{S\351ries Temporais}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.2.1}{Aplica\347\365es de S\351ries Temporais}{section.2.2}% 8
-\BOOKMARK [1][-]{section.2.3}{Frequ\352ncia Fundamental}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.4}{Pitch}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.5}{Detec\347\343o Autom\341tica de f0}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.6}{Digitaliza\347\343o de um Sinal de Som}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.6.1}{Amostragem}{section.2.6}% 13
-\BOOKMARK [2][-]{subsection.2.6.2}{Quantiza\347\343o}{section.2.6}% 14
-\BOOKMARK [2][-]{subsection.2.6.3}{Codifica\347\343o}{section.2.6}% 15
-\BOOKMARK [1][-]{section.2.7}{Notas Musicais}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.8}{Resson\342ncia}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.9}{Dom\355nios}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.10}{Transformada de Fourier}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.11}{Transformada Discreta de Fourier}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.12}{Transformada R\341pida de Fourier}{chapter.2}% 21
-\BOOKMARK [1][-]{section.2.13}{Transformada de Fourier de Tempo Curto}{chapter.2}% 22
-\BOOKMARK [1][-]{section.2.14}{Espectrograma}{chapter.2}% 23
-\BOOKMARK [0][-]{chapter.3}{Sistema Proposto}{}% 24
-\BOOKMARK [1][-]{section.3.1}{Vis\343o geral}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.2}{Bloco de Pr\351-Processamento}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.3}{Bloco de Detec\347\343o de f0}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.4}{Interface GUIDE}{chapter.3}% 28
-\BOOKMARK [1][-]{section.3.5}{Constru\347\343o da Base de Dados}{chapter.3}% 29
-\BOOKMARK [0][-]{chapter.4}{Experimentos}{}% 30
-\BOOKMARK [1][-]{section.4.1}{M\351tricas}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.2}{Objetivos}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.3}{Resultados Obtidos}{chapter.4}% 33
-\BOOKMARK [2][-]{subsection.4.3.1}{Clarinete}{section.4.3}% 34
-\BOOKMARK [3][-]{subsubsection.4.3.1.1}{Escala: Bb Maior}{subsection.4.3.1}% 35
-\BOOKMARK [3][-]{subsubsection.4.3.1.2}{M\372sica: Agnus Dei}{subsection.4.3.1}% 36
-\BOOKMARK [3][-]{subsubsection.4.3.1.3}{M\372sica: Super M\341rio Br\363s}{subsection.4.3.1}% 37
-\BOOKMARK [2][-]{subsection.4.3.2}{Sax Alto}{section.4.3}% 38
-\BOOKMARK [3][-]{subsubsection.4.3.2.1}{Escala: Eb Maior}{subsection.4.3.2}% 39
-\BOOKMARK [3][-]{subsubsection.4.3.2.2}{M\372sica: Deus Cuida de Mim}{subsection.4.3.2}% 40
-\BOOKMARK [3][-]{subsubsection.4.3.2.3}{M\372sica: Summertime}{subsection.4.3.2}% 41
-\BOOKMARK [2][-]{subsection.4.3.3}{Piano Eletr\364nico}{section.4.3}% 42
-\BOOKMARK [3][-]{subsubsection.4.3.3.1}{Escala: C Maior}{subsection.4.3.3}% 43
-\BOOKMARK [3][-]{subsubsection.4.3.3.2}{M\372sica: Eu Navegarei}{subsection.4.3.3}% 44
-\BOOKMARK [3][-]{subsubsection.4.3.3.3}{M\372sica: Skyfall}{subsection.4.3.3}% 45
-\BOOKMARK [2][-]{subsection.4.3.4}{Viol\343o}{section.4.3}% 46
-\BOOKMARK [3][-]{subsubsection.4.3.4.1}{Escala: C Maior}{subsection.4.3.4}% 47
-\BOOKMARK [3][-]{subsubsection.4.3.4.2}{M\372sica: Nona Sinfonia}{subsection.4.3.4}% 48
-\BOOKMARK [3][-]{subsubsection.4.3.4.3}{M\372sica: Deus de Abra\343o}{subsection.4.3.4}% 49
-\BOOKMARK [1][-]{section.4.4}{Discuss\365es}{chapter.4}% 50
-\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 51
-\BOOKMARK [0][-]{chapter*.50}{Refer\352ncias Bibliogr\341ficas}{}% 52
+\BOOKMARK [2][-]{subsection.2.1.2}{K-Nearest Neighbors \(KNN\)}{section.2.1}% 7
+\BOOKMARK [1][-]{section.2.2}{Redes Neurais Artificiais}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.3}{S\351ries Temporais}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.3.1}{Aplica\347\365es de S\351ries Temporais}{section.2.3}% 10
+\BOOKMARK [1][-]{section.2.4}{Classifica\347\343o de S\351ries Temporais}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.5}{Frequ\352ncia Fundamental}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.6}{Pitch}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.7}{Detec\347\343o Autom\341tica de f0}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.8}{Digitaliza\347\343o de um Sinal de Som}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.8.1}{Amostragem}{section.2.8}% 16
+\BOOKMARK [2][-]{subsection.2.8.2}{Quantiza\347\343o}{section.2.8}% 17
+\BOOKMARK [2][-]{subsection.2.8.3}{Codifica\347\343o}{section.2.8}% 18
+\BOOKMARK [1][-]{section.2.9}{Notas Musicais}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.10}{Resson\342ncia}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.11}{Dom\355nios}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.12}{Transformada de Fourier}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.13}{Transformada Discreta de Fourier}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.14}{Transformada R\341pida de Fourier}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.15}{Transformada de Fourier de Tempo Curto}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.16}{Espectrograma}{chapter.2}% 26
+\BOOKMARK [0][-]{chapter.3}{Sistema Proposto}{}% 27
+\BOOKMARK [1][-]{section.3.1}{Vis\343o geral}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.2}{Bloco de Pr\351-Processamento}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.3}{Bloco de Detec\347\343o de f0}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.4}{Interface GUIDE}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.5}{Constru\347\343o da Base de Dados}{chapter.3}% 32
+\BOOKMARK [0][-]{chapter.4}{Experimentos}{}% 33
+\BOOKMARK [1][-]{section.4.1}{M\351tricas}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.2}{Objetivos}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.3}{Resultados Obtidos}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.3.1}{Clarinete}{section.4.3}% 37
+\BOOKMARK [3][-]{subsubsection.4.3.1.1}{Escala: Bb Maior}{subsection.4.3.1}% 38
+\BOOKMARK [3][-]{subsubsection.4.3.1.2}{M\372sica: Agnus Dei}{subsection.4.3.1}% 39
+\BOOKMARK [3][-]{subsubsection.4.3.1.3}{M\372sica: Super M\341rio Br\363s}{subsection.4.3.1}% 40
+\BOOKMARK [2][-]{subsection.4.3.2}{Sax Alto}{section.4.3}% 41
+\BOOKMARK [3][-]{subsubsection.4.3.2.1}{Escala: Eb Maior}{subsection.4.3.2}% 42
+\BOOKMARK [3][-]{subsubsection.4.3.2.2}{M\372sica: Deus Cuida de Mim}{subsection.4.3.2}% 43
+\BOOKMARK [3][-]{subsubsection.4.3.2.3}{M\372sica: Summertime}{subsection.4.3.2}% 44
+\BOOKMARK [2][-]{subsection.4.3.3}{Piano Eletr\364nico}{section.4.3}% 45
+\BOOKMARK [3][-]{subsubsection.4.3.3.1}{Escala: C Maior}{subsection.4.3.3}% 46
+\BOOKMARK [3][-]{subsubsection.4.3.3.2}{M\372sica: Eu Navegarei}{subsection.4.3.3}% 47
+\BOOKMARK [3][-]{subsubsection.4.3.3.3}{M\372sica: Skyfall}{subsection.4.3.3}% 48
+\BOOKMARK [2][-]{subsection.4.3.4}{Viol\343o}{section.4.3}% 49
+\BOOKMARK [3][-]{subsubsection.4.3.4.1}{Escala: C Maior}{subsection.4.3.4}% 50
+\BOOKMARK [3][-]{subsubsection.4.3.4.2}{M\372sica: Nona Sinfonia}{subsection.4.3.4}% 51
+\BOOKMARK [3][-]{subsubsection.4.3.4.3}{M\372sica: Deus de Abra\343o}{subsection.4.3.4}% 52
+\BOOKMARK [1][-]{section.4.4}{Discuss\365es}{chapter.4}% 53
+\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 54
+\BOOKMARK [0][-]{chapter*.53}{Refer\352ncias Bibliogr\341ficas}{}% 55

@@ -35,10 +35,42 @@
 {CHAPELLE, O.; SCHöLKOPF, B.; ZIEN, A. \emph{Semi-Supervised Learning.} 1º.
   ed. [S.l.]: MIT Press, Cambridge, 2006. 12 -- 13~p.}
 
-\bibitem{moretin2006}
-\abntrefinfo{Moretin e Toloi}{MORETIN; TOLOI}{2006}
-{MORETIN, P.; TOLOI, C. \emph{Análise de séries temporais.} 1º. ed. [S.l.]:
-  Edgar Blucher, 2006.}
+\bibitem{hart1967}
+\abntrefinfo{Cover e Hart}{COVER; HART}{1967}
+{COVER, T.; HART, P. Nearest neighbor pattern classification.
+\emph{Information Theory, IEEE Transaction on}, 1967.}
+
+\bibitem{zhang1998}
+\abntrefinfo{Zhang, Patuwo e Hu}{ZHANG; PATUWO; HU}{1998}
+{ZHANG, G.; PATUWO, B.~E.; HU, M.~Y. Forecasting with artificial neural
+  networks: The state of art.
+\emph{International Journal of Forecasting}, 1998.}
+
+\bibitem{haykin2009}
+\abntrefinfo{Haykin}{HAYKIN}{}
+{HAYKIN, S.~S. \emph{Neural networks and learning machines}. 3º. ed. Upper
+  Saddle River, United States of America: Prentice Hall.}
+
+\bibitem{ferneda2006}
+\abntrefinfo{Ferneda}{FERNEDA}{2006}
+{FERNEDA, E. Redes neurais e sua aplicação em sistemas de recuperação de
+  informação.
+\emph{Ciência da Informação}, v.~35, n.~1, 2006.
+ISSN 1518-8353.
+Dispon{\'\i}vel em: $<$http://revista.ibict.br/ciinf/article/view/1149$>$.}
+
+\bibitem{McCulloch1943}
+\abntrefinfo{McCulloch e Pitts}{MCCULLOCH; PITTS}{1943}
+{MCCULLOCH, W.~S.; PITTS, W. A logical calculus of the ideas immanent in
+  nervous activity.
+\emph{The bulletin of mathematical biophysics}, 1943.
+ISSN 1522-9602.
+Dispon{\'\i}vel em: $<$https://doi.org/10.1007/BF02478259$>$.}
+
+\bibitem{lippman1987}
+\abntrefinfo{Lippmann}{LIPPMANN}{1987}
+{LIPPMANN, R. An introduction to computing with neural nets.
+\emph{IEEE ASSP Magazine}, v.~4, n.~2, 1987.}
 
 \bibitem{hartmann1996}
 \abntrefinfo{Hartmann}{HARTMANN}{1996}
