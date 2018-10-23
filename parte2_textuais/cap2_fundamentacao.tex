@@ -62,6 +62,8 @@ d(x,y)= \sum_{i=1}^{K} (x_i - y_i)^2
 \section{Redes Neurais Artificiais}
 Redes Neurais Artificais são modelos computacionais que buscam simular o processamento de informação pelo cérebro humano. Elas são compostas por unidades simples de processamento, os neurônios, que se unem por meio de conexões sinápticas \cite{zhang1998}. Cada conexão, além de ser altamente especializada, é responsável pelo envio de sinais de um neurônio para outro. Segundo \cite{haykin2009}, os neurônios e suas conexões podem ser implementados utilizando-se de componentes eletrônicos ou via simulação programada em computador.
 
+\subsection{Inspiração Biológica e Perceptron}
+
 Um bloco básico de uma rede neural tem algumas semelhanças com um neurônio biológico. O neurônio biológico é uma célula formada por três seçoes com funções específicas e complementares: \textit{corpo},\textit{dentritos} e \textit{axônio}. Os dentritos captam os estímulos recebidos em um determinado período de tempo e os transmitem ao corpo do neurônio, onde são processados. Quando tais estímulos atingirem determinado limite, o corpo da célula envia um novo impulso que se propaga pelo axônio e é transmitido às células vizinhas por meio de sinapses.  Este processo pode se repetir em várias camadas de neurônios. Como resultado, a informação de entrada é processada, podendo levar o cérebro a comandar reações físicas.  \cite{ferneda2006}. A figura \ref{fig-neuronio} ilustra de forma simplificada as partes de um neurônio.
 
 \begin{figure}[h]
@@ -71,19 +73,19 @@ Um bloco básico de uma rede neural tem algumas semelhanças com um neurônio bi
 	\label{fig-neuronio}
 \end{figure}
 
-O modelo de um neurônio artifical é apresentado na figura \ref{fig-guide-1}. Este modelo é composto por três elementos:
+O modelo de um neurônio artifical é apresentado na Figura \ref{fig-guide-1}. Este modelo é composto por três elementos:
 \begin{itemize}
 	\item Um cojunto de entradas $(x_1,x_2,...,x_n)$ que são multiplicadas por um conjunto e pesos $(p_1,p_2,...,p_n)$;
 	\item Um somador $(\sum)$ para acumular o sinais de entrada;
 	\item Uma função de ativação que ($\varphi$) limita o intervalo permissível de amplitude do sinal de saída (y) a um valor fixo.
 \end{itemize}
 
-\begin{figure}[h]
+\textbf{\begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.6]{pasta1_figuras/perceptron.png}
 	\caption{Modelo matemátiico de um neurônio}
 	\label{fig-perceptron}
-\end{figure}
+\end{figure}}
 
 Esse modelo foi proposto por \textit{McCulloch and Pitts} em 1943 \cite{McCulloch1943} e é conhecido como \textit{perceptron}. A função de ativação ($\varphi$) tem a seguinte definição:
 \begin{equation} \label{eq_activation}
@@ -101,6 +103,21 @@ Os valores dos pesos podem ser positivos ou negativos e eles refletem se aquela 
 y(k) = \varphi(\sum_{i=1}^{n} p_i(k) x_i(k) +b(k))
 \end{equation}
 Os pesos sinápticos do Perceptron podem ser adaptados empregando um processo de aprendizado com um número finito de iterações. A aprendizagem é conduzida pela regra de correção de erro conhecida como algoritmo de convergência do Perceptron. Esse algoritmo visa encontrar um vetor de pesos w tal que as duas igualdades da função degrau sejam satisfeitas(\textit{Lippmann}, 1987 \cite{lippman1987})
+
+\subsection{Perceptron multicamadas}
+
+O Perceptron multicamadas(\textit{Multi-Layer Perceptron - MLP}) é uma generalização da rede perceptron. Novas camadas são adicionadas o que possibilita a solução de problemas que não sejam linearmente separáveis. O vetor de entradas \textbf{x} passa pela camada inicial, cujos valores de saída são ligados a camada seguinte. Esse processo se repete até chegar na última camada.(Figura \ref{fig-mlp})  Pode-se arranjar a rede em várias camadas, tornando-a profunda e capaz de aprender relações cada vez mais complexas.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.4]{pasta1_figuras/mlp.png}
+	\caption{Multilayer Perceptron. Cada círculo representa um neurônio mostrado anteriormente}
+	\label{fig-mlp}
+\end{figure}
+
+Em 1986, \textit{Rumelhart, Hinton e Williams} \cite{hinton1986} desenvolveram o algoritmo \textit{backpropagation}, que permite treinar uma MLP. Este método é composto pelas fases \textit{forward} e \textit{backward}.O objetivo do backpropagation é otimizar os pesos para que a rede neural possa aprender a mapear corretamente as entradas para as saídas. A primeira fase é a ``propragação adiante'' (forward), onde as entradas inseridas na rede se propagam entre as camadas, uma a uma, até a produção das respectivas saídas, portanto a função dessa fase é gerar uma resposta considerando as entradas e os respectivos pesos sinápticos, os quais permanecem inalterados.
+
+Em seguida, essa resposta é então comparada com a saída desejada e um sinal de erro é calculado para cada elemento de saída. O sinal de erro é então retro-propagado da camada de saída para cada elemento da camada intermediária anterior que contribui diretamente para a formação da saída. Cada elemento da camada intermediária recebe apenas uma porção do sinal de erro total, proporcional apenas à contribuição relativa de cada elemento na formação da saída original. Este processo se repete, camada por camada, até que cada elemento da rede receba um sinal de erro que descreva sua contribuição relativa para o erro total. Baseado no sinal de erro recebido, os pesos das conexões são então atualizados para cada elemento de modo a fazer a rede convergir para um estado que permita a codificação de todos os padrões do conjunto de treinamento.
 
 \section{Séries Temporais}
 

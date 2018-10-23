@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.4)  17 OCT 2018 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.4)  22 OCT 2018 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1454,7 +1454,7 @@ ps-converted-to.pdf pasta1_figuras/logo_ufam.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<pasta1_figuras/logo_ufam-eps-converted-to.pdf, id=228, 115.43124pt x 114.4275p
+<pasta1_figuras/logo_ufam-eps-converted-to.pdf, id=236, 115.43124pt x 114.4275p
 t>
 File: pasta1_figuras/logo_ufam-eps-converted-to.pdf Graphic file (type pdf)
  <use pasta1_figuras/logo_ufam-eps-converted-to.pdf>
@@ -1506,7 +1506,7 @@ l.150 ...arte1_pre-textuais/item03_folha_de_rosto}
 
 
 (./parte1_pre-textuais/item04_ficha_catalografica.tex
-<parte1_pre-textuais/ficha_catalografica.pdf, id=243, 557.08125pt x 805.0075pt>
+<parte1_pre-textuais/ficha_catalografica.pdf, id=251, 557.08125pt x 805.0075pt>
 File: parte1_pre-textuais/ficha_catalografica.pdf Graphic file (type pdf)
 <use parte1_pre-textuais/ficha_catalografica.pdf>
 Package pdftex.def Info: parte1_pre-textuais/ficha_catalografica.pdf used on in
@@ -1519,7 +1519,7 @@ Package pdftex.def Info: parte1_pre-textuais/ficha_catalografica.pdf used on in
 put line 3.
 (pdftex.def)             Requested size: 557.0799pt x 805.00555pt.
 
-<parte1_pre-textuais/ficha_catalografica.pdf, id=246, page=1, 557.08125pt x 805
+<parte1_pre-textuais/ficha_catalografica.pdf, id=254, page=1, 557.08125pt x 805
 .0075pt>
 File: parte1_pre-textuais/ficha_catalografica.pdf Graphic file (type pdf)
  <use parte1_pre-textuais/ficha_catalografica.pdf, page 1>
@@ -1562,7 +1562,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 (./parte1_pre-textuais/item05_folha_de_aprovacao_assinada.tex
-<parte1_pre-textuais/tcc_folha_aprovacao.pdf, id=254, 597.23125pt x 845.1575pt>
+<parte1_pre-textuais/tcc_folha_aprovacao.pdf, id=262, 597.23125pt x 845.1575pt>
 File: parte1_pre-textuais/tcc_folha_aprovacao.pdf Graphic file (type pdf)
 <use parte1_pre-textuais/tcc_folha_aprovacao.pdf>
 Package pdftex.def Info: parte1_pre-textuais/tcc_folha_aprovacao.pdf used on in
@@ -1575,7 +1575,7 @@ Package pdftex.def Info: parte1_pre-textuais/tcc_folha_aprovacao.pdf used on in
 put line 3.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<parte1_pre-textuais/tcc_folha_aprovacao.pdf, id=257, page=1, 597.23125pt x 845
+<parte1_pre-textuais/tcc_folha_aprovacao.pdf, id=265, page=1, 597.23125pt x 845
 .1575pt>
 File: parte1_pre-textuais/tcc_folha_aprovacao.pdf Graphic file (type pdf)
  <use parte1_pre-textuais/tcc_folha_aprovacao.pdf, page 1>
@@ -1788,9 +1788,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 59.
 [7])
 \tf@toc=\write7
 \openout7 = `main_tcc.toc'.
@@ -1917,7 +1917,7 @@ Overfull \hbox (3.17197pt too wide) in paragraph at lines 46--47
 ghbors(K-Vizinhos mais pr^^Soximos).
  []
 
-<pasta1_figuras/knn.png, id=526, 427.5975pt x 353.32pt>
+<pasta1_figuras/knn.png, id=539, 427.5975pt x 353.32pt>
 File: pasta1_figuras/knn.png Graphic file (type png)
 
 <use pasta1_figuras/knn.png>
@@ -1942,12 +1942,14 @@ l.58 \begin{equation}
                       \label{eq_disteucli} [6 <./pasta1_figuras/knn.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 62.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 65.
 
-<pasta1_figuras/neuronio.png, id=535, 324.21124pt x 217.81375pt>
+<pasta1_figuras/neuronio.png, id=548, 324.21124pt x 217.81375pt>
 File: pasta1_figuras/neuronio.png Graphic file (type png)
 
 <use pasta1_figuras/neuronio.png>
-Package pdftex.def Info: pasta1_figuras/neuronio.png used on input line 69.
+Package pdftex.def Info: pasta1_figuras/neuronio.png used on input line 71.
 (pdftex.def)             Requested size: 162.10522pt x 108.9066pt.
 
 
@@ -1957,24 +1959,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 79.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 79.
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 	\item U
-             ma função de ativação que ($\varphi$) limita o intervalo pe...
-[7 <./pasta1_figuras/neuronio.png>]
-<pasta1_figuras/perceptron.png, id=545, 332.24126pt x 154.5775pt>
+l.79 	\item U
+             m somador $(\sum)$ para acumular o sinais de entrada; [7 <./pasta1
+_figuras/neuronio.png>]
+<pasta1_figuras/perceptron.png, id=558, 332.24126pt x 154.5775pt>
 File: pasta1_figuras/perceptron.png Graphic file (type png)
 
 <use pasta1_figuras/perceptron.png>
-Package pdftex.def Info: pasta1_figuras/perceptron.png used on input line 83.
+Package pdftex.def Info: pasta1_figuras/perceptron.png used on input line 88.
 (pdftex.def)             Requested size: 199.34628pt x 92.7472pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 107.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1983,21 +1985,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 110.
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.108 
+l.110 
        [8 <./pasta1_figuras/perceptron.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 116.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 126.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 129.
+<pasta1_figuras/mlp.png, id=570, 660.4675pt x 433.62pt>
+File: pasta1_figuras/mlp.png Graphic file (type png)
+
+<use pasta1_figuras/mlp.png>
+Package pdftex.def Info: pasta1_figuras/mlp.png used on input line 113.
+(pdftex.def)             Requested size: 264.18231pt x 173.44492pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2006,26 +2008,46 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 132.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 132.
-[9]
+(babel)             in language  on input line 121.
+[9 <./pasta1_figuras/mlp.png (PNG copy)>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 122.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 133.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 140.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 140.
+[10]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 143.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 146.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 151.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 140.
+(hyperref)                removing `math shift' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 140.
+(hyperref)                removing `subscript' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 140.
+(hyperref)                removing `math shift' on input line 157.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2034,40 +2056,50 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 160.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 146.
-[10]
+(babel)             in language  on input line 160.
+[11]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 148.
+(babel)             in language  on input line 165.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 162.
- <pasta1_figuras/amostragem.png, id=575, 440.70529pt x 266.40706pt>
+(babel)             in language  on input line 179.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 181.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 181.
+[12] <pasta1_figuras/amostragem.png, id=602, 440.70529pt x 266.40706pt>
 File: pasta1_figuras/amostragem.png Graphic file (type png)
 
 <use pasta1_figuras/amostragem.png>
-Package pdftex.def Info: pasta1_figuras/amostragem.png used on input line 171.
+Package pdftex.def Info: pasta1_figuras/amostragem.png used on input line 188.
 (pdftex.def)             Requested size: 176.27899pt x 106.56093pt.
 
-<pasta1_figuras/quantization.png, id=576, 240.9pt x 140.77594pt>
+<pasta1_figuras/quantization.png, id=603, 240.9pt x 140.77594pt>
 File: pasta1_figuras/quantization.png Graphic file (type png)
 
 <use pasta1_figuras/quantization.png>
-Package pdftex.def Info: pasta1_figuras/quantization.png used on input line 177
+Package pdftex.def Info: pasta1_figuras/quantization.png used on input line 194
 .
 (pdftex.def)             Requested size: 180.67455pt x 105.58168pt.
 
-Overfull \hbox (5.22217pt too wide) in paragraph at lines 169--180
+Overfull \hbox (5.22217pt too wide) in paragraph at lines 186--197
 []$[]$ |  $[]$ 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 200.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 204.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2075,36 +2107,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 185.
-[11]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 187.
-
+(babel)             in language  on input line 207.
+[13 <./pasta1_figuras/amostragem.png (PNG copy)> <./pasta1_figuras/quantization
+.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 191.
+               Default added (so using `tbp') on input line 208.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 214.
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
+(babel)             in language  on input line 231.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 218.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 218.
-[12 <./pasta1_figuras/amostragem.png (PNG copy)> <./pasta1_figuras/quantization
-.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 220.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 227.
-
+(babel)             in language  on input line 237.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2112,28 +2127,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 243.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 230.
-[13]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 244.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 259.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 259.
+(babel)             in language  on input line 243.
 [14]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 261.
+(babel)             in language  on input line 244.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 283.
+(babel)             in language  on input line 261.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2142,49 +2143,65 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 286.
+(babel)             in language  on input line 273.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 286.
+(babel)             in language  on input line 273.
 [15]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 293.
- <pasta1_figuras/spectrogram1.png, id=618, 562.1pt x 421.575pt>
+(babel)             in language  on input line 278.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 300.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 300.
+[16]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 300.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 310.
+ <pasta1_figuras/spectrogram1.png, id=640, 562.1pt x 421.575pt>
 File: pasta1_figuras/spectrogram1.png Graphic file (type png)
 
 <use pasta1_figuras/spectrogram1.png>
-Package pdftex.def Info: pasta1_figuras/spectrogram1.png used on input line 299
+Package pdftex.def Info: pasta1_figuras/spectrogram1.png used on input line 316
 .
 (pdftex.def)             Requested size: 196.73795pt x 147.55345pt.
 
-<pasta1_figuras/spectrogram4.png, id=619, 422.32782pt x 310.91156pt>
+<pasta1_figuras/spectrogram4.png, id=641, 422.32782pt x 310.91156pt>
 File: pasta1_figuras/spectrogram4.png Graphic file (type png)
 
 <use pasta1_figuras/spectrogram4.png>
-Package pdftex.def Info: pasta1_figuras/spectrogram4.png used on input line 304
+Package pdftex.def Info: pasta1_figuras/spectrogram4.png used on input line 321
 .
 (pdftex.def)             Requested size: 195.11734pt x 143.64252pt.
 
-Overfull \hbox (5.22217pt too wide) in paragraph at lines 298--307
+Overfull \hbox (5.22217pt too wide) in paragraph at lines 315--324
 []$[]$ |  $[]$ 
  []
 
-<pasta1_figuras/spectrogram2.png, id=620, 882.29625pt x 595.22375pt>
+<pasta1_figuras/spectrogram2.png, id=642, 882.29625pt x 595.22375pt>
 File: pasta1_figuras/spectrogram2.png Graphic file (type png)
 
 <use pasta1_figuras/spectrogram2.png>
-Package pdftex.def Info: pasta1_figuras/spectrogram2.png used on input line 309
+Package pdftex.def Info: pasta1_figuras/spectrogram2.png used on input line 326
 .
 (pdftex.def)             Requested size: 198.52155pt x 133.92865pt.
 
-<pasta1_figuras/spectrogram3.png, id=621, 381.67593pt x 286.06876pt>
+<pasta1_figuras/spectrogram3.png, id=643, 381.67593pt x 286.06876pt>
 File: pasta1_figuras/spectrogram3.png Graphic file (type png)
 
 <use pasta1_figuras/spectrogram3.png>
-Package pdftex.def Info: pasta1_figuras/spectrogram3.png used on input line 314
+Package pdftex.def Info: pasta1_figuras/spectrogram3.png used on input line 331
 .
 (pdftex.def)             Requested size: 167.93793pt x 125.87064pt.
 
-Overfull \hbox (5.22217pt too wide) in paragraph at lines 308--317
+Overfull \hbox (5.22217pt too wide) in paragraph at lines 325--334
 []$[]$ |  $[]$ 
  []
 
@@ -2198,10 +2215,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 323.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 323.
-[16])
+(babel)             in language  on input line 338.
+[17])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2212,7 +2229,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 165.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 165.
-[17 <./pasta1_figuras/spectrogram1.png> <./pasta1_figuras/spectrogram4.png> <./
+[18 <./pasta1_figuras/spectrogram1.png> <./pasta1_figuras/spectrogram4.png> <./
 pasta1_figuras/spectrogram2.png> <./pasta1_figuras/spectrogram3.png>]
 \openout2 = `parte2_textuais/cap3_sistema_proposto.aux'.
 
@@ -2223,7 +2240,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 5.
-<pasta1_figuras/system1c.png, id=640, 1240.635pt x 307.1475pt>
+<pasta1_figuras/system1c.png, id=661, 1240.635pt x 307.1475pt>
 File: pasta1_figuras/system1c.png Graphic file (type png)
 
 <use pasta1_figuras/system1c.png>
@@ -2233,7 +2250,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 16.
- [18
+ [19
 
 
 
@@ -2241,7 +2258,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 17.
 
-<pasta1_figuras/preprocessing.png, id=647, 546.54187pt x 99.37125pt>
+<pasta1_figuras/preprocessing.png, id=668, 546.54187pt x 99.37125pt>
 File: pasta1_figuras/preprocessing.png Graphic file (type png)
 
 <use pasta1_figuras/preprocessing.png>
@@ -2259,7 +2276,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 29.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 29.
-[19 <./pasta1_figuras/preprocessing.png>]
+[20 <./pasta1_figuras/preprocessing.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 58.
 
@@ -2285,7 +2302,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 61.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 61.
-[20] <pasta1_figuras/deslocamento.png, id=666, 423.08063pt x 536.0025pt>
+[21] <pasta1_figuras/deslocamento.png, id=687, 423.08063pt x 536.0025pt>
 File: pasta1_figuras/deslocamento.png Graphic file (type png)
 
 <use pasta1_figuras/deslocamento.png>
@@ -2306,7 +2323,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 76.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 76.
-[21]
+[22]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 81.
 
@@ -2323,7 +2340,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 101.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 101.
-[22 <./pasta1_figuras/deslocamento.png>]
+[23 <./pasta1_figuras/deslocamento.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 105.
 
@@ -2337,14 +2354,14 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 108.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 108.
-[23] <pasta1_figuras/guide1.png, id=687, 413.29407pt x 425.33907pt>
+[24] <pasta1_figuras/guide1.png, id=708, 413.29407pt x 425.33907pt>
 File: pasta1_figuras/guide1.png Graphic file (type png)
 
 <use pasta1_figuras/guide1.png>
 Package pdftex.def Info: pasta1_figuras/guide1.png used on input line 115.
 (pdftex.def)             Requested size: 247.97835pt x 255.2054pt.
 
-<pasta1_figuras/guide2.png, id=688, 414.04688pt x 426.84468pt>
+<pasta1_figuras/guide2.png, id=709, 414.04688pt x 426.84468pt>
 File: pasta1_figuras/guide2.png Graphic file (type png)
 
 <use pasta1_figuras/guide2.png>
@@ -2368,7 +2385,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 134.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 134.
-[24]
+[25]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 134.
 
@@ -2382,7 +2399,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 137.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 137.
-[25 <./pasta1_figuras/guide1.png> <./pasta1_figuras/guide2.png>]
+[26 <./pasta1_figuras/guide1.png> <./pasta1_figuras/guide2.png>]
 Overfull \hbox (7.92331pt too wide) in paragraph at lines 176--181
 []\OT1/cmr/m/n/12 Foi re-a-li-zado um ma-pe-a-mento ma-nual dos ^^Saudios com o
  aux^^S^^Plio do soft-ware Audacity[[]],
@@ -2403,7 +2420,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 181.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 181.
-[26]
+[27]
 LaTeX Font Info:    Try loading font information for OT1+fvm on input line 181.
 
 LaTeX Font Info:    No file OT1fvm.fd. on input line 181.
@@ -2423,7 +2440,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 166.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 166.
-[27]
+[28]
 \openout2 = `parte2_textuais/cap4_experimentos.aux'.
 
  (./parte2_textuais/cap4_experimentos.tex
@@ -2436,7 +2453,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 12.
-[28
+[29
 
 
 
@@ -2458,14 +2475,14 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 43.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 43.
-[29] <pasta1_figuras/clarinete.jpg, id=730, 1003.75pt x 1003.75pt>
+[30] <pasta1_figuras/clarinete.jpg, id=752, 1003.75pt x 1003.75pt>
 File: pasta1_figuras/clarinete.jpg Graphic file (type jpg)
 
 <use pasta1_figuras/clarinete.jpg>
 Package pdftex.def Info: pasta1_figuras/clarinete.jpg used on input line 46.
 (pdftex.def)             Requested size: 113.81102pt x 113.79767pt.
 
-<pasta1_figuras/clarinete-timbre.png, id=731, 679.03688pt x 225.09094pt>
+<pasta1_figuras/clarinete-timbre.png, id=753, 679.03688pt x 225.09094pt>
 File: pasta1_figuras/clarinete-timbre.png Graphic file (type png)
 
 <use pasta1_figuras/clarinete-timbre.png>
@@ -2475,7 +2492,7 @@ Package pdftex.def Info: pasta1_figuras/clarinete-timbre.png used on input line
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 52.
 
-<pasta1_figuras/clarinete-escala.png, id=733, 735.49782pt x 478.78876pt>
+<pasta1_figuras/clarinete-escala.png, id=755, 735.49782pt x 478.78876pt>
 File: pasta1_figuras/clarinete-escala.png Graphic file (type png)
 
 <use pasta1_figuras/clarinete-escala.png>
@@ -2483,7 +2500,7 @@ Package pdftex.def Info: pasta1_figuras/clarinete-escala.png used on input line
  58.
 (pdftex.def)             Requested size: 341.43307pt x 222.26918pt.
 
-<pasta1_figuras/clarinete-escala-2.png, id=737, 770.88pt x 239.39438pt>
+<pasta1_figuras/clarinete-escala-2.png, id=759, 770.88pt x 239.39438pt>
 File: pasta1_figuras/clarinete-escala-2.png Graphic file (type png)
 
 <use pasta1_figuras/clarinete-escala-2.png>
@@ -2491,7 +2508,7 @@ Package pdftex.def Info: pasta1_figuras/clarinete-escala-2.png used on input li
 ne 71.
 (pdftex.def)             Requested size: 455.24411pt x 141.37296pt.
 
-<pasta1_figuras/clarinete-escala-3.png, id=738, 759.58781pt x 218.31563pt>
+<pasta1_figuras/clarinete-escala-3.png, id=760, 759.58781pt x 218.31563pt>
 File: pasta1_figuras/clarinete-escala-3.png Graphic file (type png)
 
 <use pasta1_figuras/clarinete-escala-3.png>
@@ -2499,7 +2516,7 @@ Package pdftex.def Info: pasta1_figuras/clarinete-escala-3.png used on input li
 ne 77.
 (pdftex.def)             Requested size: 455.24411pt x 130.84712pt.
 
-<pasta1_figuras/clarinete-escala-4.png, id=739, 759.58781pt x 218.31563pt>
+<pasta1_figuras/clarinete-escala-4.png, id=761, 759.58781pt x 218.31563pt>
 File: pasta1_figuras/clarinete-escala-4.png Graphic file (type png)
 
 <use pasta1_figuras/clarinete-escala-4.png>
@@ -2518,7 +2535,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 70--87
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 90.
-<pasta1_figuras/clarinete-agnusdei.png, id=741, 735.49782pt x 476.53032pt>
+<pasta1_figuras/clarinete-agnusdei.png, id=763, 735.49782pt x 476.53032pt>
 File: pasta1_figuras/clarinete-agnusdei.png Graphic file (type png)
 
 <use pasta1_figuras/clarinete-agnusdei.png>
@@ -2536,8 +2553,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 99.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 99.
-[30 <./pasta1_figuras/clarinete.jpg> <./pasta1_figuras/clarinete-timbre.png>]
-<pasta1_figuras/clarinete-agnusdei-2.png, id=750, 776.9025pt x 215.30438pt>
+[31 <./pasta1_figuras/clarinete.jpg> <./pasta1_figuras/clarinete-timbre.png>]
+<pasta1_figuras/clarinete-agnusdei-2.png, id=772, 776.9025pt x 215.30438pt>
 File: pasta1_figuras/clarinete-agnusdei-2.png Graphic file (type png)
 
 <use pasta1_figuras/clarinete-agnusdei-2.png>
@@ -2545,7 +2562,7 @@ Package pdftex.def Info: pasta1_figuras/clarinete-agnusdei-2.png used on input
 line 108.
 (pdftex.def)             Requested size: 455.24411pt x 126.16444pt.
 
-<pasta1_figuras/clarinete-agnusdei-3.png, id=751, 756.57657pt x 188.20313pt>
+<pasta1_figuras/clarinete-agnusdei-3.png, id=773, 756.57657pt x 188.20313pt>
 File: pasta1_figuras/clarinete-agnusdei-3.png Graphic file (type png)
 
 <use pasta1_figuras/clarinete-agnusdei-3.png>
@@ -2553,7 +2570,7 @@ Package pdftex.def Info: pasta1_figuras/clarinete-agnusdei-3.png used on input
 line 114.
 (pdftex.def)             Requested size: 455.24411pt x 113.24437pt.
 
-<pasta1_figuras/clarinete-agnusdei-4.png, id=752, 760.34062pt x 188.20313pt>
+<pasta1_figuras/clarinete-agnusdei-4.png, id=774, 760.34062pt x 188.20313pt>
 File: pasta1_figuras/clarinete-agnusdei-4.png Graphic file (type png)
 
 <use pasta1_figuras/clarinete-agnusdei-4.png>
@@ -2572,7 +2589,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 107--124
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 127.
-<pasta1_figuras/clarinete-mario.png, id=754, 735.49782pt x 476.53032pt>
+<pasta1_figuras/clarinete-mario.png, id=776, 735.49782pt x 476.53032pt>
 File: pasta1_figuras/clarinete-mario.png Graphic file (type png)
 
 <use pasta1_figuras/clarinete-mario.png>
@@ -2590,7 +2607,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 141.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 141.
-[31 <./pasta1_figuras/clarinete-escala.png>]
+[32 <./pasta1_figuras/clarinete-escala.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2601,7 +2618,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 141.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 141.
-[32 <./pasta1_figuras/clarinete-escala-2.png> <./pasta1_figuras/clarinete-escal
+[33 <./pasta1_figuras/clarinete-escala-2.png> <./pasta1_figuras/clarinete-escal
 a-3.png> <./pasta1_figuras/clarinete-escala-4.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2613,10 +2630,10 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 141.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 141.
-[33 <./pasta1_figuras/clarinete-agnusdei.png> <./pasta1_figuras/clarinete-agnus
+[34 <./pasta1_figuras/clarinete-agnusdei.png> <./pasta1_figuras/clarinete-agnus
 dei-2.png> <./pasta1_figuras/clarinete-agnusdei-3.png> <./pasta1_figuras/clarin
 ete-agnusdei-4.png>]
-<pasta1_figuras/clarinete-mario-2.png, id=781, 779.16093pt x 210.03468pt>
+<pasta1_figuras/clarinete-mario-2.png, id=802, 779.16093pt x 210.03468pt>
 File: pasta1_figuras/clarinete-mario-2.png Graphic file (type png)
 
 <use pasta1_figuras/clarinete-mario-2.png>
@@ -2624,7 +2641,7 @@ Package pdftex.def Info: pasta1_figuras/clarinete-mario-2.png used on input lin
 e 146.
 (pdftex.def)             Requested size: 455.24411pt x 122.71756pt.
 
-<pasta1_figuras/clarinete-mario-3.png, id=782, 761.09344pt x 182.93344pt>
+<pasta1_figuras/clarinete-mario-3.png, id=803, 761.09344pt x 182.93344pt>
 File: pasta1_figuras/clarinete-mario-3.png Graphic file (type png)
 
 <use pasta1_figuras/clarinete-mario-3.png>
@@ -2632,7 +2649,7 @@ Package pdftex.def Info: pasta1_figuras/clarinete-mario-3.png used on input lin
 e 152.
 (pdftex.def)             Requested size: 455.24411pt x 109.42314pt.
 
-<pasta1_figuras/clarinete-mario-4.png, id=783, 761.09344pt x 229.60782pt>
+<pasta1_figuras/clarinete-mario-4.png, id=804, 761.09344pt x 229.60782pt>
 File: pasta1_figuras/clarinete-mario-4.png Graphic file (type png)
 
 <use pasta1_figuras/clarinete-mario-4.png>
@@ -2642,14 +2659,14 @@ e 158.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 172.
 
-<pasta1_figuras/sax.jpg, id=785, 501.875pt x 501.875pt>
+<pasta1_figuras/sax.jpg, id=806, 501.875pt x 501.875pt>
 File: pasta1_figuras/sax.jpg Graphic file (type jpg)
 
 <use pasta1_figuras/sax.jpg>
 Package pdftex.def Info: pasta1_figuras/sax.jpg used on input line 178.
 (pdftex.def)             Requested size: 113.81102pt x 113.80533pt.
 
-<pasta1_figuras/sax-timbre.png, id=786, 362.85562pt x 153.57375pt>
+<pasta1_figuras/sax-timbre.png, id=807, 362.85562pt x 153.57375pt>
 File: pasta1_figuras/sax-timbre.png Graphic file (type png)
 
 <use pasta1_figuras/sax-timbre.png>
@@ -2661,7 +2678,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 184.
-<pasta1_figuras/sax-escala.png, id=788, 681.29532pt x 497.60907pt>
+<pasta1_figuras/sax-escala.png, id=809, 681.29532pt x 497.60907pt>
 File: pasta1_figuras/sax-escala.png Graphic file (type png)
 
 <use pasta1_figuras/sax-escala.png>
@@ -2678,7 +2695,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 193.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 193.
-[34 <./pasta1_figuras/clarinete-mario.png>]
+[35 <./pasta1_figuras/clarinete-mario.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2689,9 +2706,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 193.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 193.
-[35 <./pasta1_figuras/clarinete-mario-2.png> <./pasta1_figuras/clarinete-mario-
+[36 <./pasta1_figuras/clarinete-mario-2.png> <./pasta1_figuras/clarinete-mario-
 3.png> <./pasta1_figuras/clarinete-mario-4.png>]
-<pasta1_figuras/sax-escala-2.png, id=804, 777.65532pt x 194.22563pt>
+<pasta1_figuras/sax-escala-2.png, id=825, 777.65532pt x 194.22563pt>
 File: pasta1_figuras/sax-escala-2.png Graphic file (type png)
 
 <use pasta1_figuras/sax-escala-2.png>
@@ -2699,7 +2716,7 @@ Package pdftex.def Info: pasta1_figuras/sax-escala-2.png used on input line 203
 .
 (pdftex.def)             Requested size: 455.24411pt x 113.70302pt.
 
-<pasta1_figuras/sax-escala-3.png, id=805, 763.35187pt x 188.20313pt>
+<pasta1_figuras/sax-escala-3.png, id=826, 763.35187pt x 188.20313pt>
 File: pasta1_figuras/sax-escala-3.png Graphic file (type png)
 
 <use pasta1_figuras/sax-escala-3.png>
@@ -2707,7 +2724,7 @@ Package pdftex.def Info: pasta1_figuras/sax-escala-3.png used on input line 209
 .
 (pdftex.def)             Requested size: 455.24411pt x 112.23926pt.
 
-<pasta1_figuras/sax-escala-4.png, id=806, 776.14969pt x 188.20313pt>
+<pasta1_figuras/sax-escala-4.png, id=827, 776.14969pt x 188.20313pt>
 File: pasta1_figuras/sax-escala-4.png Graphic file (type png)
 
 <use pasta1_figuras/sax-escala-4.png>
@@ -2717,7 +2734,7 @@ Package pdftex.def Info: pasta1_figuras/sax-escala-4.png used on input line 215
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 222.
 
-<pasta1_figuras/sax-Dcm.png, id=808, 684.30656pt x 496.10344pt>
+<pasta1_figuras/sax-Dcm.png, id=829, 684.30656pt x 496.10344pt>
 File: pasta1_figuras/sax-Dcm.png Graphic file (type png)
 
 <use pasta1_figuras/sax-Dcm.png>
@@ -2734,7 +2751,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 231.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 231.
-[36 <./pasta1_figuras/sax.jpg> <./pasta1_figuras/sax-timbre.png> <./pasta1_figu
+[37 <./pasta1_figuras/sax.jpg> <./pasta1_figuras/sax-timbre.png> <./pasta1_figu
 ras/sax-escala.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2746,23 +2763,23 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 231.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 231.
-[37 <./pasta1_figuras/sax-escala-2.png> <./pasta1_figuras/sax-escala-3.png> <./
+[38 <./pasta1_figuras/sax-escala-2.png> <./pasta1_figuras/sax-escala-3.png> <./
 pasta1_figuras/sax-escala-4.png>]
-<pasta1_figuras/sax-Dcm-2.png, id=825, 776.14969pt x 179.92218pt>
+<pasta1_figuras/sax-Dcm-2.png, id=847, 776.14969pt x 179.92218pt>
 File: pasta1_figuras/sax-Dcm-2.png Graphic file (type png)
 
 <use pasta1_figuras/sax-Dcm-2.png>
 Package pdftex.def Info: pasta1_figuras/sax-Dcm-2.png used on input line 241.
 (pdftex.def)             Requested size: 455.24411pt x 105.5327pt.
 
-<pasta1_figuras/sax-Dcm-3.png, id=826, 759.58781pt x 191.21437pt>
+<pasta1_figuras/sax-Dcm-3.png, id=848, 759.58781pt x 191.21437pt>
 File: pasta1_figuras/sax-Dcm-3.png Graphic file (type png)
 
 <use pasta1_figuras/sax-Dcm-3.png>
 Package pdftex.def Info: pasta1_figuras/sax-Dcm-3.png used on input line 247.
 (pdftex.def)             Requested size: 455.24411pt x 114.60403pt.
 
-<pasta1_figuras/sax-Dcm-4.png, id=827, 759.58781pt x 191.21437pt>
+<pasta1_figuras/sax-Dcm-4.png, id=849, 759.58781pt x 191.21437pt>
 File: pasta1_figuras/sax-Dcm-4.png Graphic file (type png)
 
 <use pasta1_figuras/sax-Dcm-4.png>
@@ -2780,7 +2797,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 240--257
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 260.
-<pasta1_figuras/sax-summer.png, id=829, 684.30656pt x 496.10344pt>
+<pasta1_figuras/sax-summer.png, id=851, 684.30656pt x 496.10344pt>
 File: pasta1_figuras/sax-summer.png Graphic file (type png)
 
 <use pasta1_figuras/sax-summer.png>
@@ -2797,7 +2814,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 275.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 275.
-[38 <./pasta1_figuras/sax-Dcm.png>]
+[39 <./pasta1_figuras/sax-Dcm.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2808,9 +2825,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 275.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 275.
-[39 <./pasta1_figuras/sax-Dcm-2.png> <./pasta1_figuras/sax-Dcm-3.png> <./pasta1
+[40 <./pasta1_figuras/sax-Dcm-2.png> <./pasta1_figuras/sax-Dcm-3.png> <./pasta1
 _figuras/sax-Dcm-4.png>]
-<pasta1_figuras/sax-summer-2.png, id=846, 799.48688pt x 168.63pt>
+<pasta1_figuras/sax-summer-2.png, id=867, 799.48688pt x 168.63pt>
 File: pasta1_figuras/sax-summer-2.png Graphic file (type png)
 
 <use pasta1_figuras/sax-summer-2.png>
@@ -2818,7 +2835,7 @@ Package pdftex.def Info: pasta1_figuras/sax-summer-2.png used on input line 280
 .
 (pdftex.def)             Requested size: 455.24411pt x 96.02231pt.
 
-<pasta1_figuras/sax-summer-3.png, id=847, 762.59906pt x 166.37157pt>
+<pasta1_figuras/sax-summer-3.png, id=868, 762.59906pt x 166.37157pt>
 File: pasta1_figuras/sax-summer-3.png Graphic file (type png)
 
 <use pasta1_figuras/sax-summer-3.png>
@@ -2826,7 +2843,7 @@ Package pdftex.def Info: pasta1_figuras/sax-summer-3.png used on input line 286
 .
 (pdftex.def)             Requested size: 455.24411pt x 99.31596pt.
 
-<pasta1_figuras/sax-summer-4.png, id=848, 762.59906pt x 179.92218pt>
+<pasta1_figuras/sax-summer-4.png, id=869, 762.59906pt x 179.92218pt>
 File: pasta1_figuras/sax-summer-4.png Graphic file (type png)
 
 <use pasta1_figuras/sax-summer-4.png>
@@ -2836,14 +2853,14 @@ Package pdftex.def Info: pasta1_figuras/sax-summer-4.png used on input line 292
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 306.
 
-<pasta1_figuras/piano.png, id=850, 425.59pt x 337.26pt>
+<pasta1_figuras/piano.png, id=871, 425.59pt x 337.26pt>
 File: pasta1_figuras/piano.png Graphic file (type png)
 
 <use pasta1_figuras/piano.png>
 Package pdftex.def Info: pasta1_figuras/piano.png used on input line 312.
 (pdftex.def)             Requested size: 113.81102pt x 90.18655pt.
 
-<pasta1_figuras/piano-timbre.png, id=851, 362.85562pt x 146.04562pt>
+<pasta1_figuras/piano-timbre.png, id=872, 362.85562pt x 146.04562pt>
 File: pasta1_figuras/piano-timbre.png Graphic file (type png)
 
 <use pasta1_figuras/piano-timbre.png>
@@ -2856,7 +2873,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 318.
-<pasta1_figuras/piano-escala.png, id=853, 685.8122pt x 497.60907pt>
+<pasta1_figuras/piano-escala.png, id=874, 685.8122pt x 497.60907pt>
 File: pasta1_figuras/piano-escala.png Graphic file (type png)
 
 <use pasta1_figuras/piano-escala.png>
@@ -2874,7 +2891,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 327.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 327.
-[40 <./pasta1_figuras/sax-summer.png>]
+[41 <./pasta1_figuras/sax-summer.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2885,9 +2902,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 327.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 327.
-[41 <./pasta1_figuras/sax-summer-2.png> <./pasta1_figuras/sax-summer-3.png> <./
+[42 <./pasta1_figuras/sax-summer-2.png> <./pasta1_figuras/sax-summer-3.png> <./
 pasta1_figuras/sax-summer-4.png>]
-<pasta1_figuras/piano-escala-2.png, id=869, 773.89125pt x 198.7425pt>
+<pasta1_figuras/piano-escala-2.png, id=890, 773.89125pt x 198.7425pt>
 File: pasta1_figuras/piano-escala-2.png Graphic file (type png)
 
 <use pasta1_figuras/piano-escala-2.png>
@@ -2895,7 +2912,7 @@ Package pdftex.def Info: pasta1_figuras/piano-escala-2.png used on input line 3
 37.
 (pdftex.def)             Requested size: 455.24411pt x 116.91133pt.
 
-<pasta1_figuras/piano-escala-3.png, id=870, 773.89125pt x 176.91093pt>
+<pasta1_figuras/piano-escala-3.png, id=891, 773.89125pt x 176.91093pt>
 File: pasta1_figuras/piano-escala-3.png Graphic file (type png)
 
 <use pasta1_figuras/piano-escala-3.png>
@@ -2903,7 +2920,7 @@ Package pdftex.def Info: pasta1_figuras/piano-escala-3.png used on input line 3
 43.
 (pdftex.def)             Requested size: 455.24411pt x 104.0688pt.
 
-<pasta1_figuras/piano-escala-4.png, id=871, 762.59906pt x 176.91093pt>
+<pasta1_figuras/piano-escala-4.png, id=892, 762.59906pt x 176.91093pt>
 File: pasta1_figuras/piano-escala-4.png Graphic file (type png)
 
 <use pasta1_figuras/piano-escala-4.png>
@@ -2913,7 +2930,7 @@ Package pdftex.def Info: pasta1_figuras/piano-escala-4.png used on input line 3
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 356.
 
-<pasta1_figuras/piano-navegarei.png, id=873, 685.8122pt x 472.01344pt>
+<pasta1_figuras/piano-navegarei.png, id=894, 685.8122pt x 472.01344pt>
 File: pasta1_figuras/piano-navegarei.png Graphic file (type png)
 
 <use pasta1_figuras/piano-navegarei.png>
@@ -2931,7 +2948,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 365.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 365.
-[42 <./pasta1_figuras/piano.png> <./pasta1_figuras/piano-timbre.png> <./pasta1_
+[43 <./pasta1_figuras/piano.png> <./pasta1_figuras/piano-timbre.png> <./pasta1_
 figuras/piano-escala.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2943,9 +2960,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 365.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 365.
-[43 <./pasta1_figuras/piano-escala-2.png> <./pasta1_figuras/piano-escala-3.png>
+[44 <./pasta1_figuras/piano-escala-2.png> <./pasta1_figuras/piano-escala-3.png>
  <./pasta1_figuras/piano-escala-4.png>]
-<pasta1_figuras/piano-navegarei-2.png, id=891, 758.08218pt x 202.50656pt>
+<pasta1_figuras/piano-navegarei-2.png, id=914, 758.08218pt x 202.50656pt>
 File: pasta1_figuras/piano-navegarei-2.png Graphic file (type png)
 
 <use pasta1_figuras/piano-navegarei-2.png>
@@ -2953,7 +2970,7 @@ Package pdftex.def Info: pasta1_figuras/piano-navegarei-2.png used on input lin
 e 375.
 (pdftex.def)             Requested size: 455.24411pt x 121.60991pt.
 
-<pasta1_figuras/piano-navegarei-3.png, id=892, 758.08218pt x 171.64125pt>
+<pasta1_figuras/piano-navegarei-3.png, id=915, 758.08218pt x 171.64125pt>
 File: pasta1_figuras/piano-navegarei-3.png Graphic file (type png)
 
 <use pasta1_figuras/piano-navegarei-3.png>
@@ -2961,7 +2978,7 @@ Package pdftex.def Info: pasta1_figuras/piano-navegarei-3.png used on input lin
 e 381.
 (pdftex.def)             Requested size: 455.24411pt x 103.07457pt.
 
-<pasta1_figuras/piano-navegarei-4.png, id=893, 758.08218pt x 171.64125pt>
+<pasta1_figuras/piano-navegarei-4.png, id=916, 758.08218pt x 171.64125pt>
 File: pasta1_figuras/piano-navegarei-4.png Graphic file (type png)
 
 <use pasta1_figuras/piano-navegarei-4.png>
@@ -2980,7 +2997,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 374--391
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 394.
-<pasta1_figuras/piano-skyfall.png, id=895, 684.30656pt x 473.51906pt>
+<pasta1_figuras/piano-skyfall.png, id=918, 684.30656pt x 473.51906pt>
 File: pasta1_figuras/piano-skyfall.png Graphic file (type png)
 
 <use pasta1_figuras/piano-skyfall.png>
@@ -2998,7 +3015,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 408.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 408.
-[44 <./pasta1_figuras/piano-navegarei.png>]
+[45 <./pasta1_figuras/piano-navegarei.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3009,9 +3026,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 408.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 408.
-[45 <./pasta1_figuras/piano-navegarei-2.png> <./pasta1_figuras/piano-navegarei-
+[46 <./pasta1_figuras/piano-navegarei-2.png> <./pasta1_figuras/piano-navegarei-
 3.png> <./pasta1_figuras/piano-navegarei-4.png> <./pasta1_figuras/piano-skyfall
-.png>] <pasta1_figuras/piano-skyfall-2.png, id=914, 768.62157pt x 205.5178pt>
+.png>] <pasta1_figuras/piano-skyfall-2.png, id=935, 768.62157pt x 205.5178pt>
 File: pasta1_figuras/piano-skyfall-2.png Graphic file (type png)
 
 <use pasta1_figuras/piano-skyfall-2.png>
@@ -3019,7 +3036,7 @@ Package pdftex.def Info: pasta1_figuras/piano-skyfall-2.png used on input line
 413.
 (pdftex.def)             Requested size: 455.24411pt x 121.72798pt.
 
-<pasta1_figuras/piano-skyfall-3.png, id=915, 768.62157pt x 181.42781pt>
+<pasta1_figuras/piano-skyfall-3.png, id=936, 768.62157pt x 181.42781pt>
 File: pasta1_figuras/piano-skyfall-3.png Graphic file (type png)
 
 <use pasta1_figuras/piano-skyfall-3.png>
@@ -3027,7 +3044,7 @@ Package pdftex.def Info: pasta1_figuras/piano-skyfall-3.png used on input line
 419.
 (pdftex.def)             Requested size: 455.24411pt x 107.4595pt.
 
-<pasta1_figuras/piano-skyfall-4.png, id=916, 768.62157pt x 181.42781pt>
+<pasta1_figuras/piano-skyfall-4.png, id=937, 768.62157pt x 181.42781pt>
 File: pasta1_figuras/piano-skyfall-4.png Graphic file (type png)
 
 <use pasta1_figuras/piano-skyfall-4.png>
@@ -3037,14 +3054,14 @@ Package pdftex.def Info: pasta1_figuras/piano-skyfall-4.png used on input line
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 438.
 
-<pasta1_figuras/violao.jpg, id=918, 1003.75pt x 1003.75pt>
+<pasta1_figuras/violao.jpg, id=939, 1003.75pt x 1003.75pt>
 File: pasta1_figuras/violao.jpg Graphic file (type jpg)
 
 <use pasta1_figuras/violao.jpg>
 Package pdftex.def Info: pasta1_figuras/violao.jpg used on input line 444.
 (pdftex.def)             Requested size: 113.81102pt x 113.79767pt.
 
-<pasta1_figuras/violao-timbre.png, id=919, 359.84438pt x 147.55125pt>
+<pasta1_figuras/violao-timbre.png, id=940, 359.84438pt x 147.55125pt>
 File: pasta1_figuras/violao-timbre.png Graphic file (type png)
 
 <use pasta1_figuras/violao-timbre.png>
@@ -3067,9 +3084,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 453.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 453.
-[46 <./pasta1_figuras/piano-skyfall-2.png> <./pasta1_figuras/piano-skyfall-3.pn
+[47 <./pasta1_figuras/piano-skyfall-2.png> <./pasta1_figuras/piano-skyfall-3.pn
 g> <./pasta1_figuras/piano-skyfall-4.png>]
-<pasta1_figuras/violao-escala.png, id=928, 685.8122pt x 472.01344pt>
+<pasta1_figuras/violao-escala.png, id=949, 685.8122pt x 472.01344pt>
 File: pasta1_figuras/violao-escala.png Graphic file (type png)
 
 <use pasta1_figuras/violao-escala.png>
@@ -3087,9 +3104,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 465.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 465.
-[47 <./pasta1_figuras/violao.jpg> <./pasta1_figuras/violao-timbre.png> <./pasta
+[48 <./pasta1_figuras/violao.jpg> <./pasta1_figuras/violao-timbre.png> <./pasta
 1_figuras/violao-escala.png>]
-<pasta1_figuras/violao-escala-2.png, id=938, 799.48688pt x 180.675pt>
+<pasta1_figuras/violao-escala-2.png, id=959, 799.48688pt x 180.675pt>
 File: pasta1_figuras/violao-escala-2.png Graphic file (type png)
 
 <use pasta1_figuras/violao-escala-2.png>
@@ -3097,7 +3114,7 @@ Package pdftex.def Info: pasta1_figuras/violao-escala-2.png used on input line
 469.
 (pdftex.def)             Requested size: 455.24411pt x 102.88104pt.
 
-<pasta1_figuras/violao-escala-3.png, id=939, 758.08218pt x 171.64125pt>
+<pasta1_figuras/violao-escala-3.png, id=960, 758.08218pt x 171.64125pt>
 File: pasta1_figuras/violao-escala-3.png Graphic file (type png)
 
 <use pasta1_figuras/violao-escala-3.png>
@@ -3105,7 +3122,7 @@ Package pdftex.def Info: pasta1_figuras/violao-escala-3.png used on input line
 475.
 (pdftex.def)             Requested size: 455.24411pt x 103.07457pt.
 
-<pasta1_figuras/violao-escala-4.png, id=940, 758.08218pt x 171.64125pt>
+<pasta1_figuras/violao-escala-4.png, id=961, 758.08218pt x 171.64125pt>
 File: pasta1_figuras/violao-escala-4.png Graphic file (type png)
 
 <use pasta1_figuras/violao-escala-4.png>
@@ -3115,7 +3132,7 @@ Package pdftex.def Info: pasta1_figuras/violao-escala-4.png used on input line
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 488.
 
-<pasta1_figuras/violao-nona.png, id=942, 688.82344pt x 472.01344pt>
+<pasta1_figuras/violao-nona.png, id=963, 688.82344pt x 472.01344pt>
 File: pasta1_figuras/violao-nona.png Graphic file (type png)
 
 <use pasta1_figuras/violao-nona.png>
@@ -3133,9 +3150,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 503.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 503.
-[48 <./pasta1_figuras/violao-escala-2.png> <./pasta1_figuras/violao-escala-3.pn
+[49 <./pasta1_figuras/violao-escala-2.png> <./pasta1_figuras/violao-escala-3.pn
 g> <./pasta1_figuras/violao-escala-4.png>]
-<pasta1_figuras/violao-nona-2.png, id=953, 763.35187pt x 186.6975pt>
+<pasta1_figuras/violao-nona-2.png, id=974, 763.35187pt x 186.6975pt>
 File: pasta1_figuras/violao-nona-2.png Graphic file (type png)
 
 <use pasta1_figuras/violao-nona-2.png>
@@ -3143,7 +3160,7 @@ Package pdftex.def Info: pasta1_figuras/violao-nona-2.png used on input line 50
 7.
 (pdftex.def)             Requested size: 455.24411pt x 111.34134pt.
 
-<pasta1_figuras/violao-nona-3.png, id=954, 782.17218pt x 179.16937pt>
+<pasta1_figuras/violao-nona-3.png, id=975, 782.17218pt x 179.16937pt>
 File: pasta1_figuras/violao-nona-3.png Graphic file (type png)
 
 <use pasta1_figuras/violao-nona-3.png>
@@ -3151,7 +3168,7 @@ Package pdftex.def Info: pasta1_figuras/violao-nona-3.png used on input line 51
 3.
 (pdftex.def)             Requested size: 455.24411pt x 104.2819pt.
 
-<pasta1_figuras/violao-nona-4.png, id=955, 762.59906pt x 160.34906pt>
+<pasta1_figuras/violao-nona-4.png, id=976, 762.59906pt x 160.34906pt>
 File: pasta1_figuras/violao-nona-4.png Graphic file (type png)
 
 <use pasta1_figuras/violao-nona-4.png>
@@ -3170,7 +3187,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 506--523
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 526.
-<pasta1_figuras/violao-002CC.png, id=957, 687.31781pt x 473.51906pt>
+<pasta1_figuras/violao-002CC.png, id=978, 687.31781pt x 473.51906pt>
 File: pasta1_figuras/violao-002CC.png Graphic file (type png)
 
 <use pasta1_figuras/violao-002CC.png>
@@ -3178,7 +3195,7 @@ Package pdftex.def Info: pasta1_figuras/violao-002CC.png used on input line 532
 .
 (pdftex.def)             Requested size: 341.43307pt x 235.22717pt.
 
-<pasta1_figuras/violao-002CC-2.png, id=961, 761.09344pt x 181.42781pt>
+<pasta1_figuras/violao-002CC-2.png, id=982, 761.09344pt x 181.42781pt>
 File: pasta1_figuras/violao-002CC-2.png Graphic file (type png)
 
 <use pasta1_figuras/violao-002CC-2.png>
@@ -3186,7 +3203,7 @@ Package pdftex.def Info: pasta1_figuras/violao-002CC-2.png used on input line 5
 45.
 (pdftex.def)             Requested size: 455.24411pt x 108.52255pt.
 
-<pasta1_figuras/violao-002CC-3.png, id=962, 775.39688pt x 170.88844pt>
+<pasta1_figuras/violao-002CC-3.png, id=983, 775.39688pt x 170.88844pt>
 File: pasta1_figuras/violao-002CC-3.png Graphic file (type png)
 
 <use pasta1_figuras/violao-002CC-3.png>
@@ -3194,7 +3211,7 @@ Package pdftex.def Info: pasta1_figuras/violao-002CC-3.png used on input line 5
 51.
 (pdftex.def)             Requested size: 455.24411pt x 100.33047pt.
 
-<pasta1_figuras/violao-002CC-4.png, id=963, 775.39688pt x 173.14688pt>
+<pasta1_figuras/violao-002CC-4.png, id=984, 775.39688pt x 173.14688pt>
 File: pasta1_figuras/violao-002CC-4.png Graphic file (type png)
 
 <use pasta1_figuras/violao-002CC-4.png>
@@ -3214,7 +3231,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 569.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 569.
-[49 <./pasta1_figuras/violao-nona.png>]
+[50 <./pasta1_figuras/violao-nona.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3225,7 +3242,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 569.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 569.
-[50 <./pasta1_figuras/violao-nona-2.png> <./pasta1_figuras/violao-nona-3.png> <
+[51 <./pasta1_figuras/violao-nona-2.png> <./pasta1_figuras/violao-nona-3.png> <
 ./pasta1_figuras/violao-nona-4.png> <./pasta1_figuras/violao-002CC.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3237,7 +3254,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 569.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 569.
-[51 <./pasta1_figuras/violao-002CC-2.png> <./pasta1_figuras/violao-002CC-3.png>
+[52 <./pasta1_figuras/violao-002CC-2.png> <./pasta1_figuras/violao-002CC-3.png>
  <./pasta1_figuras/violao-002CC-4.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3249,7 +3266,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 592.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 592.
-[52])
+[53])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3260,7 +3277,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 167.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 167.
-[53]
+[54]
 \openout2 = `parte2_textuais/cap6_conclusao.aux'.
 
  (./parte2_textuais/cap6_conclusao.tex
@@ -3271,7 +3288,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 14.
-[54
+[55
 
 
 
@@ -3286,35 +3303,35 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 168.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 168.
-[55] (./main_tcc.bbl
+[56] (./main_tcc.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 69.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 69.
- [56
+ [57
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 119--125
+Underfull \hbox (badness 10000) in paragraph at lines 126--132
 []\OT1/cmr/m/n/12 MATHWORKS. Do-cu-men-ta-tion: spec-tro-gram - Spec-tro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--125
+Underfull \hbox (badness 10000) in paragraph at lines 126--132
 \OT1/cmr/m/n/12 gram using Short-Time Fou-rier Trans-form. 2018. Dis-pon^^S^^Pv
 el em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--125
+Underfull \hbox (badness 10000) in paragraph at lines 126--132
 \OML/cmm/m/it/12 <$\OT1/cmr/m/n/12 https://www.mathworks.com/help/signal/ref/sp
 ectrogram.html$\OML/cmm/m/it/12 >$\OT1/cmr/m/n/12 . Acesso em:
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 128--132
+Underfull \hbox (badness 1496) in paragraph at lines 135--139
 \OML/cmm/m/it/12 <$\OT1/cmr/m/n/12 https://www.mathworks.com/help/matlab/ref/gu
 ide.html$\OML/cmm/m/it/12 >$\OT1/cmr/m/n/12 . Acesso em: 21 jul.
  []
@@ -3326,10 +3343,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 146.
-[57])
+(babel)             in language  on input line 140.
+[58])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3340,7 +3357,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 184.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 184.
-[58]
+[59]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (./main_tcc.aux (./parte1_pre-textuais/item01_capa.aux)
@@ -3365,7 +3382,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `main_tcc.out' has not changed.
-(rerunfilecheck)             Checksum: 14BE0C783C79C3AD16003C297974A40D;3948.
+(rerunfilecheck)             Checksum: F84F6D605FB343C3FF08BC6DF0A00412;4121.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3373,10 +3390,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 24170 strings out of 493029
- 431117 string characters out of 6136234
- 515443 words of memory out of 5000000
- 26811 multiletter control sequences out of 15000+600000
+ 24186 strings out of 493029
+ 431401 string characters out of 6136234
+ 515599 words of memory out of 5000000
+ 26821 multiletter control sequences out of 15000+600000
  17865 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,20n,58p,1322b,1270s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3398,10 +3415,10 @@ ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
 
-Output written on main_tcc.pdf (75 pages, 11288005 bytes).
+Output written on main_tcc.pdf (76 pages, 11324472 bytes).
 PDF statistics:
- 1128 PDF objects out of 1200 (max. 8388607)
- 880 compressed objects within 9 object streams
- 225 named destinations out of 1000 (max. 500000)
- 848 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1150 PDF objects out of 1200 (max. 8388607)
+ 900 compressed objects within 9 object streams
+ 230 named destinations out of 1000 (max. 500000)
+ 869 words of extra memory for PDF output out of 10000 (max. 10000000)
 
