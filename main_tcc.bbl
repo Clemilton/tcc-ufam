@@ -79,6 +79,12 @@ Dispon{\'\i}vel em: $<$https://doi.org/10.1007/BF02478259$>$.}
 \emph{Nature}, Nature Publishing Group, v.~323, p. 533--, out. 1986.
 Dispon{\'\i}vel em: $<$http://dx.doi.org/10.1038/323533a0$>$.}
 
+\bibitem{Goodfellow2016}
+\abntrefinfo{Goodfellow, Bengio e Courville}{GOODFELLOW; BENGIO;
+  COURVILLE}{2016}
+{GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep Learning}. [S.l.]: MIT
+  Press, 2016. \url{http://www.deeplearningbook.org}.}
+
 \bibitem{hartmann1996}
 \abntrefinfo{Hartmann}{HARTMANN}{1996}
 {HARTMANN, W. Pitch, periodicity, and auditory organization.
