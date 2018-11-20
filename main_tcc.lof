@@ -4,42 +4,42 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Codifica\IeC {\c c}\IeC {\~a}o One-hot\relax }}{6}{figure.caption.13}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Princ\IeC {\'\i }pio dos k-vizinhos mais pr\IeC {\'o}ximos\relax }}{7}{figure.caption.14}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o simplificada de um neur\IeC {\^o}nio\relax }}{8}{figure.caption.15}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Modelo matem\IeC {\'a}tiico de um neur\IeC {\^o}nio\relax }}{9}{figure.caption.16}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Modelo matem\IeC {\'a}tico de um neur\IeC {\^o}nio\relax }}{9}{figure.caption.16}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Multilayer Perceptron. Cada c\IeC {\'\i }rculo representa um neur\IeC {\^o}nio mostrado anteriormente\relax }}{10}{figure.caption.17}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Amostragem e Quantiza\IeC {\c c}\IeC {\~a}o\relax }}{15}{figure.caption.18}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Espectrogramas no MATLAB$\textsuperscript {\textregistered }$ \relax }}{20}{figure.caption.20}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Amostragem e Quantiza\IeC {\c c}\IeC {\~a}o\relax }}{16}{figure.caption.18}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Espectrogramas no MATLAB$\textsuperscript {\textregistered }$ \relax }}{21}{figure.caption.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Estrutura do sistema desenvolvido\relax }}{21}{figure.caption.21}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama do bloco de pr\IeC {\'e}-processamento\relax }}{22}{figure.caption.22}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama do algor\IeC {\'\i }tmo de deslocamento da janela\relax }}{25}{figure.caption.23}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Interface GUIDE\relax }}{28}{figure.caption.24}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Estrutura do sistema desenvolvido\relax }}{22}{figure.caption.21}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama do bloco de pr\IeC {\'e}-processamento\relax }}{23}{figure.caption.22}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama do algor\IeC {\'\i }tmo de deslocamento da janela\relax }}{26}{figure.caption.23}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Interface GUIDE\relax }}{29}{figure.caption.24}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Clarinete e sua forma de onda\relax }}{33}{figure.caption.26}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio "Escala Bb Maior" com clarinete\relax }}{34}{figure.caption.27}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Escala de Bb Maior com clarinete\relax }}{35}{figure.caption.28}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da m\IeC {\'u}sica ``\textit {Agnus Dei}'' com clarinete\relax }}{36}{figure.caption.29}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces M\IeC {\'u}sica ``\textit {Agnus Dei}'' com clarinete\relax }}{36}{figure.caption.30}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da M\IeC {\'u}sica ``Super M\IeC {\'a}rio Br\IeC {\'o}s'' com clarinete\relax }}{37}{figure.caption.31}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces M\IeC {\'u}sica ``Super M\IeC {\'a}rio Br\IeC {\'o}s'' com clarinete\relax }}{38}{figure.caption.32}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Sax alto e sua forma de onda\relax }}{39}{figure.caption.33}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio "Escala Eb Maior" com sax alto\relax }}{39}{figure.caption.34}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Escala Eb Maior com sax alto\relax }}{40}{figure.caption.35}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da M\IeC {\'u}sica ``Deus Cuida de Mim'' com sax alto\relax }}{41}{figure.caption.36}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces M\IeC {\'u}sica ``Deus Cuida de Mim'' no sax alto\relax }}{42}{figure.caption.37}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da m\IeC {\'u}sica ``\textit {Summertime}'' com sax alto\relax }}{43}{figure.caption.38}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Audio da m\IeC {\'u}sica ``\textit {Summertime}'' no sax alto\relax }}{44}{figure.caption.39}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Piano e sua forma de onda\relax }}{45}{figure.caption.40}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da escala C Maior com piano eletr\IeC {\^o}nico\relax }}{45}{figure.caption.41}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Escala de C Maior no piano eletr\IeC {\^o}nico\relax }}{46}{figure.caption.42}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da m\IeC {\'u}sica ``Eu Navegarei'' com piano eletr\IeC {\^o}nico\relax }}{47}{figure.caption.43}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces \IeC {\'A}udio da m\IeC {\'u}sica ``Eu Navegarei'' tocado com piano eletr\IeC {\^o}nico\relax }}{48}{figure.caption.44}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da m\IeC {\'u}sica ``\textit {Skyfall}'' com piano\relax }}{48}{figure.caption.45}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces M\IeC {\'u}sica ``\textit {Skyfall}'' tocada no piano\relax }}{49}{figure.caption.46}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Viol\IeC {\~a}o e sua forma de onda\relax }}{50}{figure.caption.47}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da escala de C Maior com viol\IeC {\~a}o\relax }}{50}{figure.caption.48}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Escala de C Maior no viol\IeC {\~a}o\relax }}{51}{figure.caption.49}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da m\IeC {\'u}sica ``Nona Sinfonia'' com viol\IeC {\~a}o\relax }}{52}{figure.caption.50}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces M\IeC {\'u}sica ``Nona Sinfonia'' tocada no viol\IeC {\~a}o.\relax }}{53}{figure.caption.51}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da m\IeC {\'u}sica ``Deus de Abra\IeC {\~a}o'' com viol\IeC {\~a}o\relax }}{53}{figure.caption.52}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces M\IeC {\'u}sica ``Deus de Abra\IeC {\~a}o'' tocada no viol\IeC {\~a}o.\relax }}{54}{figure.caption.53}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Clarinete e sua forma de onda\relax }}{34}{figure.caption.26}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio "Escala Bb Maior" com clarinete\relax }}{35}{figure.caption.27}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Escala de Bb Maior com clarinete\relax }}{36}{figure.caption.28}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da m\IeC {\'u}sica ``\textit {Agnus Dei}'' com clarinete\relax }}{37}{figure.caption.29}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces M\IeC {\'u}sica ``\textit {Agnus Dei}'' com clarinete\relax }}{37}{figure.caption.30}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da M\IeC {\'u}sica ``Super M\IeC {\'a}rio Br\IeC {\'o}s'' com clarinete\relax }}{38}{figure.caption.31}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces M\IeC {\'u}sica ``Super M\IeC {\'a}rio Br\IeC {\'o}s'' com clarinete\relax }}{39}{figure.caption.32}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Sax alto e sua forma de onda\relax }}{40}{figure.caption.33}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio "Escala Eb Maior" com sax alto\relax }}{40}{figure.caption.34}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Escala Eb Maior com sax alto\relax }}{41}{figure.caption.35}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da M\IeC {\'u}sica ``Deus Cuida de Mim'' com sax alto\relax }}{42}{figure.caption.36}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces M\IeC {\'u}sica ``Deus Cuida de Mim'' no sax alto\relax }}{43}{figure.caption.37}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da m\IeC {\'u}sica ``\textit {Summertime}'' com sax alto\relax }}{44}{figure.caption.38}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Audio da m\IeC {\'u}sica ``\textit {Summertime}'' no sax alto\relax }}{45}{figure.caption.39}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Piano e sua forma de onda\relax }}{46}{figure.caption.40}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da escala C Maior com piano eletr\IeC {\^o}nico\relax }}{46}{figure.caption.41}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Escala de C Maior no piano eletr\IeC {\^o}nico\relax }}{47}{figure.caption.42}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da m\IeC {\'u}sica ``Eu Navegarei'' com piano eletr\IeC {\^o}nico\relax }}{48}{figure.caption.43}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces \IeC {\'A}udio da m\IeC {\'u}sica ``Eu Navegarei'' tocado com piano eletr\IeC {\^o}nico\relax }}{49}{figure.caption.44}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da m\IeC {\'u}sica ``\textit {Skyfall}'' com piano\relax }}{49}{figure.caption.45}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces M\IeC {\'u}sica ``\textit {Skyfall}'' tocada no piano\relax }}{50}{figure.caption.46}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Viol\IeC {\~a}o e sua forma de onda\relax }}{51}{figure.caption.47}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da escala de C Maior com viol\IeC {\~a}o\relax }}{51}{figure.caption.48}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Escala de C Maior no viol\IeC {\~a}o\relax }}{52}{figure.caption.49}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da m\IeC {\'u}sica ``Nona Sinfonia'' com viol\IeC {\~a}o\relax }}{53}{figure.caption.50}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces M\IeC {\'u}sica ``Nona Sinfonia'' tocada no viol\IeC {\~a}o.\relax }}{54}{figure.caption.51}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Interface de experimenta\IeC {\c c}\IeC {\~a}o para \IeC {\'a}udio da m\IeC {\'u}sica ``Deus de Abra\IeC {\~a}o'' com viol\IeC {\~a}o\relax }}{54}{figure.caption.52}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces M\IeC {\'u}sica ``Deus de Abra\IeC {\~a}o'' tocada no viol\IeC {\~a}o.\relax }}{55}{figure.caption.53}
 \addvspace {10\p@ }
