@@ -5,6 +5,13 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem{towardsdatascience}
+\abntrefinfo{{Towards Data Science}}{{Towards Data Science}}{2017}
+{{Towards Data Science}. \emph{Activations Functions: Neural Networks}. 2017.
+[Online; acessado em 18 de Dezembro, 2013].
+Dispon{\'\i}vel em:
+  $<$https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6$>$.}
+
 \bibitem{dropout2014}
 \abntrefinfo{Srivastava et al.}{SRIVASTAVA et al.}{2014}
 {SRIVASTAVA, N. et al. Dropout: A simple way to prevent neural networks from

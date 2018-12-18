@@ -172,6 +172,21 @@ A finalidade dos otimizadores é minimizar o valor da função de perda alterand
 \subsection{Hiperparâmetros de uma Rede Neural}
 A maioria dos algoritmos de AM envolvem "hiperparâmetros", que são varíaveis definidas para o algoritmo antes do treinamento com o objetivo de otimizá-lo. Definir os valores de hiperparâmetros pode ser visto como uma seleção de modelos, ou seja, escolher qual modelo usar do conjunto hipotético de modelos possíveis. Em redes neurais os hiperparâmeteros determinam a estrutura da rede (Ex: Número de neurônios em uma camada) ou como a rede será treinada(Ex: Taxa de aprendizado)
 
+\subsubsection{Inicialização dos pesos da rede}
+Idealmente, pode ser melhor usar diferentes estratégias de inicialização dos pesos conforme a função de ativação aplicada em cada camada. A distribuição uniforme é comumente utilizada. (*)
+
+\subsubsection{Função de Ativação}
+As funções de ativações são usadas para introduzir não-lineariedade nos modelos, que permite que as redes aprendam superfícies de decisões mais complexas. Dentre as funções de ativações mais utilzadas estão a Sigmoid e ReLU(\textit{Rectified Linear Units}). A vantagem  da ReLU é que ela evita o problema de dissipação do gradiente.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{pasta1_figuras/activation_function.png}
+	\caption{Softmax vs ReLU. Imagem tirada do site \textit{Towards Data Science} \cite{towardsdatascience}}
+	\label{fig-activations}
+\end{figure}
+
+
 \subsubsection{Mini-batches}
 O treinamento geralmente é realizado em \textit{batches} também conhecidos como \textit{mini-batches} que são subconjuntos do treino. As razões de utilizar batches e não o treino inteiro são: diminuição do tempo de treinamento; caso o conjunto de treino seja suficientemente grande, uma amostra desse conjunto pode representar de forma \textit{boa} o conjunto original. A tamanho dessa amostra é um hiperparâmetro da rede, sendo geralmente aceito que o treinamento com \textit{batches} maiores resulta numa melhor performance.
 
