@@ -100,6 +100,12 @@ Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1212.0901$>$.}
 \emph{CoRR}, abs/1412.6980, 2014.
 Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1412.6980$>$.}
 
+\bibitem{universal1989}
+\abntrefinfo{Cybenko}{CYBENKO}{1989}
+{CYBENKO, G. Approximation by superpositions of a sigmoidal function.
+\emph{Mathematics of Control, Signals, and Systems. 1989 Springer-Verlag New
+  York Inc}, p. 303--314, 1989.}
+
 \bibitem{cnn01}
 \abntrefinfo{Samer C.H;Rishi}{SAMER C.H;RISHI}{2015}
 {SAMER C.H;RISHI, K.~R. Image recognition using convolutional neural networks.

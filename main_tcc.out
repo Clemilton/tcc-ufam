@@ -13,20 +13,22 @@
 \BOOKMARK [2][-]{subsection.2.2.4}{Fun\347\343o de Perda\(Loss Function\)}{section.2.2}% 13
 \BOOKMARK [2][-]{subsection.2.2.5}{Otimizadores}{section.2.2}% 14
 \BOOKMARK [2][-]{subsection.2.2.6}{Hiperpar\342metros de uma Rede Neural}{section.2.2}% 15
-\BOOKMARK [3][-]{subsubsection.2.2.6.1}{Inicializa\347\343o dos pesos da rede}{subsection.2.2.6}% 16
-\BOOKMARK [3][-]{subsubsection.2.2.6.2}{Fun\347\343o de Ativa\347\343o}{subsection.2.2.6}% 17
-\BOOKMARK [3][-]{subsubsection.2.2.6.3}{Mini-batches}{subsection.2.2.6}% 18
-\BOOKMARK [3][-]{subsubsection.2.2.6.4}{Taxa de aprendizado}{subsection.2.2.6}% 19
-\BOOKMARK [2][-]{subsection.2.2.7}{Regulariza\347\343o}{section.2.2}% 20
-\BOOKMARK [2][-]{subsection.2.2.8}{Redes Convolutivas}{section.2.2}% 21
-\BOOKMARK [1][-]{section.2.3}{S\351ries Temporais}{chapter.2}% 22
-\BOOKMARK [2][-]{subsection.2.3.1}{Aplica\347\365es de S\351ries Temporais}{section.2.3}% 23
-\BOOKMARK [1][-]{section.2.4}{Classifica\347\343o de S\351ries Temporais}{chapter.2}% 24
-\BOOKMARK [0][-]{chapter.3}{Sistema Proposto}{}% 25
-\BOOKMARK [1][-]{section.3.1}{Vis\343o geral}{chapter.3}% 26
-\BOOKMARK [0][-]{chapter.4}{Experimentos}{}% 27
-\BOOKMARK [1][-]{section.4.1}{M\351tricas}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.2}{Objetivos}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.3}{Resultados Obtidos}{chapter.4}% 30
-\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 31
-\BOOKMARK [0][-]{chapter*.20}{Refer\352ncias Bibliogr\341ficas}{}% 32
+\BOOKMARK [3][-]{subsubsection.2.2.6.1}{N\372mero de camadas e neur\364nios em cada camada}{subsection.2.2.6}% 16
+\BOOKMARK [3][-]{subsubsection.2.2.6.2}{Inicializa\347\343o dos pesos}{subsection.2.2.6}% 17
+\BOOKMARK [3][-]{subsubsection.2.2.6.3}{Fun\347\343o de Ativa\347\343o}{subsection.2.2.6}% 18
+\BOOKMARK [3][-]{subsubsection.2.2.6.4}{Mini-batches}{subsection.2.2.6}% 19
+\BOOKMARK [3][-]{subsubsection.2.2.6.5}{Taxa de aprendizado}{subsection.2.2.6}% 20
+\BOOKMARK [3][-]{subsubsection.2.2.6.6}{N\372mero de \351pocas}{subsection.2.2.6}% 21
+\BOOKMARK [2][-]{subsection.2.2.7}{Regulariza\347\343o}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.8}{Redes Convolutivas}{section.2.2}% 23
+\BOOKMARK [1][-]{section.2.3}{S\351ries Temporais}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.3.1}{Aplica\347\365es de S\351ries Temporais}{section.2.3}% 25
+\BOOKMARK [1][-]{section.2.4}{Classifica\347\343o de S\351ries Temporais}{chapter.2}% 26
+\BOOKMARK [0][-]{chapter.3}{Sistema Proposto}{}% 27
+\BOOKMARK [1][-]{section.3.1}{Vis\343o geral}{chapter.3}% 28
+\BOOKMARK [0][-]{chapter.4}{Experimentos}{}% 29
+\BOOKMARK [1][-]{section.4.1}{M\351tricas}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.2}{Objetivos}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.3}{Resultados Obtidos}{chapter.4}% 32
+\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 33
+\BOOKMARK [0][-]{chapter*.20}{Refer\352ncias Bibliogr\341ficas}{}% 34
