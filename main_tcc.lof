@@ -1,11 +1,12 @@
 \select@language {brazil}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Codifica\IeC {\c c}\IeC {\~a}o One-hot\relax }}{6}{figure.caption.13}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Princ\IeC {\'\i }pio dos k-vizinhos mais pr\IeC {\'o}ximos\relax }}{7}{figure.caption.14}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o simplificada de um neur\IeC {\^o}nio\relax }}{8}{figure.caption.15}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Modelo matem\IeC {\'a}tico de um neur\IeC {\^o}nio\relax }}{9}{figure.caption.16}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Multilayer Perceptron. Cada c\IeC {\'\i }rculo representa um neur\IeC {\^o}nio mostrado anteriormente\relax }}{10}{figure.caption.17}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Codifica\IeC {\c c}\IeC {\~a}o One-hot\relax }}{4}{figure.caption.13}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Princ\IeC {\'\i }pio dos k-vizinhos mais pr\IeC {\'o}ximos\relax }}{5}{figure.caption.14}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o simplificada de um neur\IeC {\^o}nio\relax }}{6}{figure.caption.15}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Modelo matem\IeC {\'a}tico de um neur\IeC {\^o}nio\relax }}{7}{figure.caption.16}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Multilayer Perceptron. Cada c\IeC {\'\i }rculo representa um neur\IeC {\^o}nio mostrado anteriormente\relax }}{8}{figure.caption.17}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Imagem ilustrando o efeito do Dropout em uma rede neural onde os neur\IeC {\^o}nios marcados foram desativados, for\IeC {\c c}ando a rede nao depender deles, evitando o \textit {overfitting} \cite {dropout2014}.\relax }}{12}{figure.caption.18}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

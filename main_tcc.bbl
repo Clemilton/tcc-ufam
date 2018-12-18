@@ -5,24 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem{vass2004}
-\abntrefinfo{Vass}{VASS}{2004}
-{VASS, J. {Automatic Transcription of Audio Signals}.
-\emph{Master of Science Thesis, Czech Technical University in Prague}, Prague,
-  2004.}
-
-\bibitem{amado2008}
-\abntrefinfo{Amado e Filho}{AMADO; FILHO}{2008}
-{AMADO, R.~G.; FILHO, J.~V. {Pitch Detection Algorithms Based on Zero-Cross
-  Rate and Autocorrelation Function for Musical Notes}.
-\emph{Sao Paulo State University}, São Paulo, 2008.}
-
-\bibitem{aoqui2014}
-\abntrefinfo{Aoqui et al.}{AOQUI et al.}{2014}
-{AOQUI, C.~J. et al. {Methods to Musical Notes Recognition from Sheet Music:
-  Preliminary Results}.
-\emph{X Workshop de Visão Computacional - Universidade Estadual de São
-  Paulo}, São Paulo, 2014.}
+\bibitem{dropout2014}
+\abntrefinfo{Srivastava et al.}{SRIVASTAVA et al.}{2014}
+{SRIVASTAVA, N. et al. Dropout: A simple way to prevent neural networks from
+  overfitting.
+\emph{Journal of Machine Learning Research}, v.~15, p. 1929--1958, 2014.
+Dispon{\'\i}vel em: $<$http://jmlr.org/papers/v15/srivastava14a.html$>$.}
 
 \bibitem{monard2003}
 \abntrefinfo{Monard e Baranauskas}{MONARD; BARANAUSKAS}{2003}
@@ -84,5 +72,30 @@ Dispon{\'\i}vel em: $<$http://dx.doi.org/10.1038/323533a0$>$.}
   COURVILLE}{2016}
 {GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep Learning}. [S.l.]: MIT
   Press, 2016. \url{http://www.deeplearningbook.org}.}
+
+\bibitem{bengio2012}
+\abntrefinfo{Bengio, Boulanger{-}Lewandowski e Pascanu}{BENGIO;
+  BOULANGER{-}LEWANDOWSKI; PASCANU}{2012}
+{BENGIO, Y.; BOULANGER{-}LEWANDOWSKI, N.; PASCANU, R. Advances in optimizing
+  recurrent networks.
+\emph{CoRR}, abs/1212.0901, 2012.
+Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1212.0901$>$.}
+
+\bibitem{adagrad2011}
+\abntrefinfo{Duchi, Hazan e Singer}{DUCHI; HAZAN; SINGER}{2011}
+{DUCHI, J. C.; HAZAN, E.; SINGER, Y. Adaptive subgradient methods for online
+  learning and stochastic optimization.
+\emph{Journal of Machine Learning Research}, v.~12, p. 2121--2159, 07 2011.}
+
+\bibitem{adam2014}
+\abntrefinfo{Kingma e Ba}{KINGMA; BA}{2014}
+{KINGMA, D.~P.; BA, J. Adam: {A} method for stochastic optimization.
+\emph{CoRR}, abs/1412.6980, 2014.
+Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1412.6980$>$.}
+
+\bibitem{cnn01}
+\abntrefinfo{Samer C.H;Rishi}{SAMER C.H;RISHI}{2015}
+{SAMER C.H;RISHI, K.~R. Image recognition using convolutional neural networks.
+\emph{Cadence Whitepaper}, p. 1--12, 2015.}
 
 \end{thebibliography}

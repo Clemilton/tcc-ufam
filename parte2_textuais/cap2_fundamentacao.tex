@@ -136,16 +136,6 @@ Em 1986, \textit{Rumelhart, Hinton e Williams} \cite{hinton1986} desenvolveram o
 
 Na fase backward é onde a aprendizagem dos pesos é realizada. Esse aprendizado se dá através da otimização (minimização) da função loss, a qual determina a qualidade da classificação do dado de entrada.Essa otimização é realizada através de um método chamado \textit{Gradiente Descendente} que busca a minimização da função \textit{loss} ao alterar os pesos na direção de maior declive do gradiente. O gradiente é calculado na última camada e então é retro-propragado para as camadas intermediárias anteriores que contribuem diretamente para a formação da saída. Cada elemento da camada intermediária recebe é responsável apenas por uma porção do gradiente total. Este processo se repete, camada por camada, até que cada elemento tenha a sua parcela de gradiente para o gradiente total. Baseado no gradiente, é feita uma alteração dos valores dos pesos e bias de modo que a rede aprenda os padrões do conjunto de treinamento.
 
-\subsection{Otimizadores}
-Existem diversas variantes do gradiente descendente, que diferem na forma do cálculo da atualização dos pesos da rede. 
-
-\begin{itemize}
-	\item Stochastic Gradient Descent
-	\item Momentum
-	\item RMSprop
-	\item AdaDelta
-	\item Adam
-\end{itemize}
 
 \subsection{Camada Softmax}
 
@@ -171,10 +161,13 @@ L = - \sum_{i}^{} y_i log(z_i)
 Para problemas de classificação a entropria cruzada é mais adequada.
 
 
-
-
-Neste trabalho foi utilizado o otimizador Adam, além de ser
-
+\subsection{Otimizadores}
+A finalidade dos otimizadores é minimizar o valor da função de perda alterando nos pesos da redes. Existem atualmente diversos métodos para alcançar esse fim, esses métodos utilizam de alguns hiperparâmetros para calibrar a forma com que os pesos devem ser atualizados. Dentre os mais utilizados se destacam:
+\begin{itemize}
+	\item \textbf{ Stochastic Gradient Descent (SGD) com Nesterov Momentum} é um método onde, em uma alusão à mecânica clássica, a velocidade de descida do resultado da função de perda na superfície multidimensional determinada pelo gradiente é calculada e usada para escalar o tamanho do passo que será dado em direção ao ponto mínimo. Utilizando essa velocidade e o valor do gradiente na posição atual é possível prever a próxima posição dessa partícula virtual onde então é calculado o gradiente da nova posição. Os parâmetros são então atualizados baseados nesse segundo gradiente e em um hiperparâmetro denominado taxa de aprendizado (learning rate). \cite{bengio2012}
+	\item \textbf{Adagrad} é um método adaptativo de taxa de aprendizado proposto originalmente por \cite{adagrad2011} onde a taxa de aprendizado é normalizada pela raiz da soma dos gradientes de cada parâmetro ao quadrado. Isso tem o efeito de reduzir a taxa de aprendizado dos pesos que recebem gradientes altos e ao mesmo tempo aumentar a taxa de aprendizado de pesos que recebem atualizações infrequentes. Um hiperparâmetro de suavização também é usado para inibir a divisão por zero.
+	\item Adam é um método derivado de um outro método chamado RMSprop que basicamente ajusta o método Adagrad para que a taxa de aprendizado não diminua agressivamente. A contribuição do método Adam é adicionar um momento na atualização (semelhante ao Nesterov Momentum) e suavizar os ruídos do gradiente antes de fazer essa operação. Ele herda do RMSprop  adição de uma taxa de decaimento na soma dos gradientes de cada parâmetro que reduz a agressividade de quanto a taxa de aprendizado é reduzida a cada passo. \cite{adam2014}
+\end{itemize}
 
 \subsection{Hiperparâmetros de uma Rede Neural}
 A maioria dos algoritmos de AM envolvem "hiperparâmetros", que são varíaveis definidas para o algoritmo antes do treinamento com o objetivo de otimizá-lo. Definir os valores de hiperparâmetros pode ser visto como uma seleção de modelos, ou seja, escolher qual modelo usar do conjunto hipotético de modelos possíveis. Em redes neurais os hiperparâmeteros determinam a estrutura da rede (Ex: Número de neurônios em uma camada) ou como a rede será treinada(Ex: Taxa de aprendizado)
@@ -188,7 +181,40 @@ A taxa de aprendizado é um parâmetro constante no intervalo de [0,1] que inter
 
 
 
+\subsection{Regularização}
 
+Além do \textit{tuning} dos hiperparâmetros existe outras maneiras para aumentar a performance da rede e torná-la mais robusta em sua capacidade de generalização. 
+Um exemplo é a adição de um termo de regularização na função de perda. Esse termo é introduzido para regularizar os valores dos pesos buscando distribuir melhor o aprendizado por todos os neurônios. A função provavelmente mais usada para este fim é a da regularização L2, onde para cada parâmetro da rede o termo $\frac{1}{2}\lambda \omega^2$ é adicionado ao resultado da função de perda,$\omega$ representando o peso em questão, $\lambda$ sendo a força da regularização e o fator $\frac{1}{2}$ é multiplicado para simplificar o gradiente da função.
+
+Essa regularização penaliza neurônios com pesos muito altos levando a uma distribuição das atualizações para os neurônios com pesos menores. Ao introduzir essa função é necessário lembrar que os pesos também devem ser atualizados pelo gradiente da função de regularização, o que é um passo geralmente realizado após a atualização quanto ao gradiente da função loss.
+
+A introdução da função de regularização ajuda a combater o overfitting e juntamente com ela uma outra técnica que é muito utilizada para esse fim é o \textit{Dropout} \cite{dropout2014}. O Dropout é uma técnica que condiciona à existência de um neurônio na fase de treinamento em função de uma probabilidade predefinida por um hiperparâmetro. Esse método essencialmente desativa neurônios com uma probabilidade p para que a rede seja capaz de otimizar a função loss mesmo sem a presença de todos os seus neurônios.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.4]{pasta1_figuras/dropout.png}
+	\caption{Imagem ilustrando o efeito do Dropout em uma rede neural onde os neurônios marcados foram desativados, forçando a rede nao depender deles, evitando o \textit{overfitting} \cite{dropout2014}.}
+	
+	\label{fig-dropout}
+\end{figure}
+
+\subsection{Redes Convolutivas}
+
+Segundo \cite{cnn01}, as Redes Convolutivas, comumente abreviadas como CNN(Convolutional Neural Networks), tem como motivação o cortéx visual humano, pois possui uma grande quantidade de células responsáveis por detectar luz em pequena escala, sobrepondo sub-regiões do campo visual, que são chamadas de campo receptivos. Tais células atuam como filtros locais sobre o espaço de entrada e quanto mais complexa a célula, maior o seu campoe receptivo.
+
+Assim como na biologia, os pesos das redes podem aprender características invariantes e possuir estágios de um composto banco de filtros não linear e agrupamento em camadas. Quando comparadas com as redes neurais multi-camadas tradicionais o ganho de desempenho é muito significativo.
+
+Algumas características importantes diferenciam esse tipo de rede neural dos de-
+mais tipos:
+
+\begin{itemize}
+	\item Por conta da correlação mais esparsa dos neurônios, características espacialmente afastadas terão ligações bem fracas, se não nulas, entre si. Isso torna a rede mais capaz de generalizar características afastadas individualmente, porém também invalida o uso desse tipo de rede quando exitem relações importantes entre características que não estão próximas espacialmente. Imagens em geral muitas vezes obedecem essa restrição, pois características visuais só agregam valor semântico quando espacialmente aproximadas. Dessa forma, uma generalização válida é que o uso desse tipo de rede é mais indicado para imagens ou qualquer outro tipo de dados que pode ser transformado em uma imagem sem perda de informações relevantes.
+	
+	\item Diferentemente das redes neurais muti-camadas tradicionais, onde a estrutura de entrada é unidimensional, as redes neurais convolucionais possuem como entrada uma estrutura tridimensional com dimensões $h \times w \times d$ onde $h$ é sua altura, $w$ é sua largura e $d$ é sua profundidade. Quando referentes a uma imagem, essas dimensões são relativas à altura, largura e ao número de características distintas a serem observadas.
+	
+	\item Assim como a estrutura de entrada, a disposição dos neurônios nesse tipo de rede também é um volume tridimensional, dessa forma cada grupo de neurônios dispostos ao longo da profundidade do volume é estimulado por seu respectivo campo receptivo e os parâmetros são compartilhados entre os neurônios de uma mesma profundidade. Isso efetivamente faz com que todos os neurônios de uma profundidade na camada detectem a mesma característica através de todo o campo visual.
+	
+\end{itemize}
 
 \section{Séries Temporais}
 

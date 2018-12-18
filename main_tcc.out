@@ -10,19 +10,21 @@
 \BOOKMARK [2][-]{subsection.2.2.1}{Inspira\347\343o Biol\363gica e Perceptron}{section.2.2}% 10
 \BOOKMARK [2][-]{subsection.2.2.2}{Perceptron multicamadas}{section.2.2}% 11
 \BOOKMARK [2][-]{subsection.2.2.3}{Camada Softmax}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.4}{Hiperpar\342metros de uma Rede Neural}{section.2.2}% 13
-\BOOKMARK [3][-]{subsubsection.2.2.4.1}{Mini-batches}{subsection.2.2.4}% 14
-\BOOKMARK [3][-]{subsubsection.2.2.4.2}{Taxa de aprendizado}{subsection.2.2.4}% 15
-\BOOKMARK [3][-]{subsubsection.2.2.4.3}{Fun\347\343o de Perda\(Loss Function\)}{subsection.2.2.4}% 16
-\BOOKMARK [3][-]{subsubsection.2.2.4.4}{Otimizadores}{subsection.2.2.4}% 17
-\BOOKMARK [1][-]{section.2.3}{S\351ries Temporais}{chapter.2}% 18
-\BOOKMARK [2][-]{subsection.2.3.1}{Aplica\347\365es de S\351ries Temporais}{section.2.3}% 19
-\BOOKMARK [1][-]{section.2.4}{Classifica\347\343o de S\351ries Temporais}{chapter.2}% 20
-\BOOKMARK [0][-]{chapter.3}{Sistema Proposto}{}% 21
-\BOOKMARK [1][-]{section.3.1}{Vis\343o geral}{chapter.3}% 22
-\BOOKMARK [0][-]{chapter.4}{Experimentos}{}% 23
-\BOOKMARK [1][-]{section.4.1}{M\351tricas}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.2}{Objetivos}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.3}{Resultados Obtidos}{chapter.4}% 26
-\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 27
-\BOOKMARK [0][-]{chapter*.18}{Refer\352ncias Bibliogr\341ficas}{}% 28
+\BOOKMARK [2][-]{subsection.2.2.4}{Fun\347\343o de Perda\(Loss Function\)}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.5}{Otimizadores}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.6}{Hiperpar\342metros de uma Rede Neural}{section.2.2}% 15
+\BOOKMARK [3][-]{subsubsection.2.2.6.1}{Mini-batches}{subsection.2.2.6}% 16
+\BOOKMARK [3][-]{subsubsection.2.2.6.2}{Taxa de aprendizado}{subsection.2.2.6}% 17
+\BOOKMARK [2][-]{subsection.2.2.7}{Regulariza\347\343o}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.8}{Redes Convolutivas}{section.2.2}% 19
+\BOOKMARK [1][-]{section.2.3}{S\351ries Temporais}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.3.1}{Aplica\347\365es de S\351ries Temporais}{section.2.3}% 21
+\BOOKMARK [1][-]{section.2.4}{Classifica\347\343o de S\351ries Temporais}{chapter.2}% 22
+\BOOKMARK [0][-]{chapter.3}{Sistema Proposto}{}% 23
+\BOOKMARK [1][-]{section.3.1}{Vis\343o geral}{chapter.3}% 24
+\BOOKMARK [0][-]{chapter.4}{Experimentos}{}% 25
+\BOOKMARK [1][-]{section.4.1}{M\351tricas}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.2}{Objetivos}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.3}{Resultados Obtidos}{chapter.4}% 28
+\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 29
+\BOOKMARK [0][-]{chapter*.19}{Refer\352ncias Bibliogr\341ficas}{}% 30
