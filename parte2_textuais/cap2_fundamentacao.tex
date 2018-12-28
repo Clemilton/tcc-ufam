@@ -173,8 +173,7 @@ A finalidade dos otimizadores é minimizar o valor da função de perda alterand
 A maioria dos algoritmos de AM envolvem "hiperparâmetros", que são varíaveis definidas para o algoritmo antes do treinamento com o objetivo de otimizá-lo. Definir os valores de hiperparâmetros pode ser visto como uma seleção de modelos, ou seja, escolher qual modelo usar do conjunto hipotético de modelos possíveis. Em redes neurais os hiperparâmeteros determinam a estrutura da rede (Ex: Número de neurônios em uma camada) ou como a rede será treinada(Ex: Taxa de aprendizado)
 
 \subsubsection{Número de camadas e neurônios em cada camada}
-Conforme o teorema da aproximação universal \cite{universal1989}, uma rede neural com uma única camada oculta com um número finito de neurônios é capaz de aproximar qualquer função contínua de $\mathbb{R}^n$. Em problemas de classificação tem-se três camadas: a camada de entrada tem o mesmo número de neurônios do tamanho do vetor de características, a camada escondidade que é determinada empiricamente e a camada de saída que tem o mesmo número de classes do problema. A melhor maneira de escolher o número de neuronios e camadas é utilizando experimentação com validação cruzada
-
+Em problemas de classificação geralmente as redes neurais tem: camada de entrada tem o mesmo número de neurônios do tamanho do vetor de características, camadas escondidas e a camada de saída que tem o mesmo número de classes do problema. Conforme o teorema da aproximação universal \cite{universal1989}, uma rede neural com uma única camada oculta com um número finito de neurônios é capaz de aproximar qualquer função contínua de $\mathbb{R}^n$. Isto quer dizer que teoricamente é possível aproximar qualquer 
 \subsubsection{Inicialização dos pesos}
 Idealmente, pode ser melhor usar diferentes estratégias de inicialização dos pesos conforme a função de ativação aplicada em cada camada. A distribuição uniforme é comumente utilizada. (*)
 
