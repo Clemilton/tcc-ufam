@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.18)  18 DEC 2018 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.27)  7 JAN 2019 14:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1447,7 +1447,7 @@ LaTeX Warning: File `pasta1_figuras/logo_ufam.eps' not found on input line 7.
 Package epstopdf Info: Source file: <pasta1_figuras/logo_ufam.eps>
 (epstopdf)             Output file: <pasta1_figuras/logo_ufam-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2018-12-18 12:39:24
+(epstopdf)                    date: 2019-01-07 14:23:57
 (epstopdf)                    size: 74907 bytes
 (epstopdf)             Command: <repstopdf --outfile=pasta1_figuras/logo_ufam-e
 ps-converted-to.pdf pasta1_figuras/logo_ufam.eps>
@@ -2030,19 +2030,19 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 177.
 [10]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 181.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 184.
+(babel)             in language  on input line 180.
 
 <pasta1_figuras/activation_function.png, id=393, 763.85374pt x 316.18124pt>
 File: pasta1_figuras/activation_function.png Graphic file (type png)
 
 <use pasta1_figuras/activation_function.png>
 Package pdftex.def Info: pasta1_figuras/activation_function.png used on input l
-ine 190.
+ine 186.
 (pdftex.def)             Requested size: 305.53607pt x 126.47025pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 196.
+(babel)             in language  on input line 192.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2051,16 +2051,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 194.
 [11 <./pasta1_figuras/activation_function.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 195.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 199.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 203.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 202.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2069,17 +2069,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 214.
+(babel)             in language  on input line 210.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 214.
+(babel)             in language  on input line 210.
 [12] <pasta1_figuras/dropout.png, id=407, 780.9175pt x 406.51875pt>
 File: pasta1_figuras/dropout.png Graphic file (type png)
 
 <use pasta1_figuras/dropout.png>
-Package pdftex.def Info: pasta1_figuras/dropout.png used on input line 217.
+Package pdftex.def Info: pasta1_figuras/dropout.png used on input line 213.
 (pdftex.def)             Requested size: 312.36147pt x 162.60461pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 219.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2088,12 +2088,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 234.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 234.
+(babel)             in language  on input line 230.
 [13 <./pasta1_figuras/dropout.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 241.
+(babel)             in language  on input line 237.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2102,14 +2102,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 247.
 [14]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 252.
+(babel)             in language  on input line 248.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 258.
 )
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2256,7 +2256,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
  23201 strings out of 493029
- 412490 string characters out of 6136233
+ 412490 string characters out of 6136234
  502659 words of memory out of 5000000
  26028 multiletter control sequences out of 15000+600000
  14795 words of font info for 56 fonts, out of 8000000 for 9000
@@ -2277,7 +2277,7 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main_tcc.pdf (35 pages, 535164 bytes).
+Output written on main_tcc.pdf (35 pages, 535235 bytes).
 PDF statistics:
  523 PDF objects out of 1000 (max. 8388607)
  445 compressed objects within 5 object streams

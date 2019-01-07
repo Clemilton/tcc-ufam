@@ -218,21 +218,18 @@ A introdução da função de regularização ajuda a combater o overfitting e j
 
 \subsection{Redes Convolutivas}
 
-Segundo \cite{cnn01}, as Redes Convolutivas, comumente abreviadas como CNN(Convolutional Neural Networks), tem como motivação o cortéx visual humano, pois possui uma grande quantidade de células responsáveis por detectar luz em pequena escala, sobrepondo sub-regiões do campo visual, que são chamadas de campo receptivos. Tais células atuam como filtros locais sobre o espaço de entrada e quanto mais complexa a célula, maior o seu campoe receptivo.
+As redes convolutivas  foram desenvolvidas tomando como inspiração o cortéx visual de animais, que contém  agrupamentos de células que detectam luz em pequena escala, sobrepondo sub-regiões do campo visual, que são chamadas de campo receptivos. Tais células atuam como filtros locais sobre o espaço de entrada e quanto mais complexa a célula, maior o seu campo receptivo. As redes convolutivas segue esse mesmo princípio de campos receptivos, o que ajuda a diminuir o custo computacional de treinamento. 
 
-Assim como na biologia, os pesos das redes podem aprender características invariantes e possuir estágios de um composto banco de filtros não linear e agrupamento em camadas. Quando comparadas com as redes neurais multi-camadas tradicionais o ganho de desempenho é muito significativo.
-
-Algumas características importantes diferenciam esse tipo de rede neural dos de-
-mais tipos:
+Em \cite{haykin2009neural} Haykin divide a estrutura das redes convolutivas em três objetivos principais:
 
 \begin{itemize}
-	\item Por conta da correlação mais esparsa dos neurônios, características espacialmente afastadas terão ligações bem fracas, se não nulas, entre si. Isso torna a rede mais capaz de generalizar características afastadas individualmente, porém também invalida o uso desse tipo de rede quando exitem relações importantes entre características que não estão próximas espacialmente. Imagens em geral muitas vezes obedecem essa restrição, pois características visuais só agregam valor semântico quando espacialmente aproximadas. Dessa forma, uma generalização válida é que o uso desse tipo de rede é mais indicado para imagens ou qualquer outro tipo de dados que pode ser transformado em uma imagem sem perda de informações relevantes.
-	
-	\item Diferentemente das redes neurais muti-camadas tradicionais, onde a estrutura de entrada é unidimensional, as redes neurais convolucionais possuem como entrada uma estrutura tridimensional com dimensões $h \times w \times d$ onde $h$ é sua altura, $w$ é sua largura e $d$ é sua profundidade. Quando referentes a uma imagem, essas dimensões são relativas à altura, largura e ao número de características distintas a serem observadas.
-	
-	\item Assim como a estrutura de entrada, a disposição dos neurônios nesse tipo de rede também é um volume tridimensional, dessa forma cada grupo de neurônios dispostos ao longo da profundidade do volume é estimulado por seu respectivo campo receptivo e os parâmetros são compartilhados entre os neurônios de uma mesma profundidade. Isso efetivamente faz com que todos os neurônios de uma profundidade na camada detectem a mesma característica através de todo o campo visual.
-	
+	\item Extração de características: Cada neurônio recebe sinais de entrada de uma determinada janela da camada anterior, possibilitando a extração de características locais. Isto faz com que a posição exata de cada característica (ou pixel, no caso de uma imagem), seja irrelevante, desde que sua posição em relação às características vizinhas seja mantida.
+	\item As camadas são compostas por diversos mapas de características (\textit{feature maps}) que são regiões onde os neurônios compartilham os mesmos pesos. Esses pesos são chamados de filtros ou kernels, e dão robustez ao modelo, fazendo com que ele seja capaz de lidar com variações de distorção, rotação e translação na imagem. O compartilhamento dos pesos também possibilita uma redução drástica no número de parâmetros a serem otimizados.
+	\item Subamostragem: Após cada camada de convolução é aplicada uma camada de subamostragem(\textit{subsampling}), que é uma coleta de amostras de cada mapa de característica. Essas amostragens podem ser realizadas através da média, maior ou menor valor das amostras. O que produz uma sumarização do mapa de características
 \end{itemize}
+Os kernels são parâmetros ajustáveis do modelo, eles devem aprender a modelar relações entre pixels vizinhos, independente da posição em que esses pixels se encontram na imagem. Essa extração funciona usando uma convolução, similar aos primeiros extratores de características feitos manualmente em visão computacional.  A convolução o ocorre durante a fase \texit{foward}, onde cada um desses kernels são convoluídos com a entrada. 
+
+https://medium.freecodecamp.org/an-intuitive-guide-to-convolutional-neural-networks-260c2de0a050
 
 \section{Séries Temporais}
 
