@@ -19,6 +19,12 @@ Dispon{\'\i}vel em:
 \emph{Journal of Machine Learning Research}, v.~15, p. 1929--1958, 2014.
 Dispon{\'\i}vel em: $<$http://jmlr.org/papers/v15/srivastava14a.html$>$.}
 
+\bibitem{camporeceptivo}
+\abntrefinfo{{neuroclusterbrain.com}}{{neuroclusterbrain.com}}{2017}
+{{neuroclusterbrain.com}. \emph{Neuron model RF-PSTH}. 2017.
+[Online; acessado em 08 de Janeiro, 2019].
+Dispon{\'\i}vel em: $<$http://neuroclusterbrain.com$>$.}
+
 \bibitem{monard2003}
 \abntrefinfo{Monard e Baranauskas}{MONARD; BARANAUSKAS}{2003}
 {MONARD, M.; BARANAUSKAS, J. \emph{Conceitos sobre aprendizado de máquinas. Em
@@ -106,9 +112,9 @@ Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1412.6980$>$.}
 \emph{Mathematics of Control, Signals, and Systems. 1989 Springer-Verlag New
   York Inc}, p. 303--314, 1989.}
 
-\bibitem{cnn01}
-\abntrefinfo{Samer C.H;Rishi}{SAMER C.H;RISHI}{2015}
-{SAMER C.H;RISHI, K.~R. Image recognition using convolutional neural networks.
-\emph{Cadence Whitepaper}, p. 1--12, 2015.}
+\bibitem{haykin2009neural}
+\abntrefinfo{Haykin}{HAYKIN}{2009}
+{HAYKIN, S.~S. \emph{Neural networks and learning machines}. Third. Upper
+  Saddle River, NJ: Pearson Education, 2009.}
 
 \end{thebibliography}

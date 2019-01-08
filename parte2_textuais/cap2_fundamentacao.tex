@@ -218,7 +218,17 @@ A introdução da função de regularização ajuda a combater o overfitting e j
 
 \subsection{Redes Convolutivas}
 
-As redes convolutivas  foram desenvolvidas tomando como inspiração o cortéx visual de animais, que contém  agrupamentos de células que detectam luz em pequena escala, sobrepondo sub-regiões do campo visual, que são chamadas de campo receptivos. Tais células atuam como filtros locais sobre o espaço de entrada e quanto mais complexa a célula, maior o seu campo receptivo. As redes convolutivas segue esse mesmo princípio de campos receptivos, o que ajuda a diminuir o custo computacional de treinamento. 
+As redes convolutivas  foram desenvolvidas tomando como inspiração o cortéx visual de animais, que contém  agrupamentos de células que detectam luz em pequena escala que são chamadas de campo receptivos. O campo receptivo de um único neurônio sensorial é a região específica da retina em que a presença de um estímulo causa a ativação dele.Os neurônios sensoriais que tem campos receptivos semelhantes se sobrepõe.
+Na figura \ref{fig-campo} é mostrada uma representação de um neurônio e o seu campo receptivo.
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.4]{pasta1_figuras/campo_receptivo.png}
+	\caption{Campo receptivo de um neurônio. Fonte: \cite{camporeceptivo}}
+	
+	\label{fig-campo}
+\end{figure}
+
+Tais células atuam como filtros locais sobre o espaço de entrada e quanto mais complexa a célula, maior o seu campo receptivo. As redes convolutivas segue esse mesmo princípio de campos receptivos, o que ajuda a diminuir o custo computacional de treinamento.
 
 Em \cite{haykin2009neural} Haykin divide a estrutura das redes convolutivas em três objetivos principais:
 
@@ -227,9 +237,8 @@ Em \cite{haykin2009neural} Haykin divide a estrutura das redes convolutivas em t
 	\item As camadas são compostas por diversos mapas de características (\textit{feature maps}) que são regiões onde os neurônios compartilham os mesmos pesos. Esses pesos são chamados de filtros ou kernels, e dão robustez ao modelo, fazendo com que ele seja capaz de lidar com variações de distorção, rotação e translação na imagem. O compartilhamento dos pesos também possibilita uma redução drástica no número de parâmetros a serem otimizados.
 	\item Subamostragem: Após cada camada de convolução é aplicada uma camada de subamostragem(\textit{subsampling}), que é uma coleta de amostras de cada mapa de característica. Essas amostragens podem ser realizadas através da média, maior ou menor valor das amostras. O que produz uma sumarização do mapa de características
 \end{itemize}
-Os kernels são parâmetros ajustáveis do modelo, eles devem aprender a modelar relações entre pixels vizinhos, independente da posição em que esses pixels se encontram na imagem. Essa extração funciona usando uma convolução, similar aos primeiros extratores de características feitos manualmente em visão computacional.  A convolução o ocorre durante a fase \texit{foward}, onde cada um desses kernels são convoluídos com a entrada. 
+Os kernels são parâmetros ajustáveis do modelo, eles devem aprender a modelar relações entre pixels vizinhos, independente da posição em que esses pixels se encontram na imagem. Essa extração funciona usando uma convolução, similar aos primeiros extratores de características feitos manualmente em visão computacional.  A convolução o ocorre durante a fase \textit{foward}, onde cada um desses kernels são convoluídos com a entrada. 
 
-https://medium.freecodecamp.org/an-intuitive-guide-to-convolutional-neural-networks-260c2de0a050
 
 \section{Séries Temporais}
 
