@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.18)  8 JAN 2019 10:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.18)  11 JAN 2019 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1454,7 +1454,7 @@ ps-converted-to.pdf pasta1_figuras/logo_ufam.eps>
 (epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
-<pasta1_figuras/logo_ufam-eps-converted-to.pdf, id=143, 115.43124pt x 114.4275p
+<pasta1_figuras/logo_ufam-eps-converted-to.pdf, id=147, 115.43124pt x 114.4275p
 t>
 File: pasta1_figuras/logo_ufam-eps-converted-to.pdf Graphic file (type pdf)
  <use pasta1_figuras/logo_ufam-eps-converted-to.pdf>
@@ -1506,7 +1506,7 @@ l.150 ...arte1_pre-textuais/item03_folha_de_rosto}
 
 
 (./parte1_pre-textuais/item04_ficha_catalografica.tex
-<parte1_pre-textuais/ficha_catalografica.pdf, id=158, 557.08125pt x 805.0075pt>
+<parte1_pre-textuais/ficha_catalografica.pdf, id=162, 557.08125pt x 805.0075pt>
 File: parte1_pre-textuais/ficha_catalografica.pdf Graphic file (type pdf)
 <use parte1_pre-textuais/ficha_catalografica.pdf>
 Package pdftex.def Info: parte1_pre-textuais/ficha_catalografica.pdf used on in
@@ -1519,7 +1519,7 @@ Package pdftex.def Info: parte1_pre-textuais/ficha_catalografica.pdf used on in
 put line 3.
 (pdftex.def)             Requested size: 557.0799pt x 805.00555pt.
 
-<parte1_pre-textuais/ficha_catalografica.pdf, id=161, page=1, 557.08125pt x 805
+<parte1_pre-textuais/ficha_catalografica.pdf, id=165, page=1, 557.08125pt x 805
 .0075pt>
 File: parte1_pre-textuais/ficha_catalografica.pdf Graphic file (type pdf)
  <use parte1_pre-textuais/ficha_catalografica.pdf, page 1>
@@ -1562,7 +1562,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 (./parte1_pre-textuais/item05_folha_de_aprovacao_assinada.tex
-<parte1_pre-textuais/tcc_folha_aprovacao.pdf, id=169, 597.23125pt x 845.1575pt>
+<parte1_pre-textuais/tcc_folha_aprovacao.pdf, id=173, 597.23125pt x 845.1575pt>
 File: parte1_pre-textuais/tcc_folha_aprovacao.pdf Graphic file (type pdf)
 <use parte1_pre-textuais/tcc_folha_aprovacao.pdf>
 Package pdftex.def Info: parte1_pre-textuais/tcc_folha_aprovacao.pdf used on in
@@ -1575,7 +1575,7 @@ Package pdftex.def Info: parte1_pre-textuais/tcc_folha_aprovacao.pdf used on in
 put line 3.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<parte1_pre-textuais/tcc_folha_aprovacao.pdf, id=172, page=1, 597.23125pt x 845
+<parte1_pre-textuais/tcc_folha_aprovacao.pdf, id=176, page=1, 597.23125pt x 845
 .1575pt>
 File: parte1_pre-textuais/tcc_folha_aprovacao.pdf Graphic file (type pdf)
  <use parte1_pre-textuais/tcc_folha_aprovacao.pdf, page 1>
@@ -1688,6 +1688,10 @@ Overfull \hbox (6.81366pt too wide) in paragraph at lines 10--10
  [][] [][][]\OT1/cmr/m/n/12 Imagem ilus-trando o efeito do Dro-pout em uma rede
  neu-ral onde os neur^onios 
  []
+
+
+Package natbib Warning: Author undefined for citation`depth' 
+(natbib)                on page i on input line 12.
 
 )
 \tf@lof=\write5
@@ -1863,7 +1867,7 @@ l.43
       [3]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
- <pasta1_figuras/one-hot.png, id=329, 716.6775pt x 281.05pt>
+ <pasta1_figuras/one-hot.png, id=339, 716.6775pt x 281.05pt>
 File: pasta1_figuras/one-hot.png Graphic file (type png)
 
 <use pasta1_figuras/one-hot.png>
@@ -1893,7 +1897,7 @@ been already used, duplicate ignored
                    \relax 
 l.64 
       [4 <./pasta1_figuras/one-hot.png>]
-<pasta1_figuras/knn.png, id=339, 427.5975pt x 353.32pt>
+<pasta1_figuras/knn.png, id=349, 427.5975pt x 353.32pt>
 File: pasta1_figuras/knn.png Graphic file (type png)
 
 <use pasta1_figuras/knn.png>
@@ -1921,7 +1925,7 @@ l.81
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 82.
 
-<pasta1_figuras/neuronio.png, id=350, 324.21124pt x 217.81375pt>
+<pasta1_figuras/neuronio.png, id=360, 324.21124pt x 217.81375pt>
 File: pasta1_figuras/neuronio.png Graphic file (type png)
 
 <use pasta1_figuras/neuronio.png>
@@ -1938,16 +1942,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 97.
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98 \end{itemize}
-                   [6 <./pasta1_figuras/neuronio.png>]
-<pasta1_figuras/perceptron.png, id=358, 332.24126pt x 154.5775pt>
+l.97 	\item U
+             ma função de ativação que ($\varphi$) limita o intervalo pe...
+[6 <./pasta1_figuras/neuronio.png>]
+<pasta1_figuras/perceptron.png, id=368, 332.24126pt x 154.5775pt>
 File: pasta1_figuras/perceptron.png Graphic file (type png)
 
 <use pasta1_figuras/perceptron.png>
@@ -1972,14 +1977,12 @@ been already used, duplicate ignored
                    \relax 
 l.127 
        [7 <./pasta1_figuras/perceptron.png>]
-<pasta1_figuras/mlp.png, id=369, 660.4675pt x 433.62pt>
+<pasta1_figuras/mlp.png, id=379, 660.4675pt x 433.62pt>
 File: pasta1_figuras/mlp.png Graphic file (type png)
 
 <use pasta1_figuras/mlp.png>
 Package pdftex.def Info: pasta1_figuras/mlp.png used on input line 130.
 (pdftex.def)             Requested size: 264.18231pt x 173.44492pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 140.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1988,15 +1991,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 140.
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 
-       [8 <./pasta1_figuras/mlp.png (PNG copy)>]
+l.140 \subsection
+                 {Camada Softmax} [8 <./pasta1_figuras/mlp.png (PNG copy)>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 140.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 150.
 Package babel Info: Redefining portuges shorthand "|
@@ -2009,9 +2014,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 168.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 168.
+(babel)             in language  on input line 167.
 [9]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 172.
@@ -2034,7 +2039,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 180.
 
-<pasta1_figuras/activation_function.png, id=397, 763.85374pt x 316.18124pt>
+<pasta1_figuras/activation_function.png, id=407, 763.85374pt x 316.18124pt>
 File: pasta1_figuras/activation_function.png Graphic file (type png)
 
 <use pasta1_figuras/activation_function.png>
@@ -2072,7 +2077,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 210.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 210.
-[12] <pasta1_figuras/dropout.png, id=411, 780.9175pt x 406.51875pt>
+[12] <pasta1_figuras/dropout.png, id=421, 780.9175pt x 406.51875pt>
 File: pasta1_figuras/dropout.png Graphic file (type png)
 
 <use pasta1_figuras/dropout.png>
@@ -2081,7 +2086,7 @@ Package pdftex.def Info: pasta1_figuras/dropout.png used on input line 213.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 219.
 
-<pasta1_figuras/campo_receptivo.png, id=415, 504.88625pt x 359.3425pt>
+<pasta1_figuras/campo_receptivo.png, id=425, 504.88625pt x 359.3425pt>
 File: pasta1_figuras/campo_receptivo.png Graphic file (type png)
 
 <use pasta1_figuras/campo_receptivo.png>
@@ -2102,7 +2107,7 @@ Package babel Info: Redefining portuges shorthand "|
 [13 <./pasta1_figuras/dropout.png> <./pasta1_figuras/campo_receptivo.png (PNG c
 opy)>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 245.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2111,14 +2116,41 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 247.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 250.
-[14]
+(babel)             in language  on input line 247.
+[14] <pasta1_figuras/depth_cnn.png, id=439, 472.76625pt x 311.1625pt>
+File: pasta1_figuras/depth_cnn.png Graphic file (type png)
+
+<use pasta1_figuras/depth_cnn.png>
+Package pdftex.def Info: pasta1_figuras/depth_cnn.png used on input line 256.
+(pdftex.def)             Requested size: 189.10315pt x 124.46278pt.
+
+
+Package natbib Warning: Author undefined for citation`depth' 
+(natbib)                on page 15 on input line 257.
+
+
+Package natbib Warning: Author undefined for citation`depth' 
+(natbib)                on page 15 on input line 257.
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 263.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 265.
+(babel)             in language  on input line 271.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 271.
+[15 <./pasta1_figuras/depth_cnn.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 274.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 284.
 )
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2130,7 +2162,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 165.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 165.
-[15]
+[16]
 \openout2 = `parte2_textuais/cap3_sistema_proposto.aux'.
 
  (./parte2_textuais/cap3_sistema_proposto.tex
@@ -2144,7 +2176,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 166.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 166.
- [16
+ [17
 
 
 
@@ -2166,7 +2198,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 167.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 167.
- [17
+ [18
 
 
 
@@ -2182,7 +2214,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 168.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 168.
- [18
+ [19
 
 
 
@@ -2207,15 +2239,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--14
 nctions-neural-networks-
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--36
+[]\OT1/cmr/m/n/12 APHEX34. In-put vo-lume con-nec-ted to a con-vo-lu-ti-o-nal l
+ayer.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--36
+\OT1/cmr/m/n/12 2015. [On-line; aces-sado em 08 de Ja-neiro, 2019]. Dis-pon^^S^
+^Pvel em:
+ []
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 70.
-[19
+(babel)             in language  on input line 71.
+[20
 
 
 ]
-Underfull \hbox (badness 1769) in paragraph at lines 92--96
+Underfull \hbox (badness 1769) in paragraph at lines 101--105
 \OT1/cmr/m/n/12 in op-ti-mi-zing re-cur-rent networks. \OT1/cmr/m/it/12 CoRR\OT
 1/cmr/m/n/12 , abs/1212.0901, 2012. Dis-pon^^S^^Pvel em:
  []
@@ -2231,7 +2275,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 184.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 184.
-[20]
+[21]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (./main_tcc.aux (./parte1_pre-textuais/item01_capa.aux)
@@ -2256,7 +2300,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `main_tcc.out' has not changed.
-(rerunfilecheck)             Checksum: 4DCBC6D402EC2FA4154B6D0225B915EE;2524.
+(rerunfilecheck)             Checksum: 0F416A11E6DCB168A21F47919DC42564;2604.
 
 
 LaTeX Warning: There were undefined references.
@@ -2264,10 +2308,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 23212 strings out of 493029
- 412821 string characters out of 6136233
- 502767 words of memory out of 5000000
- 26036 multiletter control sequences out of 15000+600000
+ 23226 strings out of 493029
+ 413083 string characters out of 6136233
+ 502911 words of memory out of 5000000
+ 26045 multiletter control sequences out of 15000+600000
  14795 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,56p,1071b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2286,10 +2330,10 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main_tcc.pdf (35 pages, 595341 bytes).
+Output written on main_tcc.pdf (36 pages, 647439 bytes).
 PDF statistics:
- 533 PDF objects out of 1000 (max. 8388607)
- 453 compressed objects within 5 object streams
- 109 named destinations out of 1000 (max. 500000)
- 370 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 551 PDF objects out of 1000 (max. 8388607)
+ 468 compressed objects within 5 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 383 words of extra memory for PDF output out of 10000 (max. 10000000)
 

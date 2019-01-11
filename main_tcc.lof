@@ -9,6 +9,7 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Softmax vs ReLU. Imagem tirada do site \textit {Towards Data Science} \cite {towardsdatascience}\relax }}{11}{figure.caption.18}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Imagem ilustrando o efeito do Dropout em uma rede neural onde os neur\IeC {\^o}nios marcados foram desativados, for\IeC {\c c}ando a rede nao depender deles, evitando o \textit {overfitting} \cite {dropout2014}.\relax }}{13}{figure.caption.19}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Campo receptivo de um neur\IeC {\^o}nio. Fonte: \cite {camporeceptivo}\relax }}{13}{figure.caption.20}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Disposi\IeC {\c c}\IeC {\~a}o dos neur\IeC {\^o}nios na camada de convolu\IeC {\c c}\IeC {\~a}o e seu campo receptivo. Fonte: \citeauthor {depth} \relax }}{15}{figure.caption.21}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

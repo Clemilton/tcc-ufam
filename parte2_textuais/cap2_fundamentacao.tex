@@ -219,7 +219,7 @@ A introdução da função de regularização ajuda a combater o overfitting e j
 \subsection{Redes Convolutivas}
 
 As redes convolutivas  foram desenvolvidas tomando como inspiração o cortéx visual de animais, que contém  agrupamentos de células que detectam luz em pequena escala que são chamadas de campo receptivos. O campo receptivo de um único neurônio sensorial é a região específica da retina em que a presença de um estímulo causa a ativação dele.Os neurônios sensoriais que tem campos receptivos semelhantes se sobrepõe.
-Na figura \ref{fig-campo} é mostrada uma representação de um neurônio e o seu campo receptivo.
+Na figura \ref{fig-campo} é mostrada uma representação de um neurônio e o seu campo receptivo. 
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.4]{pasta1_figuras/campo_receptivo.png}
@@ -228,18 +228,38 @@ Na figura \ref{fig-campo} é mostrada uma representação de um neurônio e o se
 	\label{fig-campo}
 \end{figure}
 
-Tais células atuam como filtros locais sobre o espaço de entrada e quanto mais complexa a célula, maior o seu campo receptivo. As redes convolutivas segue esse mesmo princípio de campos receptivos, o que ajuda a diminuir o custo computacional de treinamento.
+Tais células atuam como filtros locais sobre o espaço de entrada e quanto mais complexa a célula, maior o seu campo receptivo. As redes convolutivas segue esse mesmo princípio de campos receptivos, o que ajuda a diminuir o custo computacional de treinamento. Esse tipo de rede recebe esse nome devido a sua camada mais predominante, a camada de convolução.
 
 Em \cite{haykin2009neural} Haykin divide a estrutura das redes convolutivas em três objetivos principais:
 
 \begin{itemize}
 	\item Extração de características: Cada neurônio recebe sinais de entrada de uma determinada janela da camada anterior, possibilitando a extração de características locais. Isto faz com que a posição exata de cada característica (ou pixel, no caso de uma imagem), seja irrelevante, desde que sua posição em relação às características vizinhas seja mantida.
-	\item As camadas são compostas por diversos mapas de características (\textit{feature maps}) que são regiões onde os neurônios compartilham os mesmos pesos. Esses pesos são chamados de filtros ou kernels, e dão robustez ao modelo, fazendo com que ele seja capaz de lidar com variações de distorção, rotação e translação na imagem. O compartilhamento dos pesos também possibilita uma redução drástica no número de parâmetros a serem otimizados.
+	\item Mapa de características: As camadas são compostas por diversos mapas de características (\textit{feature maps}) que são regiões onde os neurônios compartilham os mesmos pesos. Esses pesos são chamados de filtros ou kernels, e dão robustez ao modelo, fazendo com que ele seja capaz de lidar com variações de distorção, rotação e translação na imagem. O compartilhamento dos pesos também possibilita uma redução drástica no número de parâmetros a serem otimizados.
 	\item Subamostragem: Após cada camada de convolução é aplicada uma camada de subamostragem(\textit{subsampling}), que é uma coleta de amostras de cada mapa de característica. Essas amostragens podem ser realizadas através da média, maior ou menor valor das amostras. O que produz uma sumarização do mapa de características
 \end{itemize}
-Os kernels são parâmetros ajustáveis do modelo, eles devem aprender a modelar relações entre pixels vizinhos, independente da posição em que esses pixels se encontram na imagem. Essa extração funciona usando uma convolução, similar aos primeiros extratores de características feitos manualmente em visão computacional.  A convolução o ocorre durante a fase \textit{foward}, onde cada um desses kernels são convoluídos com a entrada. 
 
+A principal aplicação das CNNs é para processamento de informações visuais em particular imagens, pois a convolução permite filtrar as imagens considerando a sua informação visual. Diferente da MLP que vetoriza as imagens a CNN leva em consideração a estrutura espacial entre os pixels vizinhos em uma determinada imagem através da operação de convolução.
 
+A seguir é apresentado os tipos de camadas que geralmente são usadas para redes convolutivas
+
+\subsection{Camada de Convolução}
+É na camada de convolução que cada característica específica em alguma posição espacial da entrada é detectada. Os parâmetros dessa camada são distribuídos entre os filtros que tem a mesma ideia dos campos receptivos comentados anteriormente. Os filtros são parâmetros ajustáveis do modelo que devem aprender uma característica específica.  A convolução o ocorre durante a fase \textit{foward}, onde cada um desses filtros são convoluídos com a entrada. Em aprendizagem de máquina os dados são discretos o que acaba simplificando a operação de convolução. O cálculo se torna em um produto entre os elementos de entrada sobrepostos pelos filtros deslocados em toda entrada. 
+
+Alguns hiperparâmetros são importantes na configuração de tal camada:
+
+\begin{itemize}
+	\item Tamanho do campo receptivo(\textit{kernel size}): Para o caso de imagens é o tamanho bidimensional do campo receptivo que será convoluído com a entrada, e pode ter valores como 3x3, 5x5, 16x16. É o mesmo para todos os neurônios da camada. Para o caso em 1-D esse hiperparâmetro  é apenas um inteiro.
+	\item Profundidade: É o número de kernels que serão estimulados pela mesma parte do campo receptivo. Cada um desses kernels é responsável por detectar uma característica por toda entrada, constituindo então um conjunto de mapas de características. A Figura \ref{fig-depth} ilustra uma camada de convolução com profundidade cinco
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.4]{pasta1_figuras/depth_cnn.png}
+		\caption{Disposição dos neurônios na camada de convolução e seu campo receptivo. Fonte: \citeauthor{depth} }
+		
+		\label{fig-depth}
+	\end{figure}
+		
+\end{itemize}
 \section{Séries Temporais}
 
 Série temporal é uma sequência de observações de um fenômeno ao longo do tempo. Geralmente essas medições são feitas em um intervalo de tempo regular. A ordem das amostras é crucial, pois há um dependência entre os dados e uma alteração da ordem pode modificar o significado dos dados. Uma série temporal pode ser definida como:

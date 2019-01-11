@@ -41,45 +41,45 @@ Warning--campo year vazio ou faltando em haykin2009
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 18 entries,
+You've used 19 entries,
             6714 wiz_defined-function locations,
-            1327 strings with 12872 characters,
-and the built_in function-call counts, 13864 in all, are:
-= -- 1177
-> -- 479
+            1332 strings with 13015 characters,
+and the built_in function-call counts, 14354 in all, are:
+= -- 1207
+> -- 491
 < -- 22
-+ -- 226
-- -- 142
-* -- 983
-:= -- 1862
-add.period$ -- 72
-call.type$ -- 18
-change.case$ -- 197
-chr.to.int$ -- 51
-cite$ -- 19
-duplicate$ -- 703
-empty$ -- 969
-format.name$ -- 725
-if$ -- 3279
++ -- 230
+- -- 146
+* -- 1011
+:= -- 1937
+add.period$ -- 77
+call.type$ -- 19
+change.case$ -- 206
+chr.to.int$ -- 52
+cite$ -- 20
+duplicate$ -- 739
+empty$ -- 1003
+format.name$ -- 745
+if$ -- 3383
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 330
-newline$ -- 103
-num.names$ -- 72
-pop$ -- 497
+missing$ -- 347
+newline$ -- 111
+num.names$ -- 76
+pop$ -- 520
 preamble$ -- 1
-purify$ -- 72
+purify$ -- 75
 quote$ -- 0
-skip$ -- 729
+skip$ -- 755
 stack$ -- 1
-substring$ -- 466
-swap$ -- 307
+substring$ -- 487
+swap$ -- 313
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 98
+while$ -- 103
 width$ -- 0
-write$ -- 252
+write$ -- 265
 (There was 1 warning)
