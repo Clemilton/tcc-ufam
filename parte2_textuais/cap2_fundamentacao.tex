@@ -245,21 +245,42 @@ A seguir é apresentado os tipos de camadas que geralmente são usadas para rede
 \subsection{Camada de Convolução}
 É na camada de convolução que cada característica específica em alguma posição espacial da entrada é detectada. Os parâmetros dessa camada são distribuídos entre os filtros que tem a mesma ideia dos campos receptivos comentados anteriormente. Os filtros são parâmetros ajustáveis do modelo que devem aprender uma característica específica.  A convolução o ocorre durante a fase \textit{foward}, onde cada um desses filtros são convoluídos com a entrada. Em aprendizagem de máquina os dados são discretos o que acaba simplificando a operação de convolução. O cálculo se torna em um produto entre os elementos de entrada sobrepostos pelos filtros deslocados em toda entrada. 
 
-Alguns hiperparâmetros são importantes na configuração de tal camada:
+Alguns hiperparâmetros são importantes na configuração de tal camada\cite{guedes2017}:
 
 \begin{itemize}
 	\item Tamanho do campo receptivo(\textit{kernel size}): Para o caso de imagens é o tamanho bidimensional do campo receptivo que será convoluído com a entrada, e pode ter valores como 3x3, 5x5, 16x16. É o mesmo para todos os neurônios da camada. Para o caso em 1-D esse hiperparâmetro  é apenas um inteiro.
-	\item Profundidade: É o número de kernels que serão estimulados pela mesma parte do campo receptivo. Cada um desses kernels é responsável por detectar uma característica por toda entrada, constituindo então um conjunto de mapas de características. A Figura \ref{fig-depth} ilustra uma camada de convolução com profundidade cinco
+	\item Profundidade: É o número de kernels que serão estimulados pela mesma parte do campo receptivo. Cada um desses kernels é responsável por detectar uma característica por toda entrada, constituindo então um conjunto de mapas de características. A Figura \ref{fig-depth} ilustra uma camada de convolução com profundidade cinco.
 	
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.4]{pasta1_figuras/depth_cnn.png}
-		\caption{Disposição dos neurônios na camada de convolução e seu campo receptivo. Fonte: \citeauthor{depth} }
+		\caption{Disposição dos neurônios na camada de convolução e seu campo receptivo. Fonte: \cite{depth}}
 		
 		\label{fig-depth}
 	\end{figure}
-		
+	
+	\item Stride: É o parâmetro que determina o espaçamento da sobreposição dos campos receptivos. A Figura \ref{fig-stride} mostra que valores diferentes de stride podem alterar o campo receptivo de tais neurônios e o número total dos neurônios de cada fatia da profundidade. Esse parâmetro é decisivo na capacidade de identificar os padrões visuais da entrada, sendo responsável por definir quão refinada será a identificação do padrão mesmo que trasladado, onde o aumento desse refinamento é inversamente proporcional ao desempenho da camada, por conta do maior número de neurônios da mesma.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.4]{pasta1_figuras/stride.jpeg}
+		\caption {Neurônios espaçados por stride 1 e 2 das esquerda para a direita respectivamente. Separados à direita estão os pesos compartilhados entre todos os neurônios. Fonte: \cite{githubstride}}
+		\label{fig-stride}
+	\end{figure}
+	
+	\item Zero-padding: Determina qual tamanho do preenchimento com zeros que será adicionado às bordas da entrada. Isso muitas vezes é utilizado para adequar o tamanho da entrada ao stride escolhido, como pode ser visto na Figura \ref{fig-stride} onde o tamanho da entrada (representada unidimensionalmente) é cinco e o zero-padding é um.
 \end{itemize}
+
+\subsection{Camada Pooling}
+Segundo LeCunn \cite{lecunn2010}, a camada pooling trata cada característica mapeada separadamente, em cada arranjo espacial do mapa de característica chamadas de \textit{pooling} máximo e médio. A figura \ref{fig-pooling} retrata o funcionamento de cada pooling. A entrada é de uma imagem 4x4 e subamostras do pooling de dimensão [2x2]. No caso do pooling médio o valor médio em relação aos quadros em destaque da imagem [4x4] formam cada valor pertinente ao pooling médio, já no pooling máximo, dos quatro valores em destaque, o maior valor representará o valor máximo. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{pasta1_figuras/pooling.jpg}
+	\caption {Representação de max-pooling e average-pooling Fonte: \cite{githubstride}}
+	\label{fig-pooling}
+\end{figure}
+
 \section{Séries Temporais}
 
 Série temporal é uma sequência de observações de um fenômeno ao longo do tempo. Geralmente essas medições são feitas em um intervalo de tempo regular. A ordem das amostras é crucial, pois há um dependência entre os dados e uma alteração da ordem pode modificar o significado dos dados. Uma série temporal pode ser definida como:

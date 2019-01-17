@@ -27,12 +27,19 @@ Dispon{\'\i}vel em: $<$http://jmlr.org/papers/v15/srivastava14a.html$>$.}
 Dispon{\'\i}vel em: $<$http://neuroclusterbrain.com$>$.}
 
 \bibitem{depth}
-\abntrefinfo{{APHEX34}}{{APHEX34}}{2015}
-{{APHEX34}. Input volume connected to a convolutional layer.
+\abntrefinfo{APHEX34}{APHEX34}{2015}
+{APHEX34. Input volume connected to a convolutional layer.
 2015.
 [Online; acessado em 08 de Janeiro, 2019].
 Dispon{\'\i}vel em:
   $<$https://commons.wikimedia.org/wiki/File:Conv\underline{\hspace{.1in}}layer.png$>$.}
+
+\bibitem{githubstride}
+\abntrefinfo{KARPATHY}{KARPATHY}{2015}
+{KARPATHY, A. \emph{Illustration of spatial arrangement}. 2015.
+[Online; acessado em 17 de Janeiro, 2019].
+Dispon{\'\i}vel em:
+  $<$https://github.com/cs231n/cs231n.github.io/blob/master/assets/cnn/stride.jpeg$>$.}
 
 \bibitem{monard2003}
 \abntrefinfo{Monard e Baranauskas}{MONARD; BARANAUSKAS}{2003}
@@ -125,5 +132,18 @@ Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1412.6980$>$.}
 \abntrefinfo{Haykin}{HAYKIN}{2009}
 {HAYKIN, S.~S. \emph{Neural networks and learning machines}. Third. Upper
   Saddle River, NJ: Pearson Education, 2009.}
+
+\bibitem{guedes2017}
+\abntrefinfo{Guedes}{GUEDES}{2017}
+{GUEDES, A.~B.
+\emph{Reconhecimento de Gestos usando Redes Convolucionadas}.
+ 49~p. --- UnB - Universidade de Brasília, Brasília, 2017.}
+
+\bibitem{lecunn2010}
+\abntrefinfo{LeCun, Kavukcuoglu e Farabet}{LECUN; KAVUKCUOGLU; FARABET}{2010}
+{LECUN, Y.; KAVUKCUOGLU, K.; FARABET, C. Convolutional networks and
+  applications in vision. In:  \emph{ISCAS}. IEEE, 2010. p. 253--256.
+ISBN 978-1-4244-5309-2. Dispon{\'\i}vel em:
+  $<$http://dblp.uni-trier.de/db/conf/iscas/iscas2010.html$>$.}
 
 \end{thebibliography}
