@@ -11,7 +11,9 @@
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Campo receptivo de um neur\IeC {\^o}nio. Fonte: \cite {camporeceptivo}\relax }}{13}{figure.caption.20}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Disposi\IeC {\c c}\IeC {\~a}o dos neur\IeC {\^o}nios na camada de convolu\IeC {\c c}\IeC {\~a}o e seu campo receptivo. Fonte: \cite {depth}\relax }}{15}{figure.caption.21}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Neur\IeC {\^o}nios espa\IeC {\c c}ados por stride 1 e 2 das esquerda para a direita respectivamente. Separados \IeC {\`a} direita est\IeC {\~a}o os pesos compartilhados entre todos os neur\IeC {\^o}nios. Fonte: \cite {githubstride}\relax }}{16}{figure.caption.22}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Fonte: \cite {githubstride}\relax }}{16}{figure.caption.23}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o de max-pooling e average-pooling \cite {githubstride}\relax }}{16}{figure.caption.23}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Arquitetura LeNet-5. \cite {lecun98}\relax }}{17}{figure.caption.24}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Bloco Residual. Fonte: \cite {resnet2015}\relax }}{18}{figure.caption.25}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -31,9 +31,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: referencias.bib
-A bad cross reference---entry "lecunn2010"
-refers to entry "conf/iscas/2010", which doesn't exist
-Warning--I didn't find a database entry for "conf/iscas/2010"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -46,45 +43,45 @@ while executing---line 2146 of file abntex2-num.bst
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 22 entries,
+You've used 23 entries,
             6714 wiz_defined-function locations,
-            1353 strings with 13527 characters,
-and the built_in function-call counts, 16561 in all, are:
-= -- 1397
-> -- 556
-< -- 23
-+ -- 254
-- -- 166
-* -- 1165
-:= -- 2225
-add.period$ -- 93
-call.type$ -- 22
-change.case$ -- 234
-chr.to.int$ -- 55
-cite$ -- 23
-duplicate$ -- 847
-empty$ -- 1187
-format.name$ -- 846
-if$ -- 3927
+            1353 strings with 13623 characters,
+and the built_in function-call counts, 17260 in all, are:
+= -- 1443
+> -- 584
+< -- 24
++ -- 266
+- -- 174
+* -- 1217
+:= -- 2327
+add.period$ -- 95
+call.type$ -- 23
+change.case$ -- 247
+chr.to.int$ -- 59
+cite$ -- 24
+duplicate$ -- 878
+empty$ -- 1228
+format.name$ -- 895
+if$ -- 4085
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 399
-newline$ -- 128
-num.names$ -- 88
-pop$ -- 583
+missing$ -- 415
+newline$ -- 133
+num.names$ -- 92
+pop$ -- 604
 preamble$ -- 1
-purify$ -- 86
+purify$ -- 91
 quote$ -- 0
-skip$ -- 869
+skip$ -- 912
 stack$ -- 1
-substring$ -- 571
-swap$ -- 367
+substring$ -- 601
+swap$ -- 375
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 6
 warning$ -- 1
-while$ -- 120
+while$ -- 126
 width$ -- 0
-write$ -- 309
-(There were 2 error messages)
+write$ -- 321
+(There was 1 error message)

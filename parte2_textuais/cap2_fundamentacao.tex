@@ -41,7 +41,7 @@ De maneira geral, a base de dados é dividida em dois conjuntos: conjunto de \te
 
 Em alguns casos, pode ser necessário utilizar um conjunto de \textit{validação}, extraído do conjunto de treinamento, para realizar ajustes no modelo construído pelo algoritmo de aprendizado. Logo tem-se três conjuntos: \textit{treino}, \textit{validação} e \textit{teste}. O treino é utilizado para aprendizagem do algoritmo. O modelo é avaliado através do conjunto de validação. É feita uma alteração dos parâmetros do classificador e outro treinamento é realizado. O intuito é melhorar o desempenho do modelo através desses "ajustes". Dessa maneira os exemplos de validação são indiretamente "vistos" durante o processo de aprendizado, o que obriga que esses exemplos sejam diferentes dos exemplos de testes.
 
-\subsection{Normalização e One-Hot Enconding}
+\subsection{Normalização e One-Hot Enconding} \label{ssec:norm}
 Os algoritmos de aprendizagem de máquina aprendem através dos dados. Dados do mundo real apresentam valores que estão em distintas faixas. A fim de evitar que algum atributo predomine sobre outro ou que inclua alguma ponderação indesejada ao induzir um modelo de AM, é comum fazer uma normalização dos valores de cada atributo. Um forma de normalizar os dados é mostrada na Equação \ref{eq-norm}:
 
 \begin{equation}\label{eq-norm}
@@ -161,7 +161,7 @@ L = - \sum_{i}^{} y_i log(z_i)
 Para problemas de classificação a entropria cruzada é mais adequada.
 
 
-\subsection{Otimizadores}
+\subsection{Otimizadores} \label{ssec:otimizadores}
 A finalidade dos otimizadores é minimizar o valor da função de perda alterando nos pesos da redes. Existem atualmente diversos métodos para alcançar esse fim, esses métodos utilizam de alguns hiperparâmetros para calibrar a forma com que os pesos devem ser atualizados. Dentre os mais utilizados se destacam:
 \begin{itemize}
 	\item \textbf{ Stochastic Gradient Descent (SGD) com Nesterov Momentum} é um método onde, em uma alusão à mecânica clássica, a velocidade de descida do resultado da função de perda na superfície multidimensional determinada pelo gradiente é calculada e usada para escalar o tamanho do passo que será dado em direção ao ponto mínimo. Utilizando essa velocidade e o valor do gradiente na posição atual é possível prever a próxima posição dessa partícula virtual onde então é calculado o gradiente da nova posição. Os parâmetros são então atualizados baseados nesse segundo gradiente e em um hiperparâmetro denominado taxa de aprendizado (learning rate). \cite{bengio2012}
@@ -242,7 +242,7 @@ A principal aplicação das CNNs é para processamento de informações visuais 
 
 A seguir é apresentado os tipos de camadas que geralmente são usadas para redes convolutivas
 
-\subsection{Camada de Convolução}
+\subsubsection{Camada de Convolução}
 É na camada de convolução que cada característica específica em alguma posição espacial da entrada é detectada. Os parâmetros dessa camada são distribuídos entre os filtros que tem a mesma ideia dos campos receptivos comentados anteriormente. Os filtros são parâmetros ajustáveis do modelo que devem aprender uma característica específica.  A convolução o ocorre durante a fase \textit{foward}, onde cada um desses filtros são convoluídos com a entrada. Em aprendizagem de máquina os dados são discretos o que acaba simplificando a operação de convolução. O cálculo se torna em um produto entre os elementos de entrada sobrepostos pelos filtros deslocados em toda entrada. 
 
 Alguns hiperparâmetros são importantes na configuração de tal camada\cite{guedes2017}:
@@ -271,14 +271,46 @@ Alguns hiperparâmetros são importantes na configuração de tal camada\cite{gu
 	\item Zero-padding: Determina qual tamanho do preenchimento com zeros que será adicionado às bordas da entrada. Isso muitas vezes é utilizado para adequar o tamanho da entrada ao stride escolhido, como pode ser visto na Figura \ref{fig-stride} onde o tamanho da entrada (representada unidimensionalmente) é cinco e o zero-padding é um.
 \end{itemize}
 
-\subsection{Camada Pooling}
-Segundo LeCunn \cite{lecunn2010}, a camada pooling trata cada característica mapeada separadamente, em cada arranjo espacial do mapa de característica chamadas de \textit{pooling} máximo e médio. A figura \ref{fig-pooling} retrata o funcionamento de cada pooling. A entrada é de uma imagem 4x4 e subamostras do pooling de dimensão [2x2]. No caso do pooling médio o valor médio em relação aos quadros em destaque da imagem [4x4] formam cada valor pertinente ao pooling médio, já no pooling máximo, dos quatro valores em destaque, o maior valor representará o valor máximo. 
+\subsubsection{Camada Pooling}
 
+A camada de pooling faz uma subamostragem da entrada, onde cada valor de saída é encontrado pela a média ou valor máximo de uma janela definida. Na figura \ref{fig-pooling} é mostrado o funcionamento de cada pooling. A entrada é uma imagem 4x4 e a saída é obtida através de uma janela 2x2. O valor de saída é calculado conforme o tipo de pooling. Para o pooling médio é calculada médio da janela. Para o caso máximo é encontrado o maior valor da janela.
+
+Estas pequenas amostras de acordo com \cite{Goodfellow2016}, melhora o poder computacional da rede pois as camadas posteriores vão ficando cada vez menores o que resulta em uma diminuição do uso de memória. Outra vantagem do pooling é que ele ajuda na invariância a translação da entrada. 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{pasta1_figuras/pooling.jpg}
-	\caption {Representação de max-pooling e average-pooling Fonte: \cite{githubstride}}
+	\caption {Representação de max-pooling e average-pooling \cite{githubstride}}
 	\label{fig-pooling}
+\end{figure}
+
+\subsubsection{Normalização em lote}
+
+Conforme explicado na Seção \ref{ssec:norm} o conjunto de dados da entrada é normalizado para evitar problemas comparação devido a diferente escalas os dados. Ocorre que durante a passagem dos exemplos normalizados através das camadas da rede, esses valores são novamente transformados (por meio das funções de ativações), podendo fazer com que os dados de entrada de algumas camadas ocultas fiquem desnormalizados novamente. Esse problema é conhecido como \textit{internal covariate shift} e apresenta maior gravidade quanto mais profunda for a rede a ser treinada. Esse problema aumenta o tempo de treinamento porque implica na definição de uma taxa de aprendizagem pequena, além de propiciar a dissipação dos gradientes.
+
+A normalização em lote (do inglês batch normalization) é um mecanismo proposto recentemente para resolver o problema acima, e que consiste em normalizar os dados fornecidos a cada camada oculta. A normalização é aplicada em cada mini-lote, para
+aumentar a eficiência durante a aplicação da transformação. Esse método tem um efeito regularizador, tendo substituído o uso de regularização L1 e L2 e em alguns casos tornando desnecessário o uso de dropout.
+
+\subsubsection{Arquitetura de uma Rede Convolutiva}
+
+Após todo o processo de convolução realizado nas camadas anteriores, em muitas estruturas de CNNs é usado antes de sua saída, pelo menos uma camadas completamente preenchida com as ativações anteriores, como mostrado na Figura \ref{fig-alexnet}, nomeada de "Fully Connected". Nesta imagem é mostrada uma arquitetura de rede convolutiva para reconhecimento de dígitos de 0 a 9.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{pasta1_figuras/alexnet.png}
+	\caption {Arquitetura LeNet-5. \cite{lecun98}}
+	\label{fig-alexnet}
+\end{figure}
+
+As redes convolutivas são treinadas utilizando \textit{backpropagation} através de um método de otimização conforme explicado na Seção \ref{ssec:otimizadores}. É necessaŕio definir os hiperparâmetros como número de filtros, tamanho do kernel, função de ativação, número de camadas entre outros. Isso pode ser feito através de métodos de validação cruzada como \textit{10-fold} ou \textit{leave-one-out}.
+
+\subsection{Redes Residuais}
+As Redes Residuais Também conhecidas como ResNets \cite{resnet2015}, essas redes se diferenciam das CNNs convencionais pois incorporam uma técnica para evitar a degradação de dados nas camadas mais profundas da rede e o desaparecimento do gradiente durante o Backpropagation. Uma ResNet possui camadas residuais que são compostas, cada uma, de duas camadas convolutivas e duas funções de ativação ReLU, conforme demonstra a Figura \ref{fig-resblock}. A camada residual difere das  demais camadas convolutivas pois sua saída é a soma da saída da segunda camada convolutiva com a entrada da camada residual. Essa estrutura possibilita que camadas mais profundas recebam diretamente dados das camadas mais superficiais, sem a necessidade de passar por camadas convolutivas intermediárias.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{pasta1_figuras/resblock.png}
+	\caption {Bloco Residual. Fonte: \cite{resnet2015}}
+	\label{fig-resblock}
 \end{figure}
 
 \section{Séries Temporais}

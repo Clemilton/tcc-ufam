@@ -24,16 +24,19 @@
 \contentsline {subsubsection}{\numberline {2.2.6.6}N\IeC {\'u}mero de \IeC {\'e}pocas}{12}{subsubsection.2.2.6.6}
 \contentsline {subsection}{\numberline {2.2.7}Regulariza\IeC {\c c}\IeC {\~a}o}{12}{subsection.2.2.7}
 \contentsline {subsection}{\numberline {2.2.8}Redes Convolutivas}{13}{subsection.2.2.8}
-\contentsline {subsection}{\numberline {2.2.9}Camada de Convolu\IeC {\c c}\IeC {\~a}o}{14}{subsection.2.2.9}
-\contentsline {subsection}{\numberline {2.2.10}Camada Pooling}{16}{subsection.2.2.10}
-\contentsline {section}{\numberline {2.3}S\IeC {\'e}ries Temporais}{16}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Aplica\IeC {\c c}\IeC {\~o}es de S\IeC {\'e}ries Temporais}{17}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}Classifica\IeC {\c c}\IeC {\~a}o de S\IeC {\'e}ries Temporais}{17}{section.2.4}
-\contentsline {chapter}{\numberline {3}Sistema Proposto}{18}{chapter.3}
-\contentsline {section}{\numberline {3.1}Vis\IeC {\~a}o geral}{18}{section.3.1}
-\contentsline {chapter}{\numberline {4}Experimentos}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}M\IeC {\'e}tricas}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}Objetivos}{19}{section.4.2}
-\contentsline {section}{\numberline {4.3}Resultados Obtidos}{19}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{20}{chapter.5}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{21}{chapter*.24}
+\contentsline {subsubsection}{\numberline {2.2.8.1}Camada de Convolu\IeC {\c c}\IeC {\~a}o}{14}{subsubsection.2.2.8.1}
+\contentsline {subsubsection}{\numberline {2.2.8.2}Camada Pooling}{16}{subsubsection.2.2.8.2}
+\contentsline {subsubsection}{\numberline {2.2.8.3}Normaliza\IeC {\c c}\IeC {\~a}o em lote}{17}{subsubsection.2.2.8.3}
+\contentsline {subsubsection}{\numberline {2.2.8.4}Arquitetura de uma Rede Convolutiva}{17}{subsubsection.2.2.8.4}
+\contentsline {subsection}{\numberline {2.2.9}Redes Residuais}{18}{subsection.2.2.9}
+\contentsline {section}{\numberline {2.3}S\IeC {\'e}ries Temporais}{18}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Aplica\IeC {\c c}\IeC {\~o}es de S\IeC {\'e}ries Temporais}{19}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Classifica\IeC {\c c}\IeC {\~a}o de S\IeC {\'e}ries Temporais}{19}{section.2.4}
+\contentsline {chapter}{\numberline {3}Sistema Proposto}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}Vis\IeC {\~a}o geral}{20}{section.3.1}
+\contentsline {chapter}{\numberline {4}Experimentos}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}M\IeC {\'e}tricas}{21}{section.4.1}
+\contentsline {section}{\numberline {4.2}Objetivos}{21}{section.4.2}
+\contentsline {section}{\numberline {4.3}Resultados Obtidos}{21}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{22}{chapter.5}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{23}{chapter*.26}

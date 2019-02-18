@@ -21,16 +21,19 @@
 \BOOKMARK [3][-]{subsubsection.2.2.6.6}{N\372mero de \351pocas}{subsection.2.2.6}% 21
 \BOOKMARK [2][-]{subsection.2.2.7}{Regulariza\347\343o}{section.2.2}% 22
 \BOOKMARK [2][-]{subsection.2.2.8}{Redes Convolutivas}{section.2.2}% 23
-\BOOKMARK [2][-]{subsection.2.2.9}{Camada de Convolu\347\343o}{section.2.2}% 24
-\BOOKMARK [2][-]{subsection.2.2.10}{Camada Pooling}{section.2.2}% 25
-\BOOKMARK [1][-]{section.2.3}{S\351ries Temporais}{chapter.2}% 26
-\BOOKMARK [2][-]{subsection.2.3.1}{Aplica\347\365es de S\351ries Temporais}{section.2.3}% 27
-\BOOKMARK [1][-]{section.2.4}{Classifica\347\343o de S\351ries Temporais}{chapter.2}% 28
-\BOOKMARK [0][-]{chapter.3}{Sistema Proposto}{}% 29
-\BOOKMARK [1][-]{section.3.1}{Vis\343o geral}{chapter.3}% 30
-\BOOKMARK [0][-]{chapter.4}{Experimentos}{}% 31
-\BOOKMARK [1][-]{section.4.1}{M\351tricas}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.2}{Objetivos}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.3}{Resultados Obtidos}{chapter.4}% 34
-\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 35
-\BOOKMARK [0][-]{chapter*.24}{Refer\352ncias Bibliogr\341ficas}{}% 36
+\BOOKMARK [3][-]{subsubsection.2.2.8.1}{Camada de Convolu\347\343o}{subsection.2.2.8}% 24
+\BOOKMARK [3][-]{subsubsection.2.2.8.2}{Camada Pooling}{subsection.2.2.8}% 25
+\BOOKMARK [3][-]{subsubsection.2.2.8.3}{Normaliza\347\343o em lote}{subsection.2.2.8}% 26
+\BOOKMARK [3][-]{subsubsection.2.2.8.4}{Arquitetura de uma Rede Convolutiva}{subsection.2.2.8}% 27
+\BOOKMARK [2][-]{subsection.2.2.9}{Redes Residuais}{section.2.2}% 28
+\BOOKMARK [1][-]{section.2.3}{S\351ries Temporais}{chapter.2}% 29
+\BOOKMARK [2][-]{subsection.2.3.1}{Aplica\347\365es de S\351ries Temporais}{section.2.3}% 30
+\BOOKMARK [1][-]{section.2.4}{Classifica\347\343o de S\351ries Temporais}{chapter.2}% 31
+\BOOKMARK [0][-]{chapter.3}{Sistema Proposto}{}% 32
+\BOOKMARK [1][-]{section.3.1}{Vis\343o geral}{chapter.3}% 33
+\BOOKMARK [0][-]{chapter.4}{Experimentos}{}% 34
+\BOOKMARK [1][-]{section.4.1}{M\351tricas}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.2}{Objetivos}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.3}{Resultados Obtidos}{chapter.4}% 37
+\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 38
+\BOOKMARK [0][-]{chapter*.26}{Refer\352ncias Bibliogr\341ficas}{}% 39

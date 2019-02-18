@@ -12,6 +12,7 @@
 \newlabel{table-dataset}{{2.1}{3}{Representação da base de dados\relax }{table.caption.12}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Aprendizado Supervisionado}{3}{subsection.2.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Normaliza\IeC {\c c}\IeC {\~a}o e One-Hot Enconding}{4}{subsection.2.1.2}}
+\newlabel{ssec:norm}{{2.1.2}{4}{Normalização e One-Hot Enconding}{subsection.2.1.2}{}}
 \newlabel{eq-norm}{{2.1}{4}{Normalização e One-Hot Enconding}{equation.2.1.1}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Codifica\IeC {\c c}\IeC {\~a}o One-hot\relax }}{4}{figure.caption.13}}
 \newlabel{fig-onehot}{{2.1}{4}{Codificação One-hot\relax }{figure.caption.13}{}}
@@ -42,6 +43,7 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.4}Fun\IeC {\c c}\IeC {\~a}o de Perda(Loss Function)}{9}{subsection.2.2.4}}
 \newlabel{eq-eqm}{{2.6}{9}{Função de Perda(Loss Function)}{equation.2.2.6}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.5}Otimizadores}{9}{subsection.2.2.5}}
+\newlabel{ssec:otimizadores}{{2.2.5}{9}{Otimizadores}{subsection.2.2.5}{}}
 \citation{bengio2012}
 \citation{adagrad2011}
 \citation{adam2014}
@@ -69,7 +71,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces Campo receptivo de um neur\IeC {\^o}nio. Fonte: \cite  {camporeceptivo}\relax }}{13}{figure.caption.20}}
 \newlabel{fig-campo}{{2.8}{13}{Campo receptivo de um neurônio. Fonte: \cite {camporeceptivo}\relax }{figure.caption.20}{}}
 \citation{haykin2009neural}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.9}Camada de Convolu\IeC {\c c}\IeC {\~a}o}{14}{subsection.2.2.9}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.8.1}Camada de Convolu\IeC {\c c}\IeC {\~a}o}{14}{subsubsection.2.2.8.1}}
 \citation{guedes2017}
 \citation{depth}
 \citation{depth}
@@ -77,20 +79,32 @@
 \citation{githubstride}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces Disposi\IeC {\c c}\IeC {\~a}o dos neur\IeC {\^o}nios na camada de convolu\IeC {\c c}\IeC {\~a}o e seu campo receptivo. Fonte: \cite  {depth}\relax }}{15}{figure.caption.21}}
 \newlabel{fig-depth}{{2.9}{15}{Disposição dos neurônios na camada de convolução e seu campo receptivo. Fonte: \cite {depth}\relax }{figure.caption.21}{}}
-\citation{lecunn2010}
+\citation{Goodfellow2016}
 \citation{githubstride}
 \citation{githubstride}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.10}{\ignorespaces Neur\IeC {\^o}nios espa\IeC {\c c}ados por stride 1 e 2 das esquerda para a direita respectivamente. Separados \IeC {\`a} direita est\IeC {\~a}o os pesos compartilhados entre todos os neur\IeC {\^o}nios. Fonte: \cite  {githubstride}\relax }}{16}{figure.caption.22}}
 \newlabel{fig-stride}{{2.10}{16}{Neurônios espaçados por stride 1 e 2 das esquerda para a direita respectivamente. Separados à direita estão os pesos compartilhados entre todos os neurônios. Fonte: \cite {githubstride}\relax }{figure.caption.22}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.10}Camada Pooling}{16}{subsection.2.2.10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.11}{\ignorespaces  Fonte: \cite  {githubstride}\relax }}{16}{figure.caption.23}}
-\newlabel{fig-pooling}{{2.11}{16}{Fonte: \cite {githubstride}\relax }{figure.caption.23}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}S\IeC {\'e}ries Temporais}{16}{section.2.3}}
-\newlabel{eq_TS}{{2.8}{17}{Séries Temporais}{equation.2.3.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Aplica\IeC {\c c}\IeC {\~o}es de S\IeC {\'e}ries Temporais}{17}{subsection.2.3.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}Classifica\IeC {\c c}\IeC {\~a}o de S\IeC {\'e}ries Temporais}{17}{section.2.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.8.2}Camada Pooling}{16}{subsubsection.2.2.8.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.11}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o de max-pooling e average-pooling \cite  {githubstride}\relax }}{16}{figure.caption.23}}
+\newlabel{fig-pooling}{{2.11}{16}{Representação de max-pooling e average-pooling \cite {githubstride}\relax }{figure.caption.23}{}}
+\citation{lecun98}
+\citation{lecun98}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.8.3}Normaliza\IeC {\c c}\IeC {\~a}o em lote}{17}{subsubsection.2.2.8.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.8.4}Arquitetura de uma Rede Convolutiva}{17}{subsubsection.2.2.8.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.12}{\ignorespaces Arquitetura LeNet-5. \cite  {lecun98}\relax }}{17}{figure.caption.24}}
+\newlabel{fig-alexnet}{{2.12}{17}{Arquitetura LeNet-5. \cite {lecun98}\relax }{figure.caption.24}{}}
+\citation{resnet2015}
+\citation{resnet2015}
+\citation{resnet2015}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.9}Redes Residuais}{18}{subsection.2.2.9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.13}{\ignorespaces Bloco Residual. Fonte: \cite  {resnet2015}\relax }}{18}{figure.caption.25}}
+\newlabel{fig-resblock}{{2.13}{18}{Bloco Residual. Fonte: \cite {resnet2015}\relax }{figure.caption.25}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}S\IeC {\'e}ries Temporais}{18}{section.2.3}}
+\newlabel{eq_TS}{{2.8}{18}{Séries Temporais}{equation.2.3.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Aplica\IeC {\c c}\IeC {\~o}es de S\IeC {\'e}ries Temporais}{19}{subsection.2.3.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Classifica\IeC {\c c}\IeC {\~a}o de S\IeC {\'e}ries Temporais}{19}{section.2.4}}
 \@setckpt{parte2_textuais/cap2_fundamentacao}{
-\setcounter{page}{18}
+\setcounter{page}{20}
 \setcounter{equation}{8}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -105,7 +119,7 @@
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{11}
+\setcounter{figure}{13}
 \setcounter{table}{1}
 \setcounter{ContinuedFloat}{0}
 \setcounter{subfigure}{0}
@@ -120,7 +134,7 @@
 \setcounter{IEEEsubequation}{0}
 \setcounter{Item}{0}
 \setcounter{Hfootnote}{0}
-\setcounter{bookmark@seq@number}{28}
+\setcounter{bookmark@seq@number}{31}
 \setcounter{ALG@line}{0}
 \setcounter{ALG@rem}{0}
 \setcounter{ALG@nested}{0}

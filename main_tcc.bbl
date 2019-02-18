@@ -41,6 +41,17 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   $<$https://github.com/cs231n/cs231n.github.io/blob/master/assets/cnn/stride.jpeg$>$.}
 
+\bibitem{lecun98}
+\abntrefinfo{Lecun et al.}{LECUN et al.}{1998}
+{LECUN, Y. et al. Gradient-based learning applied to document recognition. In:
+  \emph{Proceedings of the IEEE}. [S.l.: s.n.], 1998. p. 2278--2324.}
+
+\bibitem{resnet2015}
+\abntrefinfo{He et al.}{HE et al.}{2015}
+{HE, K. et al. Deep residual learning for image recognition.
+\emph{CoRR}, abs/1512.03385, 2015.
+Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1512.03385$>$.}
+
 \bibitem{monard2003}
 \abntrefinfo{Monard e Baranauskas}{MONARD; BARANAUSKAS}{2003}
 {MONARD, M.; BARANAUSKAS, J. \emph{Conceitos sobre aprendizado de máquinas. Em
@@ -138,12 +149,5 @@ Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1412.6980$>$.}
 {GUEDES, A.~B.
 \emph{Reconhecimento de Gestos usando Redes Convolucionadas}.
  49~p. --- UnB - Universidade de Brasília, Brasília, 2017.}
-
-\bibitem{lecunn2010}
-\abntrefinfo{LeCun, Kavukcuoglu e Farabet}{LECUN; KAVUKCUOGLU; FARABET}{2010}
-{LECUN, Y.; KAVUKCUOGLU, K.; FARABET, C. Convolutional networks and
-  applications in vision. In:  \emph{ISCAS}. IEEE, 2010. p. 253--256.
-ISBN 978-1-4244-5309-2. Dispon{\'\i}vel em:
-  $<$http://dblp.uni-trier.de/db/conf/iscas/iscas2010.html$>$.}
 
 \end{thebibliography}
