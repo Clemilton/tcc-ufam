@@ -315,7 +315,9 @@ As Redes Residuais Também conhecidas como ResNets \cite{resnet2015}, essas rede
 
 \section{Séries Temporais}
 
-Série temporal é uma sequência de observações de um fenômeno ao longo do tempo. Geralmente essas medições são feitas em um intervalo de tempo regular. A ordem das amostras é crucial, pois há um dependência entre os dados e uma alteração da ordem pode modificar o significado dos dados. Uma série temporal pode ser definida como:
+Série temporal é uma sequência de observações de um fenômeno ao longo do tempo e que possui intervalos de tempos iguais para cada par de observações.  A ordem das amostras é crucial, pois há um dependência entre os dados e uma alteração da ordem pode modificar o significado dos dados. As séries temporais estão em diversas áreas do conhecimento como Economia (preços diários dea ações, taxa mensal de desemprego, produção industrial), Medicina (eletrocardiograma, eletroencefalograma), Epidemiologia (número mensal de novos casos de meningite), Meteorologia( precipitação pluviométrica, temperatura diária, velocidade do vento).  
+
+Uma série temporal pode ser definida como:
 
 \begin{equation} \label{eq_TS}
 X(t) = (x_1,x_2,...,x_n)
@@ -324,17 +326,49 @@ onde $x_n$ representa uma observação no instante $t$, $n$ o número de observa
 
 As séries temporais estão em diversas áreas do conhecimento como Economia (preços diários dea ações, taxa mensal de desemprego, produção industrial), Medicina (eletrocardiograma, eletroencefalograma), Epidemiologia (número mensal de novos casos de meningite), Meteorologia( precipitação pluviométrica, temperatura diária, velocidade do vento).
 
+Embora séries temporais tenham sido estudadas por mais de 100 anos na estatística, muitos de seus métodos não são escaláveis para análise de grandes volumes de séries temporais, o que aumenta o interesse no uso de métodos de mineração de dados e aprendizagem de máquina. \cite{Maimon:2005:DMK:1088958}
 \subsection{Aplicações de Séries Temporais}
-A análise de séries temporais tem atraído muitos pesquisadores em aprendizado de máquina ao redor do mundo. As principais tarefas envolvendo séries temporais na qual se utiliza aprendizagem de máquina são as seguintes:
+As principais tarefas de interesse para mineração de séries temporais são sintetizadas a seguir\cite{Maimon:2005:DMK:1088958}:
 
 \begin{itemize}
-	\item \textit{Classificação}: cada série temporal representa uma classe distinta de objetos. Dada uma série temporal, o objetivo é descobrir qual é a classe de objetos ela representa; 
-	\item Agrupamento: Dado um conjunto de séries temporais, o objetivo é encontrar uma estrutura natural que permita distribuir as séries em grupos; 
-	\item Detecção de Motivos: também conhecido como detecção de \textit{motifs}; o objetivo é encontrar uma ou mais subsequências que aparecem frequentemente na séries;
-	\item Detecção de Anomalias: encontrar subsequências ou séries que são inesperadas em algum contexto.
+	\item \textit{Classificação}: dado um conjunto de séries temporais não rotuladas \textit{S}, treinar um classificador \textit{f}, utilizando um conjunto de séries temporais previamente rotuladas, para associar \textit{S} a uma das classes do problema.	
+	\item \textit{Agrupamento}: o objetivo é distribuir as séries temporais em grupos, de modo que séries temporais de um mesmo grupo são mais similares entre si, do que  a séries temporais de  outros grupos, de acordo com uma função de similaridade; 
+	\item \textit{Previsão}: dada uma série temporal, o objetivo é predizer observações futuras.
+	\item \textit{Detecção de Motivos}: o objetivo é encontrar uma ou mais subsequências que aparecem frequentemente na séries;
+	\item \textit{Detecção de Anomalias}: dada uma série temporal \textit{S} considerada normal e uma série temporal \textit{T} , o objetivo é encontrar qualquer parte de \textit{T} que seja considerada anômala, inesperada ou de interesse.
 \end{itemize}
-Este trabalho está inserido na tarefa de classificações de séries temporais.
+
+\subsection{Medidas de similaridade}
+
+Uma das principais funções de distância utilizadas para análise de séries temporais, e em diversos domínios de aplicação, é a distância Euclidiana. Dada duas séries temporais de valores reais $A = \{a_1,a_2,...,a_m \}$ e $B = \{b_1,b_2,...,b_m \}$, a distância Euclidiana é definida como:
+
+\begin{equation}
+ED(A,B) = \sqrt{\sum_{i=1}^{m}(a_i - b_1)^2}
+\end{equation}
+
+
+Uma desvantagem da distância Euclidiana é a limitação no cálculo de distância entre séries temporais com mesmo comprimento (número de observações). Na Figura \ref{fig-distED}, são mostradas as associações feitas entre cada par de observações de duas séries temporais para o cálculo da distância Euclidiana.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{pasta1_figuras/ED.png}
+	\caption {Distância Euclidiana. Fonte: \cite{ferraz2016}}
+	\label{fig-distED}
+\end{figure}
+
+É possível notar que as séries temporais mostradas na Figura \ref{fig-distED} apresentam comportamento muito similar, no entanto a série temporal B está deslocada uma unidade de tempo em relação à série temporal A. O uso da distância Euclidiana não permite o reconhecimento desse deslocamento, pois são calculadas as diferenças entre pares de observações sempre no mesmo instante de tempo.
+
+Nesse caso, uma alternativa é a Dynamic Time Warping (DTW)\cite{Berndt:1994:UDT:3000850.3000887}, que permite realizar o alinhamento entre duas séries temporais e, assim, reconhecer a similaridade entre pares de séries, mesmo se elas apresentarem comprimentos diferentes ou se elas não estiverem alinhadas em relação à escala temporal. Sejam duas séries temporais $A = \{a_1,a_2,...,a_m \}$ e $B = \{b_1,b_2,...,b_n \}$  de tamanhos m e n respectivamente. No cálculo da DTW, o objetivo é resolver o problema:
+
+\begin{equation}
+DTW(A,B) = min\sqrt{\sum_{k=1}^{K}w_k}
+\end{equation}
+
+em que $w_k = (i,j)$ representa a associação entre duas observações $a_i$ e $b_j$ das séries temporais A e B e equivale à distância Euclidiana $d(i,j) = \sqrt{(a_i - b_i)^2}$. A sequência $w_1,w_2,...,w_k$ representa a sequência de associações entre pares de observação das duas séries, denominado o caminho de ajuste. 
+
+ 
 \section{Classificação de Séries Temporais}
+ola
 
 
 

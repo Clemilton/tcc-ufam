@@ -35,6 +35,8 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+You can't pop an empty literal stack for entry ferraz2016
+while executing---line 2146 of file abntex2-num.bst
 Warning--campo year vazio ou faltando em haykin2009
 You can't pop an empty literal stack for entry guedes2017
 while executing---line 2146 of file abntex2-num.bst
@@ -43,45 +45,45 @@ while executing---line 2146 of file abntex2-num.bst
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 23 entries,
+You've used 26 entries,
             6714 wiz_defined-function locations,
-            1353 strings with 13623 characters,
-and the built_in function-call counts, 17260 in all, are:
-= -- 1443
-> -- 584
-< -- 24
-+ -- 266
-- -- 174
-* -- 1217
-:= -- 2327
-add.period$ -- 95
-call.type$ -- 23
-change.case$ -- 247
-chr.to.int$ -- 59
-cite$ -- 24
-duplicate$ -- 878
-empty$ -- 1228
-format.name$ -- 895
-if$ -- 4085
+            1378 strings with 14506 characters,
+and the built_in function-call counts, 19534 in all, are:
+= -- 1643
+> -- 648
+< -- 25
++ -- 290
+- -- 194
+* -- 1375
+:= -- 2618
+add.period$ -- 110
+call.type$ -- 26
+change.case$ -- 275
+chr.to.int$ -- 62
+cite$ -- 27
+duplicate$ -- 1000
+empty$ -- 1417
+format.name$ -- 997
+if$ -- 4641
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 415
-newline$ -- 133
-num.names$ -- 92
-pop$ -- 604
+missing$ -- 471
+newline$ -- 148
+num.names$ -- 104
+pop$ -- 671
 preamble$ -- 1
-purify$ -- 91
+purify$ -- 102
 quote$ -- 0
-skip$ -- 912
+skip$ -- 1030
 stack$ -- 1
-substring$ -- 601
-swap$ -- 375
-text.length$ -- 12
+substring$ -- 687
+swap$ -- 435
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 12
 warning$ -- 1
-while$ -- 126
+while$ -- 144
 width$ -- 0
-write$ -- 321
-(There was 1 error message)
+write$ -- 366
+(There were 2 error messages)
