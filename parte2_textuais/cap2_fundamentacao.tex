@@ -358,7 +358,9 @@ Uma desvantagem da distância Euclidiana é a limitação no cálculo de distân
 
 É possível notar que as séries temporais mostradas na Figura \ref{fig-distED} apresentam comportamento muito similar, no entanto a série temporal B está deslocada uma unidade de tempo em relação à série temporal A. O uso da distância Euclidiana não permite o reconhecimento desse deslocamento, pois são calculadas as diferenças entre pares de observações sempre no mesmo instante de tempo.
 
-Nesse caso, uma alternativa é a Dynamic Time Warping (DTW)\cite{Berndt:1994:UDT:3000850.3000887}, que permite realizar o alinhamento entre duas séries temporais e, assim, reconhecer a similaridade entre pares de séries, mesmo se elas apresentarem comprimentos diferentes ou se elas não estiverem alinhadas em relação à escala temporal. Sejam duas séries temporais $A = \{a_1,a_2,...,a_m \}$ e $B = \{b_1,b_2,...,b_n \}$  de tamanhos m e n respectivamente. No cálculo da DTW, o objetivo é resolver o problema:
+Nesse caso, uma alternativa é a Dynamic Time Warping (DTW)\cite{Berndt:1994:UDT:3000850.3000887}, que permite realizar o alinhamento entre duas séries temporais e, assim, reconhecer a similaridade entre pares de séries, mesmo se elas apresentarem comprimentos diferentes ou se elas não estiverem alinhadas em relação à escala temporal. 
+
+Sejam duas séries temporais $A = \{a_1,a_2,...,a_m \}$ e $B = \{b_1,b_2,...,b_n \}$  de tamanhos m e n respectivamente, constrói-se uma matriz uma matriz $m$-por-$n$ onde o elemento $(i,j)$ da matriz contém a distância $d(a_i,b_i)$ entre dois os pontos $a_i$ e $b_j$ (geralmente é utilizada a Distância Euclidiana)
 
 \begin{equation}
 DTW(A,B) = min\sqrt{\sum_{k=1}^{K}w_k}
@@ -366,10 +368,33 @@ DTW(A,B) = min\sqrt{\sum_{k=1}^{K}w_k}
 
 em que $w_k = (i,j)$ representa a associação entre duas observações $a_i$ e $b_j$ das séries temporais A e B e equivale à distância Euclidiana $d(i,j) = \sqrt{(a_i - b_i)^2}$. A sequência $w_1,w_2,...,w_k$ representa a sequência de associações entre pares de observação das duas séries, denominado o caminho de ajuste. 
 
+Definida a matriz da Figura 3.6, o algoritmo DTW inicia o processo recursivo para identificar qual o caminho gerou o valor da célula (n, m). Em um processo reverso ao utilizado para preencher a matriz, a partir da posição (n, m), o algoritmo avalia qual a célula vizinha de menor custo considerando as regras apresentadas na Equação \ref{eq-dtw}. Cada elemento $(i,j)$ corresponde ao alinhamento entre os pontos $a_i$ e $b_i$. Isso é ilustrado na Figura \ref{fig-dtw}. Um caminho $W$ é um conjunto de elementos da matriz que define um mapeamento entre $A$ e $B$. Um elemento $k$ de $W$ é definido como $w_k = (i,j)_k$.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{pasta1_figuras/fig-dtw.png}
+	\caption {A) Duas sequências Q e C são semelhantes, porém fora de fase. B) Para alinhar as sequências, construirmos a matriz e procuramos pelo melhor caminho. C) O alinhamento resultado. Fonte: \cite{Keogh2005}}
+	\label{fig-dtw}
+\end{figure}
+
+
+
+\begin{equation} \label{eq-dtw}
+W=
+\begin{cases}
+(1,j-1)   & \quad \text{se i=1}\\
+(i-1,1)   & \quad \text{se j=1} \\
+min[d(i-1,j),d(i,j-1),d(i-1,j-1)] & \quad \text{caso contrário}
+\end{cases}
+\end{equation}
+
  
 \section{Classificação de Séries Temporais}
-ola
 
+Dentre os métodos frequentemente utilizados nas análises de séries temporais verifica-se uma característica em comum, a função de similaridade como principal meio de comparação. As medidas de similaridade são muito utilizadas nos estudos de previsões, para se estimar valores futuros a partir de dados passados e atuais, e na recuperação por conteúdo também chamada de “consulta por exemplo”, para encontrar séries similares a partir de um exemplo selecionado. \cite{Sorjamaa:2007}
+
+Diversos estudos na área evidenciam que a medida de distância Dynamic Time Warping (DTW) é uma das medidas mais adequadas para comparação séries temporais, possibilitando a identificação de padrões e a recuperação por conteúdo. \cite{ratanamahatana2004} \cite{alon2009} \cite{Berndt:1994:UDT:3000850.3000887}
 
 
 % Fim Capítulo

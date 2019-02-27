@@ -32,12 +32,12 @@
 \contentsline {section}{\numberline {2.3}S\IeC {\'e}ries Temporais}{18}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Aplica\IeC {\c c}\IeC {\~o}es de S\IeC {\'e}ries Temporais}{19}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Medidas de similaridade}{20}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Classifica\IeC {\c c}\IeC {\~a}o de S\IeC {\'e}ries Temporais}{21}{section.2.4}
-\contentsline {chapter}{\numberline {3}Sistema Proposto}{22}{chapter.3}
-\contentsline {section}{\numberline {3.1}Vis\IeC {\~a}o geral}{22}{section.3.1}
-\contentsline {chapter}{\numberline {4}Experimentos}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}M\IeC {\'e}tricas}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Objetivos}{23}{section.4.2}
-\contentsline {section}{\numberline {4.3}Resultados Obtidos}{23}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{24}{chapter.5}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{25}{chapter*.27}
+\contentsline {section}{\numberline {2.4}Classifica\IeC {\c c}\IeC {\~a}o de S\IeC {\'e}ries Temporais}{22}{section.2.4}
+\contentsline {chapter}{\numberline {3}Sistema Proposto}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Vis\IeC {\~a}o geral}{23}{section.3.1}
+\contentsline {chapter}{\numberline {4}Experimentos}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}M\IeC {\'e}tricas}{24}{section.4.1}
+\contentsline {section}{\numberline {4.2}Objetivos}{24}{section.4.2}
+\contentsline {section}{\numberline {4.3}Resultados Obtidos}{24}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{25}{chapter.5}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{26}{chapter*.28}

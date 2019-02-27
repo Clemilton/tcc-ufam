@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.8)  25 FEB 2019 19:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.8)  27 FEB 2019 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1863,7 +1863,7 @@ l.43
       [3]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 44.
- <pasta1_figuras/one-hot.png, id=385, 716.6775pt x 281.05pt>
+ <pasta1_figuras/one-hot.png, id=391, 716.6775pt x 281.05pt>
 File: pasta1_figuras/one-hot.png Graphic file (type png)
 
 <use pasta1_figuras/one-hot.png>
@@ -1893,7 +1893,7 @@ been already used, duplicate ignored
                    \relax 
 l.64 
       [4 <./pasta1_figuras/one-hot.png>]
-<pasta1_figuras/knn.png, id=395, 427.5975pt x 353.32pt>
+<pasta1_figuras/knn.png, id=401, 427.5975pt x 353.32pt>
 File: pasta1_figuras/knn.png Graphic file (type png)
 
 <use pasta1_figuras/knn.png>
@@ -1921,7 +1921,7 @@ l.81
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 82.
 
-<pasta1_figuras/neuronio.png, id=406, 324.21124pt x 217.81375pt>
+<pasta1_figuras/neuronio.png, id=412, 324.21124pt x 217.81375pt>
 File: pasta1_figuras/neuronio.png Graphic file (type png)
 
 <use pasta1_figuras/neuronio.png>
@@ -1948,7 +1948,7 @@ been already used, duplicate ignored
 l.97 	\item U
              ma função de ativação que ($\varphi$) limita o intervalo pe...
 [6 <./pasta1_figuras/neuronio.png>]
-<pasta1_figuras/perceptron.png, id=414, 332.24126pt x 154.5775pt>
+<pasta1_figuras/perceptron.png, id=420, 332.24126pt x 154.5775pt>
 File: pasta1_figuras/perceptron.png Graphic file (type png)
 
 <use pasta1_figuras/perceptron.png>
@@ -1973,7 +1973,7 @@ been already used, duplicate ignored
                    \relax 
 l.127 
        [7 <./pasta1_figuras/perceptron.png>]
-<pasta1_figuras/mlp.png, id=425, 660.4675pt x 433.62pt>
+<pasta1_figuras/mlp.png, id=431, 660.4675pt x 433.62pt>
 File: pasta1_figuras/mlp.png Graphic file (type png)
 
 <use pasta1_figuras/mlp.png>
@@ -2035,7 +2035,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 180.
 
-<pasta1_figuras/activation_function.png, id=453, 763.85374pt x 316.18124pt>
+<pasta1_figuras/activation_function.png, id=459, 763.85374pt x 316.18124pt>
 File: pasta1_figuras/activation_function.png Graphic file (type png)
 
 <use pasta1_figuras/activation_function.png>
@@ -2073,7 +2073,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 210.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 210.
-[12] <pasta1_figuras/dropout.png, id=468, 780.9175pt x 406.51875pt>
+[12] <pasta1_figuras/dropout.png, id=474, 780.9175pt x 406.51875pt>
 File: pasta1_figuras/dropout.png Graphic file (type png)
 
 <use pasta1_figuras/dropout.png>
@@ -2082,7 +2082,7 @@ Package pdftex.def Info: pasta1_figuras/dropout.png used on input line 213.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 219.
 
-<pasta1_figuras/campo_receptivo.png, id=472, 504.88625pt x 359.3425pt>
+<pasta1_figuras/campo_receptivo.png, id=478, 504.88625pt x 359.3425pt>
 File: pasta1_figuras/campo_receptivo.png Graphic file (type png)
 
 <use pasta1_figuras/campo_receptivo.png>
@@ -2115,14 +2115,14 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 247.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 247.
-[14] <pasta1_figuras/depth_cnn.png, id=487, 472.76625pt x 311.1625pt>
+[14] <pasta1_figuras/depth_cnn.png, id=493, 472.76625pt x 311.1625pt>
 File: pasta1_figuras/depth_cnn.png Graphic file (type png)
 
 <use pasta1_figuras/depth_cnn.png>
 Package pdftex.def Info: pasta1_figuras/depth_cnn.png used on input line 256.
 (pdftex.def)             Requested size: 189.10315pt x 124.46278pt.
 
-<pasta1_figuras/stride.jpeg, id=491, 864.22874pt x 172.645pt>
+<pasta1_figuras/stride.jpeg, id=497, 864.22874pt x 172.645pt>
 File: pasta1_figuras/stride.jpeg Graphic file (type jpg)
 
 <use pasta1_figuras/stride.jpeg>
@@ -2143,7 +2143,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 274.
 
-<pasta1_figuras/pooling.jpg, id=502, 510.90875pt x 311.1625pt>
+<pasta1_figuras/pooling.jpg, id=508, 510.90875pt x 311.1625pt>
 File: pasta1_figuras/pooling.jpg Graphic file (type jpg)
 
 <use pasta1_figuras/pooling.jpg>
@@ -2166,7 +2166,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 293.
 
-<pasta1_figuras/alexnet.png, id=512, 928.46875pt x 276.03125pt>
+<pasta1_figuras/alexnet.png, id=518, 928.46875pt x 276.03125pt>
 File: pasta1_figuras/alexnet.png Graphic file (type png)
 
 <use pasta1_figuras/alexnet.png>
@@ -2187,7 +2187,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 306.
 
-<pasta1_figuras/resblock.png, id=522, 769.87625pt x 430.60875pt>
+<pasta1_figuras/resblock.png, id=528, 769.87625pt x 430.60875pt>
 File: pasta1_figuras/resblock.png Graphic file (type png)
 
 <use pasta1_figuras/resblock.png>
@@ -2223,7 +2223,7 @@ Package babel Info: Redefining portuges shorthand "|
 [19]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 341.
- <pasta1_figuras/ED.png, id=538, 661.47125pt x 357.335pt>
+ <pasta1_figuras/ED.png, id=544, 661.47125pt x 357.335pt>
 File: pasta1_figuras/ED.png Graphic file (type png)
 
 <use pasta1_figuras/ED.png>
@@ -2237,12 +2237,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 362.
+(babel)             in language  on input line 364.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 362.
+(babel)             in language  on input line 364.
 [20 <./pasta1_figuras/ED.png>]
+<pasta1_figuras/fig-dtw.png, id=558, 646.415pt x 336.25626pt>
+File: pasta1_figuras/fig-dtw.png Graphic file (type png)
+
+<use pasta1_figuras/fig-dtw.png>
+Package pdftex.def Info: pasta1_figuras/fig-dtw.png used on input line 376.
+(pdftex.def)             Requested size: 387.85199pt x 201.75531pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 368.
+(babel)             in language  on input line 390.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 390.
+[21 <./pasta1_figuras/fig-dtw.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 393.
 )
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2254,7 +2272,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 165.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 165.
-[21]
+[22]
 \openout2 = `parte2_textuais/cap3_sistema_proposto.aux'.
 
  (./parte2_textuais/cap3_sistema_proposto.tex
@@ -2268,7 +2286,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 166.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 166.
- [22
+ [23
 
 
 
@@ -2290,7 +2308,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 167.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 167.
- [23
+ [24
 
 
 
@@ -2306,7 +2324,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 168.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 168.
- [24
+ [25
 
 
 
@@ -2364,11 +2382,11 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 64.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 64.
-[25
+[26
 
 
 ]
-Underfull \hbox (badness 1769) in paragraph at lines 129--133
+Underfull \hbox (badness 1769) in paragraph at lines 136--140
 \OT1/cmr/m/n/12 in op-ti-mi-zing re-cur-rent networks. \OT1/cmr/m/it/12 CoRR\OT
 1/cmr/m/n/12 , abs/1212.0901, 2012. Dis-pon^^S^^Pvel em:
  []
@@ -2380,10 +2398,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 139.
-[26])
+(babel)             in language  on input line 140.
+[27]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 204.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 204.
+[28])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2394,7 +2423,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 184.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 184.
-[27]
+[29]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (./main_tcc.aux (./parte1_pre-textuais/item01_capa.aux)
@@ -2419,7 +2448,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `main_tcc.out' has not changed.
-(rerunfilecheck)             Checksum: 2C1765141026DFD1351ADA6BECF41622;3027.
+(rerunfilecheck)             Checksum: 71EA261372525ACFDA7A381517FFAFA7;3027.
 
 
 LaTeX Warning: There were undefined references.
@@ -2427,13 +2456,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 23313 strings out of 493029
- 414840 string characters out of 6136235
- 503680 words of memory out of 5000000
- 26100 multiletter control sequences out of 15000+600000
+ 23340 strings out of 493029
+ 415345 string characters out of 6136235
+ 504036 words of memory out of 5000000
+ 26118 multiletter control sequences out of 15000+600000
  14795 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,56p,1071b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,18n,56p,1071b,597s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-d
@@ -2449,10 +2478,10 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main_tcc.pdf (42 pages, 818263 bytes).
+Output written on main_tcc.pdf (44 pages, 895218 bytes).
 PDF statistics:
- 665 PDF objects out of 1000 (max. 8388607)
- 564 compressed objects within 6 object streams
- 138 named destinations out of 1000 (max. 500000)
- 448 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 697 PDF objects out of 1000 (max. 8388607)
+ 591 compressed objects within 6 object streams
+ 146 named destinations out of 1000 (max. 500000)
+ 453 words of extra memory for PDF output out of 10000 (max. 10000000)
 

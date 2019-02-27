@@ -62,6 +62,13 @@ Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1512.03385$>$.}
   Computação e Matemática Computacional. Disponível em:
   http://www.teses.usp.br/teses/disponiveis/55/55134/tde-18112016-105621/.}
 
+\bibitem{Keogh2005}
+\abntrefinfo{Keogh e Ratanamahatana}{KEOGH; RATANAMAHATANA}{2005}
+{KEOGH, E.; RATANAMAHATANA, C.~A. Exact indexing of dynamic time warping.
+\emph{Knowledge and Information Systems}, v.~7, n.~3, p. 358--386, Mar 2005.
+ISSN 0219-3116.
+Dispon{\'\i}vel em: $<$https://doi.org/10.1007/s10115-004-0154-9$>$.}
+
 \bibitem{monard2003}
 \abntrefinfo{Monard e Baranauskas}{MONARD; BARANAUSKAS}{2003}
 {MONARD, M.; BARANAUSKAS, J. \emph{Conceitos sobre aprendizado de máquinas. Em
@@ -173,5 +180,26 @@ ISBN 0387244352, 9780387244358.}
   Knowledge Discovery and Data Mining}. AAAI Press, 1994.  (AAAIWS'94), p.
   359--370. Dispon{\'\i}vel em:
   $<$http://dl.acm.org/citation.cfm?id=3000850.3000887$>$.}
+
+\bibitem{Sorjamaa:2007}
+\abntrefinfo{Sorjamaa et al.}{SORJAMAA et al.}{2007}
+{SORJAMAA, A. et al. Methodology for long-term prediction of time series.
+\emph{Neurocomput.}, Elsevier Science Publishers B. V., Amsterdam, The
+  Netherlands, The Netherlands, v.~70, n. 16-18, p. 2861--2869, out. 2007.
+ISSN 0925-2312.
+Dispon{\'\i}vel em: $<$http://dx.doi.org/10.1016/j.neucom.2006.06.015$>$.}
+
+\bibitem{ratanamahatana2004}
+\abntrefinfo{Ratanamahatana e Keogh}{RATANAMAHATANA; KEOGH}{2004}
+{RATANAMAHATANA, C.~A.; KEOGH, E. Everything you know about dynamic time
+  warping is wrong. In:  CITESEER. \emph{Third Workshop on Mining Temporal and
+  Sequential Data}. [S.l.], 2004.}
+
+\bibitem{alon2009}
+\abntrefinfo{Alon et al.}{ALON et al.}{2009}
+{ALON, J. et al. A unified framework for gesture recognition and spatiotemporal
+  gesture segmentation.
+\emph{IEEE transactions on pattern analysis and machine intelligence}, v.~31,
+  p. 1685--99, 10 2009.}
 
 \end{thebibliography}
