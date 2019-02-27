@@ -71,10 +71,6 @@ O princípio do classificador k-NN é a ``regra dos vizinhos mais próximos''. A
 	\label{fig-knn}
 \end{figure}
 
-Para encontrar os vizinhos mais próximos é necessário definir uma medida de similaridade entre dois exemplos. Uma medida de similaridade bastante popular é a \textit{distância euclidiana}. Tal medida calcula a raiz quadrada da norma do vetor diferença entre os vetores $x$ e $y$:
-\begin{equation} \label{eq_disteucli}
-d(x,y)= \sum_{i=1}^{K} (x_i - y_i)^2
-\end{equation}
 
 \section{Redes Neurais Artificiais}
 Redes Neurais Artificais são modelos computacionais que buscam simular o processamento de informação pelo cérebro humano. Elas são compostas por unidades simples de processamento, os neurônios, que se unem por meio de conexões sinápticas \cite{zhang1998}. Cada conexão, além de ser altamente especializada, é responsável pelo envio de sinais de um neurônio para outro. Segundo (\textit{Haykin} 2009\cite{haykin2009}) , os neurônios e suas conexões podem ser implementados utilizando-se de componentes eletrônicos ou via simulação programada em computador.
@@ -304,7 +300,7 @@ Após todo o processo de convolução realizado nas camadas anteriores, em muita
 As redes convolutivas são treinadas utilizando \textit{backpropagation} através de um método de otimização conforme explicado na Seção \ref{ssec:otimizadores}. É necessaŕio definir os hiperparâmetros como número de filtros, tamanho do kernel, função de ativação, número de camadas entre outros. Isso pode ser feito através de métodos de validação cruzada como \textit{10-fold} ou \textit{leave-one-out}.
 
 \subsection{Redes Residuais}
-As Redes Residuais Também conhecidas como ResNets \cite{resnet2015}, essas redes se diferenciam das CNNs convencionais pois incorporam uma técnica para evitar a degradação de dados nas camadas mais profundas da rede e o desaparecimento do gradiente durante o Backpropagation. Uma ResNet possui camadas residuais que são compostas, cada uma, de duas camadas convolutivas e duas funções de ativação ReLU, conforme demonstra a Figura \ref{fig-resblock}. A camada residual difere das  demais camadas convolutivas pois sua saída é a soma da saída da segunda camada convolutiva com a entrada da camada residual. Essa estrutura possibilita que camadas mais profundas recebam diretamente dados das camadas mais superficiais, sem a necessidade de passar por camadas convolutivas intermediárias.
+As Redes Residuais,também conhecidas como \textit{ResNets}\cite{resnet2015}, se diferenciam das CNNs convencionais pois incorporam uma técnica para evitar a degradação de dados nas camadas mais profundas da rede e o desaparecimento do gradiente durante o \textit{backpropagation}. Uma \textit{ResNet} possui camadas residuais que são compostas, cada uma, de duas camadas convolutivas e duas funções de ativação ReLU, conforme demonstra a Figura \ref{fig-resblock}. A camada residual difere das  demais camadas convolutivas pois sua saída é a soma da saída da segunda camada convolutiva com a entrada da camada residual. Essa estrutura possibilita que camadas mais profundas recebam diretamente dados das camadas mais superficiais, sem a necessidade de passar por camadas convolutivas intermediárias.
 
 \begin{figure}[H]
 	\centering
@@ -332,15 +328,17 @@ As principais tarefas de interesse para mineração de séries temporais são si
 
 \begin{itemize}
 	\item \textit{Classificação}: dado um conjunto de séries temporais não rotuladas \textit{S}, treinar um classificador \textit{f}, utilizando um conjunto de séries temporais previamente rotuladas, para associar \textit{S} a uma das classes do problema.	
-	\item \textit{Agrupamento}: o objetivo é distribuir as séries temporais em grupos, de modo que séries temporais de um mesmo grupo são mais similares entre si, do que  a séries temporais de  outros grupos, de acordo com uma função de similaridade; 
+	\item \textit{Agrupamento}: o objetivo é distribuir as séries temporais em grupos, de modo que séries temporais de um mesmo grupo são mais similares entre si, do que  a séries temporais de  outros grupos, de acordo com uma função de dissimilaridade; 
 	\item \textit{Previsão}: dada uma série temporal, o objetivo é predizer observações futuras.
 	\item \textit{Detecção de Motivos}: o objetivo é encontrar uma ou mais subsequências que aparecem frequentemente na séries;
 	\item \textit{Detecção de Anomalias}: dada uma série temporal \textit{S} considerada normal e uma série temporal \textit{T} , o objetivo é encontrar qualquer parte de \textit{T} que seja considerada anômala, inesperada ou de interesse.
 \end{itemize}
 
-\subsection{Medidas de similaridade}
+\subsection{Medidas de dissimilaridade}
 
-Uma das principais funções de distância utilizadas para análise de séries temporais, e em diversos domínios de aplicação, é a distância Euclidiana. Dada duas séries temporais de valores reais $A = \{a_1,a_2,...,a_m \}$ e $B = \{b_1,b_2,...,b_m \}$, a distância Euclidiana é definida como:
+Em mineração de séries temporais, para tarefas como classificação, agrupamento e indexação, é importante definir a função de distância usada para calcular a dissimilaridade entre pares de séries temporais. A seguir, são apresentadas as principais duas funções de distância para séries temporais propostas na literatura.
+
+Uma das principais funções de distância utilizadas para análise de séries temporais, e em diversos domínios de aplicação, é a Distância Euclidiana. Dada duas séries temporais de valores reais $A = \{a_1,a_2,...,a_m \}$ e $B = \{b_1,b_2,...,b_m \}$, a distância Euclidiana é definida como:
 
 \begin{equation}
 ED(A,B) = \sqrt{\sum_{i=1}^{m}(a_i - b_1)^2}
@@ -360,16 +358,7 @@ Uma desvantagem da distância Euclidiana é a limitação no cálculo de distân
 
 Nesse caso, uma alternativa é a Dynamic Time Warping (DTW)\cite{Berndt:1994:UDT:3000850.3000887}, que permite realizar o alinhamento entre duas séries temporais e, assim, reconhecer a similaridade entre pares de séries, mesmo se elas apresentarem comprimentos diferentes ou se elas não estiverem alinhadas em relação à escala temporal. 
 
-Sejam duas séries temporais $A = \{a_1,a_2,...,a_m \}$ e $B = \{b_1,b_2,...,b_n \}$  de tamanhos m e n respectivamente, constrói-se uma matriz uma matriz $m$-por-$n$ onde o elemento $(i,j)$ da matriz contém a distância $d(a_i,b_i)$ entre dois os pontos $a_i$ e $b_j$ (geralmente é utilizada a Distância Euclidiana)
-
-\begin{equation}
-DTW(A,B) = min\sqrt{\sum_{k=1}^{K}w_k}
-\end{equation}
-
-em que $w_k = (i,j)$ representa a associação entre duas observações $a_i$ e $b_j$ das séries temporais A e B e equivale à distância Euclidiana $d(i,j) = \sqrt{(a_i - b_i)^2}$. A sequência $w_1,w_2,...,w_k$ representa a sequência de associações entre pares de observação das duas séries, denominado o caminho de ajuste. 
-
-Definida a matriz da Figura 3.6, o algoritmo DTW inicia o processo recursivo para identificar qual o caminho gerou o valor da célula (n, m). Em um processo reverso ao utilizado para preencher a matriz, a partir da posição (n, m), o algoritmo avalia qual a célula vizinha de menor custo considerando as regras apresentadas na Equação \ref{eq-dtw}. Cada elemento $(i,j)$ corresponde ao alinhamento entre os pontos $a_i$ e $b_i$. Isso é ilustrado na Figura \ref{fig-dtw}. Um caminho $W$ é um conjunto de elementos da matriz que define um mapeamento entre $A$ e $B$. Um elemento $k$ de $W$ é definido como $w_k = (i,j)_k$.
-
+Sejam duas séries temporais $A = \{a_1,a_2,...,a_m \}$ e $B = \{b_1,b_2,...,b_n \}$  de tamanhos $m$ e $n$ respectivamente, constrói-se uma matriz uma matriz $m$-por-$n$ onde o elemento $(i,j)$ da matriz contém a distância $d(a_i,b_i)$ entre dois os pontos $a_i$ e $b_j$ (geralmente é utilizada a Distância Euclidiana).  Cada elemento $(i,j)$ corresponde ao alinhamento entre os pontos $a_i$ e $b_i$. Isso é ilustrado na Figura \ref{fig-dtw}. 
 
 \begin{figure}[H]
 	\centering
@@ -378,19 +367,43 @@ Definida a matriz da Figura 3.6, o algoritmo DTW inicia o processo recursivo par
 	\label{fig-dtw}
 \end{figure}
 
+Um caminho $W$ é um conjunto de elementos da matriz que define um mapeamento entre $A$ e $B$. Um elemento $k$ de $W$ é definido como $w_k = (i,j)_k$. O caminhamento $W$ é sujeito a algumas restrições:
 
+\begin{itemize}
+	\item \textbf{Limites:} $w_1 = (1,1)$ e $w_k = (m,n)$, isso requer que o caminho comece e termine em cantos diagonalmente opostos a matriz.
+	\item \textbf{Continuidade:} Sendo $w_k = (a,b)$ então $w_{k-1} = (a,b)$ onde $a-a <=1$ e $b-b <= 1$, isso restringe os possíveis passos do caminhamento para células que sejam adjacentes (incluindo diagonalmente adjacentes).
+	\item \textbf{Monotonicidade:} Sendo $w_k = (a,b)$ então $w_{k-1} = (a,b)$ onde $a-a >=0$ e $b-b >=0$, isso força os pontos de $W$ a serem monotonicamente espaçados no tempo. 
+\end{itemize}
 
-\begin{equation} \label{eq-dtw}
-W=
-\begin{cases}
-(1,j-1)   & \quad \text{se i=1}\\
-(i-1,1)   & \quad \text{se j=1} \\
-min[d(i-1,j),d(i,j-1),d(i-1,j-1)] & \quad \text{caso contrário}
-\end{cases}
+Existem vários caminhos que satisfazem as condições acima, entretanto no cálculo de DTW, o objetivo é resolver o problema:
+\begin{equation}
+DTW(A,B) = min \sqrt{\sum_{k=1}^{K} w_k}
 \end{equation}
 
- 
+Este caminho pode ser encontrado utilizando programação dinâmica para buscar os próximos elementos do conjunto $W$. Assim, a distância cumulativa definida pela programação dinâmica $\gamma(i,j)$ e o mínimo das distâncias cumulativas das células adjacentes podem ser expressadas como:
+\begin{equation}
+\gamma(i,j) = d(a_i,b_j) + min\{ \gamma(i-1,j-1),\gamma(i-1,j),\gamma(i,j-1) \}
+\end{equation}
+
+A Distância Euclidiana entre duas sequências pode ser vista como um caso especial de DTW (KEOGH, 2002b). Nesse caso, os elementos $k$ de $W$ são restringidos à $w_k = (i,j)_k$ onde $i=j= k$. Também esse caso especial só pode ser aplicado se as duas sequências possuem o mesmo tamanho, ou seja $n=m$.
+
+
+Na Figura \ref{fig-dtw2}, é exibido o resultado da aplicação da DTW para calcular a distância entre as série temporais. Pode-se notar que a DTW realiza o alinhamento entre as duas séries temporais, de modo a reconhecer a similaridade entre seus comportamentos, mesmo havendo um deslocamento na escala temporal.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{pasta1_figuras/dtw-ex2.png}
+	\caption {A similaridade entre as séries temporais A e B é reconhecida pela DTW. \cite{ferraz2016}}
+	\label{fig-dtw2}
+\end{figure}
+
 \section{Classificação de Séries Temporais}
+
+Métodos de classificação de séries temporais podem ser divididos em duas categorias \cite{Deng:2013}:
+\begin{itemize}
+	\item \textit{Baseados em atributos: } utilizam valores de "baixo-nível" para extrair atributos temporais de "maior nível", os quais podem ser considerados sob uma ótica de mineração de dados "clássica".
+\end{itemize}
+
 
 Dentre os métodos frequentemente utilizados nas análises de séries temporais verifica-se uma característica em comum, a função de similaridade como principal meio de comparação. As medidas de similaridade são muito utilizadas nos estudos de previsões, para se estimar valores futuros a partir de dados passados e atuais, e na recuperação por conteúdo também chamada de “consulta por exemplo”, para encontrar séries similares a partir de um exemplo selecionado. \cite{Sorjamaa:2007}
 

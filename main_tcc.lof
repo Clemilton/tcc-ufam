@@ -16,6 +16,7 @@
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Bloco Residual. Fonte: \cite {resnet2015}\relax }}{18}{figure.caption.25}
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Dist\IeC {\^a}ncia Euclidiana. Fonte: \cite {ferraz2016}\relax }}{20}{figure.caption.26}
 \contentsline {figure}{\numberline {2.15}{\ignorespaces A) Duas sequ\IeC {\^e}ncias Q e C s\IeC {\~a}o semelhantes, por\IeC {\'e}m fora de fase. B) Para alinhar as sequ\IeC {\^e}ncias, construirmos a matriz e procuramos pelo melhor caminho. C) O alinhamento resultado. Fonte: \cite {Keogh2005}\relax }}{21}{figure.caption.27}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces A similaridade entre as s\IeC {\'e}ries temporais A e B \IeC {\'e} reconhecida pela DTW. \cite {ferraz2016}\relax }}{22}{figure.caption.28}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
