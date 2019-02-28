@@ -401,8 +401,11 @@ Na Figura \ref{fig-dtw2}, é exibido o resultado da aplicação da DTW para calc
 
 Métodos de classificação de séries temporais podem ser divididos em duas categorias \cite{Deng:2013}:
 \begin{itemize}
-	\item \textit{Baseados em atributos: } utilizam valores de "baixo-nível" para extrair atributos temporais de "maior nível", os quais podem ser considerados sob uma ótica de mineração de dados "clássica".
+	\item \textit{Baseados em atributos: } extraem atributos das séries temporais para depois usar métodos de aprendizagem de máquina clássica.
+	\item \textit{Baseados em instâncias: } classificam as instâncias de teste com base na similaridade com as instâncias de treino.
 \end{itemize}
+
+
 
 
 Dentre os métodos frequentemente utilizados nas análises de séries temporais verifica-se uma característica em comum, a função de similaridade como principal meio de comparação. As medidas de similaridade são muito utilizadas nos estudos de previsões, para se estimar valores futuros a partir de dados passados e atuais, e na recuperação por conteúdo também chamada de “consulta por exemplo”, para encontrar séries similares a partir de um exemplo selecionado. \cite{Sorjamaa:2007}
