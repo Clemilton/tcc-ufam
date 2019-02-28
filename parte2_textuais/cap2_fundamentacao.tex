@@ -64,12 +64,18 @@ Um classificador bastante popular é o K-Nearest Neighbors(K-Vizinhos mais próx
 
 O princípio do classificador k-NN é a ``regra dos vizinhos mais próximos''. A hipótese é que, dado um conjunto de exemplos distribuídos sobre o espaço de dados $X$, a ``vizinhança'' de um exemplo $x \in X$ estabelecida por uma função de distância apropriada tende a ser ocupada por exemplos que pertencem à mesma classes que $x$ \cite{hart1967} , como ilustrado na Figura \ref{fig-knn}. Desse modo a informação fornecida pelos exemplos conhecidos que são mais similares a $x$.
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.5]{pasta1_figuras/knn.png}
 	\caption{Princípio dos k-vizinhos mais próximos}
 	\label{fig-knn}
 \end{figure}
+
+Dois parâmetros importantes devem ser determinados para execução do $k$-NN:
+\begin{itemize}
+	\item \textbf{Medida de similaridade: } É a função que compara as instâncias de treino com a instância que se quer classificar. Na seção \ref{diss} será mostrada duas funções de similaridade
+	\item \textbf{Número de vizinhos: } Quantidade de vizinhos que será considerada para classificar. Por exemplo, se $k=1$, então o exemplo é classificado com a mesma classe do exemplo mais próximo segundo a medida de similaridade utilizada. Se $k>1$, então são consideradas as classes dos $k$ exemplos mais próximos para realizar a classificação.
+\end{itemize}
 
 
 \section{Redes Neurais Artificiais}
@@ -328,15 +334,15 @@ As principais tarefas de interesse para mineração de séries temporais são si
 
 \begin{itemize}
 	\item \textit{Classificação}: dado um conjunto de séries temporais não rotuladas \textit{S}, treinar um classificador \textit{f}, utilizando um conjunto de séries temporais previamente rotuladas, para associar \textit{S} a uma das classes do problema.	
-	\item \textit{Agrupamento}: o objetivo é distribuir as séries temporais em grupos, de modo que séries temporais de um mesmo grupo são mais similares entre si, do que  a séries temporais de  outros grupos, de acordo com uma função de dissimilaridade; 
+	\item \textit{Agrupamento}: o objetivo é distribuir as séries temporais em grupos, de modo que séries temporais de um mesmo grupo são mais similares entre si, do que  a séries temporais de  outros grupos, de acordo com uma função de similaridade; 
 	\item \textit{Previsão}: dada uma série temporal, o objetivo é predizer observações futuras.
 	\item \textit{Detecção de Motivos}: o objetivo é encontrar uma ou mais subsequências que aparecem frequentemente na séries;
 	\item \textit{Detecção de Anomalias}: dada uma série temporal \textit{S} considerada normal e uma série temporal \textit{T} , o objetivo é encontrar qualquer parte de \textit{T} que seja considerada anômala, inesperada ou de interesse.
 \end{itemize}
 
-\subsection{Medidas de dissimilaridade}
+\subsection{Medidas de similaridade} \label{diss}
 
-Em mineração de séries temporais, para tarefas como classificação, agrupamento e indexação, é importante definir a função de distância usada para calcular a dissimilaridade entre pares de séries temporais. A seguir, são apresentadas as principais duas funções de distância para séries temporais propostas na literatura.
+Em mineração de séries temporais, para tarefas como classificação, agrupamento e indexação, é importante definir a função de distância usada para calcular a similaridade entre pares de séries temporais. A seguir, são apresentadas as principais duas funções de distância para séries temporais propostas na literatura.
 
 Uma das principais funções de distância utilizadas para análise de séries temporais, e em diversos domínios de aplicação, é a Distância Euclidiana. Dada duas séries temporais de valores reais $A = \{a_1,a_2,...,a_m \}$ e $B = \{b_1,b_2,...,b_m \}$, a distância Euclidiana é definida como:
 
@@ -405,12 +411,11 @@ Métodos de classificação de séries temporais podem ser divididos em duas cat
 	\item \textit{Baseados em instâncias: } classificam as instâncias de teste com base na similaridade com as instâncias de treino.
 \end{itemize}
 
+Um exemplo de classificador baseado em instâncias é o $k$-NN. Esse classificador 
 
 
 
-Dentre os métodos frequentemente utilizados nas análises de séries temporais verifica-se uma característica em comum, a função de similaridade como principal meio de comparação. As medidas de similaridade são muito utilizadas nos estudos de previsões, para se estimar valores futuros a partir de dados passados e atuais, e na recuperação por conteúdo também chamada de “consulta por exemplo”, para encontrar séries similares a partir de um exemplo selecionado. \cite{Sorjamaa:2007}
-
-Diversos estudos na área evidenciam que a medida de distância Dynamic Time Warping (DTW) é uma das medidas mais adequadas para comparação séries temporais, possibilitando a identificação de padrões e a recuperação por conteúdo. \cite{ratanamahatana2004} \cite{alon2009} \cite{Berndt:1994:UDT:3000850.3000887}
+Diversos estudos na área evidenciam que a medida de distância Dynamic Time Warping (DTW) é uma das medidas mais adequadas para comparação séries temporais, possibilitando a identificação de padrões e a recuperação por conteúdo \cite{ratanamahatana2004} \cite{alon2009} \cite{Berndt:1994:UDT:3000850.3000887}. Para tarefas de classificação o DTW é combinado com o  
 
 
 % Fim Capítulo
