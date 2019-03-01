@@ -33,11 +33,11 @@
 \contentsline {subsection}{\numberline {2.3.1}Aplica\IeC {\c c}\IeC {\~o}es de S\IeC {\'e}ries Temporais}{19}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Medidas de similaridade}{20}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}Classifica\IeC {\c c}\IeC {\~a}o de S\IeC {\'e}ries Temporais}{23}{section.2.4}
-\contentsline {chapter}{\numberline {3}Sistema Proposto}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}Vis\IeC {\~a}o geral}{25}{section.3.1}
-\contentsline {chapter}{\numberline {4}Experimentos}{26}{chapter.4}
-\contentsline {section}{\numberline {4.1}M\IeC {\'e}tricas}{26}{section.4.1}
-\contentsline {section}{\numberline {4.2}Objetivos}{26}{section.4.2}
-\contentsline {section}{\numberline {4.3}Resultados Obtidos}{26}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{27}{chapter.5}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{28}{chapter*.29}
+\contentsline {chapter}{\numberline {3}Sistema Proposto}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}Vis\IeC {\~a}o geral}{24}{section.3.1}
+\contentsline {chapter}{\numberline {4}Experimentos}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}M\IeC {\'e}tricas}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Objetivos}{25}{section.4.2}
+\contentsline {section}{\numberline {4.3}Resultados Obtidos}{25}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{26}{chapter.5}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{27}{chapter*.29}

@@ -47,43 +47,43 @@ while executing---line 2146 of file abntex2-num.bst
 +---------------------------------------------------------+
 You've used 31 entries,
             6714 wiz_defined-function locations,
-            1425 strings with 15708 characters,
-and the built_in function-call counts, 24011 in all, are:
-= -- 2010
-> -- 806
-< -- 39
-+ -- 354
-- -- 240
-* -- 1719
-:= -- 3179
+            1421 strings with 15629 characters,
+and the built_in function-call counts, 24026 in all, are:
+= -- 2023
+> -- 798
+< -- 41
++ -- 350
+- -- 238
+* -- 1717
+:= -- 3173
 add.period$ -- 133
 call.type$ -- 31
-change.case$ -- 340
+change.case$ -- 336
 chr.to.int$ -- 79
 cite$ -- 32
-duplicate$ -- 1235
+duplicate$ -- 1239
 empty$ -- 1716
-format.name$ -- 1244
-if$ -- 5724
+format.name$ -- 1230
+if$ -- 5729
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 560
+missing$ -- 561
 newline$ -- 178
 num.names$ -- 124
-pop$ -- 780
+pop$ -- 783
 preamble$ -- 1
-purify$ -- 125
+purify$ -- 124
 quote$ -- 0
-skip$ -- 1266
+skip$ -- 1268
 stack$ -- 1
-substring$ -- 869
-swap$ -- 566
-text.length$ -- 23
+substring$ -- 886
+swap$ -- 570
+text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
+type$ -- 13
 warning$ -- 1
-while$ -- 176
+while$ -- 179
 width$ -- 0
-write$ -- 448
+write$ -- 447
 (There were 2 error messages)

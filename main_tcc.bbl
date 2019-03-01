@@ -190,25 +190,24 @@ ISBN 0387244352, 9780387244358.}
 ISSN 0020-0255.
 Dispon{\'\i}vel em: $<$https://doi.org/10.1016/j.ins.2013.02.030$>$.}
 
-\bibitem{Sorjamaa:2007}
-\abntrefinfo{Sorjamaa et al.}{SORJAMAA et al.}{2007}
-{SORJAMAA, A. et al. Methodology for long-term prediction of time series.
-\emph{Neurocomput.}, Elsevier Science Publishers B. V., Amsterdam, The
-  Netherlands, The Netherlands, v.~70, n. 16-18, p. 2861--2869, out. 2007.
-ISSN 0925-2312.
-Dispon{\'\i}vel em: $<$http://dx.doi.org/10.1016/j.neucom.2006.06.015$>$.}
+\bibitem{Wang2013}
+\abntrefinfo{Wang et al.}{WANG et al.}{2013}
+{WANG, X. et al. Experimental comparison of representation methods and distance
+  measures for time series data.
+\emph{Data Mining and Knowledge Discovery}, v.~26, n.~2, p. 275--309, Mar 2013.
+Dispon{\'\i}vel em: $<$https://doi.org/10.1007/s10618-012-0250-5$>$.}
 
-\bibitem{ratanamahatana2004}
-\abntrefinfo{Ratanamahatana e Keogh}{RATANAMAHATANA; KEOGH}{2004}
-{RATANAMAHATANA, C.~A.; KEOGH, E. Everything you know about dynamic time
-  warping is wrong. In:  CITESEER. \emph{Third Workshop on Mining Temporal and
-  Sequential Data}. [S.l.], 2004.}
+\bibitem{Lines2015}
+\abntrefinfo{Lines e Bagnall}{LINES; BAGNALL}{2015}
+{LINES, J.; BAGNALL, A. Time series classification with ensembles of elastic
+  distance measures.
+\emph{Data Mining and Knowledge Discovery}, v.~29, n.~3, p. 565--592, May 2015.
+Dispon{\'\i}vel em: $<$https://doi.org/10.1007/s10618-014-0361-2$>$.}
 
-\bibitem{alon2009}
-\abntrefinfo{Alon et al.}{ALON et al.}{2009}
-{ALON, J. et al. A unified framework for gesture recognition and spatiotemporal
-  gesture segmentation.
-\emph{IEEE transactions on pattern analysis and machine intelligence}, v.~31,
-  p. 1685--99, 10 2009.}
+\bibitem{giusti2013}
+\abntrefinfo{{Giusti} e {Batista}}{{Giusti}; {Batista}}{2013}
+{{Giusti}, R.; {Batista}, G. E. A. P.~A. An empirical comparison of
+  dissimilarity measures for time series classification. In:  \emph{2013
+  Brazilian Conference on Intelligent Systems}. [S.l.: s.n.], 2013. p. 82--88.}
 
 \end{thebibliography}

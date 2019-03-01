@@ -281,7 +281,7 @@ Estas pequenas amostras de acordo com \cite{Goodfellow2016}, melhora o poder com
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{pasta1_figuras/pooling.jpg}
-	\caption {Representação de max-pooling e average-pooling \cite{githubstride}}
+	\caption {Representação de max-pooling e average-pooling. Fonte: \cite{githubstride}}
 	\label{fig-pooling}
 \end{figure}
 
@@ -299,7 +299,7 @@ Após todo o processo de convolução realizado nas camadas anteriores, em muita
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{pasta1_figuras/alexnet.png}
-	\caption {Arquitetura LeNet-5. \cite{lecun98}}
+	\caption {Arquitetura LeNet-5. Fonte: \cite{lecun98}}
 	\label{fig-alexnet}
 \end{figure}
 
@@ -368,7 +368,7 @@ Sejam duas séries temporais $A = \{a_1,a_2,...,a_m \}$ e $B = \{b_1,b_2,...,b_n
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.6]{pasta1_figuras/fig-dtw.png}
+	\includegraphics[scale=0.5]{pasta1_figuras/fig-dtw.png}
 	\caption {A) Duas sequências Q e C são semelhantes, porém fora de fase. B) Para alinhar as sequências, construirmos a matriz e procuramos pelo melhor caminho. C) O alinhamento resultado. Fonte: \cite{Keogh2005}}
 	\label{fig-dtw}
 \end{figure}
@@ -411,11 +411,7 @@ Métodos de classificação de séries temporais podem ser divididos em duas cat
 	\item \textit{Baseados em instâncias: } classificam as instâncias de teste com base na similaridade com as instâncias de treino.
 \end{itemize}
 
-Um exemplo de classificador baseado em instâncias é o $k$-NN. Esse classificador 
-
-
-
-Diversos estudos na área evidenciam que a medida de distância Dynamic Time Warping (DTW) é uma das medidas mais adequadas para comparação séries temporais, possibilitando a identificação de padrões e a recuperação por conteúdo \cite{ratanamahatana2004} \cite{alon2009} \cite{Berndt:1994:UDT:3000850.3000887}. Para tarefas de classificação o DTW é combinado com o  
+Um exemplo de classificador baseado em instâncias é o $k$-NN. Diversos estudos evidenciam que a distância DTW combinada com um classificador 1-NN é uma das abordagens mais competitivas em tarefas de classificação \cite{Wang2013} \cite{Lines2015} \cite{giusti2013}. Contudo existem algumas desvantagens. O 1-NN é um classificador do tipo "preguiçoso" pois ele precisa verificar toda a base de treino para classificar uma instância. O cálculo da DTW tem complexidade $O(nm)$, onde $n$ e $m$ são os tamanhos das séries temporais. Ou seja, para cada passo do 1-NN é feito um cálculo da DTW, o que provoca um tempo muito grande para classificar toda as instâncias de teste, especialmente se o tamanho das séries forem grandes.
 
 
 % Fim Capítulo
