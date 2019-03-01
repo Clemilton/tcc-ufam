@@ -69,6 +69,11 @@ Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1512.03385$>$.}
 ISSN 0219-3116.
 Dispon{\'\i}vel em: $<$https://doi.org/10.1007/s10115-004-0154-9$>$.}
 
+\bibitem{Ratanamahatana2004MakingTC}
+\abntrefinfo{Ratanamahatana e Keogh}{RATANAMAHATANA; KEOGH}{2004}
+{RATANAMAHATANA, C.; KEOGH, E.~J. Making time-series classification more
+  accurate using learned constraints. In:  \emph{SDM}. [S.l.: s.n.], 2004.}
+
 \bibitem{monard2003}
 \abntrefinfo{Monard e Baranauskas}{MONARD; BARANAUSKAS}{2003}
 {MONARD, M.; BARANAUSKAS, J. \emph{Conceitos sobre aprendizado de máquinas. Em
@@ -228,5 +233,27 @@ Dispon{\'\i}vel em: $<$https://doi.org/10.1007/s10618-014-0361-2$>$.}
 {{Giusti}, R.; {Batista}, G. E. A. P.~A. An empirical comparison of
   dissimilarity measures for time series classification. In:  \emph{2013
   Brazilian Conference on Intelligent Systems}. [S.l.: s.n.], 2013. p. 82--88.}
+
+\bibitem{ratanamahatana2004everything}
+\abntrefinfo{Ratanamahatana e Keogh}{RATANAMAHATANA; KEOGH}{2004}
+{RATANAMAHATANA, C.~A.; KEOGH, E. Everything you know about dynamic time
+  warping is wrong. In:  CITESEER. \emph{Third Workshop on Mining Temporal and
+  Sequential Data}. [S.l.], 2004.}
+
+\bibitem{schafer2015}
+\abntrefinfo{Sch{\"a}fer}{SCH{\"A}FER}{2015}
+{SCH{\"A}FER, P. The boss is concerned with time series classification in the
+  presence of noise.
+\emph{Data Mining and Knowledge Discovery}, v.~29, n.~6, p. 1505--1530, Nov
+  2015.
+ISSN 1573-756X.
+Dispon{\'\i}vel em: $<$https://doi.org/10.1007/s10618-014-0377-7$>$.}
+
+\bibitem{bagnall2015}
+\abntrefinfo{Bagnall et al.}{BAGNALL et al.}{2015}
+{BAGNALL, A. et al. Time-series classification with cote: The collective of
+  transformation-based ensembles.
+\emph{IEEE Transactions on Knowledge and Data Engineering}, v.~27, p.~1--1, 09
+  2015.}
 
 \end{thebibliography}

@@ -369,7 +369,7 @@ Uma desvantagem da distância Euclidiana é a limitação no cálculo de distân
 
 Nesse caso, uma alternativa é a Dynamic Time Warping (DTW)\cite{Berndt:1994:UDT:3000850.3000887}, que permite realizar o alinhamento entre duas séries temporais e, assim, reconhecer a similaridade entre pares de séries, mesmo se elas apresentarem comprimentos diferentes ou se elas não estiverem alinhadas em relação à escala temporal. 
 
-Sejam duas séries temporais $A = \{a_1,a_2,...,a_m \}$ e $B = \{b_1,b_2,...,b_n \}$  de tamanhos $m$ e $n$ respectivamente, constrói-se uma matriz uma matriz $m$-por-$n$ onde o elemento $(i,j)$ da matriz contém a distância $d(a_i,b_i)$ entre dois os pontos $a_i$ e $b_j$ (geralmente é utilizada a Distância Euclidiana).  Cada elemento $(i,j)$ corresponde ao alinhamento entre os pontos $a_i$ e $b_i$. Isso é ilustrado na Figura \ref{fig-dtw}. 
+Sejam duas séries temporais $A = \{a_1,a_2,...,a_m \}$ e $B = \{b_1,b_2,...,b_n \}$  de tamanhos $m$ e $n$ respectivamente, constrói-se uma matriz $m$-por-$n$ onde o elemento $(i,j)$ da matriz contém a distância $d(a_i,b_i)$ entre dois os pontos $a_i$ e $b_j$ (geralmente é utilizada a Distância Euclidiana).  Cada elemento $(i,j)$ corresponde ao alinhamento entre os pontos $a_i$ e $b_i$. Isso é ilustrado na Figura \ref{fig-dtw}. 
 
 \begin{figure}[H]
 	\centering
@@ -392,13 +392,12 @@ DTW(A,B) = min \sqrt{\sum_{k=1}^{K} w_k}
 \end{equation}
 
 
-De forma intuitiva, o \textit{DTW} está interessado em obter o caminho que minimiza as distâncias entre as séries. É esperado que o caminho ótimo não esteja muito distante da diagonal da matriz. Este caminho pode ser encontrado utilizando programação dinâmica para buscar os próximos elementos do conjunto $W$. Assim, a distância cumulativa definida pela programação dinâmica $\gamma(i,j)$ e o mínimo das distâncias cumulativas das células adjacentes podem ser expressadas como:
+De forma intuitiva, o \textit{DTW} está interessado em obter o caminho que minimiza as distâncias entre as séries. Este caminho pode ser encontrado utilizando programação dinâmica para buscar os próximos elementos do conjunto $W$. Assim, a distância cumulativa definida pela programação dinâmica $\gamma(i,j)$ e o mínimo das distâncias cumulativas das células adjacentes podem ser expressadas como:
 \begin{equation}
 \gamma(i,j) = d(a_i,b_j) + min\{ \gamma(i-1,j-1),\gamma(i-1,j),\gamma(i,j-1) \}
 \end{equation}
 
 A Distância Euclidiana entre duas sequências pode ser vista como um caso especial de DTW. Nesse caso, os elementos $k$ de $W$ são restringidos à $w_k = (i,j)_k$ onde $i=j= k$. Também esse caso especial só pode ser aplicado se as duas sequências possuem o mesmo tamanho, ou seja $n=m$.
-
 
 Na Figura \ref{fig-dtw2}, é exibido o resultado da aplicação da DTW para calcular a distância entre as série temporais. Pode-se notar que a DTW realiza o alinhamento entre as duas séries temporais, de modo a reconhecer a similaridade entre seus comportamentos, mesmo havendo um deslocamento na escala temporal.
 
@@ -423,6 +422,30 @@ Métodos de classificação de séries temporais podem ser divididos em duas cat
 Grande parte das contribuições tem sido voltadas para a métodos baseados em atributos com definição de medidas de similaridade entre as séries temporais. \cite{Keogh2003}.
 
 Diversos estudos evidenciam que a distância DTW combinada com um classificador 1-NN é uma das abordagens mais competitivas em tarefas de classificação \cite{Wang2013} \cite{Lines2015} \cite{giusti2013}. Contudo existem algumas desvantagens. O 1-NN é um classificador do tipo ``preguiçoso" pois ele precisa verificar toda a base de treino para classificar uma instância. O cálculo da DTW tem complexidade $O(nm)$, onde $n$ e $m$ são os tamanhos das séries temporais. Ou seja, para cada passo do 1-NN é feito um cálculo da DTW, o que torna a classificação de toda a base de teste muito custosa, especialmente se o tamanho das séries forem grandes.
+
+Existem abordagens que tem como objetivo diminuir o tempo computacional da DTW. É esperado que o caminho ótimo não esteja muito distante da diagonal da matriz de distâncias. Tomando isso como pressuposto é possível definir uma banda de \textit{warping} onde a busca pelo caminho ótimo é limitada. Na prática, isso impede o alinhamento entre pares de observações muito distantes no eixo do tempo, o que também evita um problema conhecido como \textit{warping patológico} \cite{ratanamahatana2004everything}. Na figura \ref{fig-janeladtw} é mostrada dois tipos de bandas, a janela de Sakoe-Chiba e o paralelogramo de Itakura.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{pasta1_figuras/janela-dtw.png}
+	\caption {Visualização da janela de Sakoe-Chiba e do paralelogramo de Itakura. Fonte: \cite{Ratanamahatana2004MakingTC}}
+	\label{fig-janeladtw}
+\end{figure}
+
+Dentre as abordagens de estado-da-arte, os melhores resultados são alcançados por \textit{Bag-of-SFA-Symbols} (BOSS)\cite{schafer2015} e \textit{Collective of transform-based ensembles}(COTE) \cite{bagnall2015}. O primeiro método é um procedimento de transformação de séries temporais inspirado em processamento de texto, enquanto o segundo é um conjunto que agrega os resultados de 35 classificadores que processam quatro tipos de representação de séries temporais.
+
+\subsection{Classificação de series temporais com redes neurais}
+
+Ler: Time Series Classification with Recurrent Neural Networks e Time Series Classification from Scratch with Deep Neural Networks: A Strong Baseline
+
+Dentre as abordagens de estado-da-arte, os melhores resultados são alcançados por \textit{Bag-of-SFA-Symbols} (BOSS)\cite{schafer2015} e \textit{Collective of transform-based ensembles}(COTE) \cite{bagnall2015}. O primeiro método é um procedimento de transformação de séries temporais inspirado em processamento de texto, enquanto o segundo é um conjunto que agrega os resultados de 35 classificadores que processam quatro tipos de representação de séries temporais.
+
+Dentre as abordagens de estado-da-arte, os melhores resultados são alcançados por \textit{Bag-of-SFA-Symbols} (BOSS)\cite{schafer2015} e \textit{Collective of transform-based ensembles}(COTE) \cite{bagnall2015}. O primeiro método é um procedimento de transformação de séries temporais inspirado em processamento de texto, enquanto o segundo é um conjunto que agrega os resultados de 35 classificadores que processam quatro tipos de representação de séries temporais.
+
+Dentre as abordagens de estado-da-arte, os melhores resultados são alcançados por \textit{Bag-of-SFA-Symbols} (BOSS)\cite{schafer2015} e \textit{Collective of transform-based ensembles}(COTE) \cite{bagnall2015}. O primeiro método é um procedimento de transformação de séries temporais inspirado em processamento de texto, enquanto o segundo é um conjunto que agrega os resultados de 35 classificadores que processam quatro tipos de representação de séries temporais.
+
+Dentre as abordagens de estado-da-arte, os melhores resultados são alcançados por \textit{Bag-of-SFA-Symbols} (BOSS)\cite{schafer2015} e \textit{Collective of transform-based ensembles}(COTE) \cite{bagnall2015}. O primeiro método é um procedimento de transformação de séries temporais inspirado em processamento de texto, enquanto o segundo é um conjunto que agrega os resultados de 35 classificadores que processam quatro tipos de representação de séries temporais.
+
+Ler: Time Series Classification with Recurrent Neural Networks e Time Series Classification from Scratch with Deep Neural Networks: A Strong Baseline
 
 
 % Fim Capítulo

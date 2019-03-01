@@ -17,6 +17,7 @@
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Dist\IeC {\^a}ncia Euclidiana. Fonte: \cite {ferraz2016}\relax }}{21}{figure.caption.26}
 \contentsline {figure}{\numberline {2.15}{\ignorespaces A) Duas sequ\IeC {\^e}ncias Q e C s\IeC {\~a}o semelhantes, por\IeC {\'e}m fora de fase. B) Para alinhar as sequ\IeC {\^e}ncias, construirmos a matriz e procuramos pelo melhor caminho. C) O alinhamento resultado. Fonte: \cite {Keogh2005}\relax }}{22}{figure.caption.27}
 \contentsline {figure}{\numberline {2.16}{\ignorespaces A similaridade entre as s\IeC {\'e}ries temporais A e B \IeC {\'e} reconhecida pela DTW. \cite {ferraz2016}\relax }}{23}{figure.caption.28}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Visualiza\IeC {\c c}\IeC {\~a}o da janela de Sakoe-Chiba e do paralelogramo de Itakura. Fonte: \cite {Ratanamahatana2004MakingTC}\relax }}{24}{figure.caption.29}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
