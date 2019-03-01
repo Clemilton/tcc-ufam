@@ -27,14 +27,17 @@
 \BOOKMARK [3][-]{subsubsection.2.2.8.4}{Arquitetura de uma Rede Convolutiva}{subsection.2.2.8}% 27
 \BOOKMARK [2][-]{subsection.2.2.9}{Redes Residuais}{section.2.2}% 28
 \BOOKMARK [1][-]{section.2.3}{S\351ries Temporais}{chapter.2}% 29
-\BOOKMARK [2][-]{subsection.2.3.1}{Aplica\347\365es de S\351ries Temporais}{section.2.3}% 30
-\BOOKMARK [2][-]{subsection.2.3.2}{Medidas de similaridade}{section.2.3}% 31
-\BOOKMARK [1][-]{section.2.4}{Classifica\347\343o de S\351ries Temporais}{chapter.2}% 32
-\BOOKMARK [0][-]{chapter.3}{Sistema Proposto}{}% 33
-\BOOKMARK [1][-]{section.3.1}{Vis\343o geral}{chapter.3}% 34
-\BOOKMARK [0][-]{chapter.4}{Experimentos}{}% 35
-\BOOKMARK [1][-]{section.4.1}{M\351tricas}{chapter.4}% 36
-\BOOKMARK [1][-]{section.4.2}{Objetivos}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.3}{Resultados Obtidos}{chapter.4}% 38
-\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 39
-\BOOKMARK [0][-]{chapter*.29}{Refer\352ncias Bibliogr\341ficas}{}% 40
+\BOOKMARK [2][-]{subsection.2.3.1}{Reposit\363rio UCR}{section.2.3}% 30
+\BOOKMARK [2][-]{subsection.2.3.2}{Aplica\347\365es de S\351ries Temporais}{section.2.3}% 31
+\BOOKMARK [2][-]{subsection.2.3.3}{Medidas de similaridade}{section.2.3}% 32
+\BOOKMARK [1][-]{section.2.4}{Classifica\347\343o de S\351ries Temporais}{chapter.2}% 33
+\BOOKMARK [0][-]{chapter.3}{Sistema Proposto}{}% 34
+\BOOKMARK [1][-]{subsection.3.0.1}{Conjunto de dados}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.0.2}{Metodologia}{subsection.3.0.1}% 36
+\BOOKMARK [1][-]{section.3.1}{Vis\343o geral}{chapter.3}% 37
+\BOOKMARK [0][-]{chapter.4}{Experimentos}{}% 38
+\BOOKMARK [1][-]{section.4.1}{M\351tricas}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.2}{Objetivos}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.3}{Resultados Obtidos}{chapter.4}% 41
+\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 42
+\BOOKMARK [0][-]{chapter*.29}{Refer\352ncias Bibliogr\341ficas}{}% 43

@@ -173,6 +173,16 @@ Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1412.6980$>$.}
   Berlin, Heidelberg: Springer-Verlag, 2005.
 ISBN 0387244352, 9780387244358.}
 
+\bibitem{UCRArchive}
+\abntrefinfo{Chen et al.}{CHEN et al.}{2015}
+{CHEN, Y. et al. \emph{The UCR Time Series Classification Archive}. 2015.
+\url{www.cs.ucr.edu/~eamonn/time_series_data/}.}
+
+\bibitem{Dau2018TheUT}
+\abntrefinfo{Dau et al.}{DAU et al.}{2018}
+{DAU, H.~A. et al. The ucr time series archive.
+\emph{CoRR}, abs/1810.07758, 2018.}
+
 \bibitem{Berndt:1994:UDT:3000850.3000887}
 \abntrefinfo{Berndt e Clifford}{BERNDT; CLIFFORD}{1994}
 {BERNDT, D.~J.; CLIFFORD, J. Using dynamic time warping to find patterns in
@@ -189,6 +199,15 @@ ISBN 0387244352, 9780387244358.}
   142--153, ago. 2013.
 ISSN 0020-0255.
 Dispon{\'\i}vel em: $<$https://doi.org/10.1016/j.ins.2013.02.030$>$.}
+
+\bibitem{Keogh2003}
+\abntrefinfo{Keogh e Kasetty}{KEOGH; KASETTY}{2003}
+{KEOGH, E.; KASETTY, S. On the need for time series data mining benchmarks: A
+  survey and empirical demonstration.
+\emph{Data Min. Knowl. Discov.}, Kluwer Academic Publishers, Hingham, MA, USA,
+  v.~7, n.~4, p. 349--371, out. 2003.
+ISSN 1384-5810.
+Dispon{\'\i}vel em: $<$https://doi.org/10.1023/A:1024988512476$>$.}
 
 \bibitem{Wang2013}
 \abntrefinfo{Wang et al.}{WANG et al.}{2013}

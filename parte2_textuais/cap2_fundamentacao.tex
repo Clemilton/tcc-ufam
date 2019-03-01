@@ -329,6 +329,11 @@ onde $x_n$ representa uma observação no instante $t$, $n$ o número de observa
 As séries temporais estão em diversas áreas do conhecimento como Economia (preços diários dea ações, taxa mensal de desemprego, produção industrial), Medicina (eletrocardiograma, eletroencefalograma), Epidemiologia (número mensal de novos casos de meningite), Meteorologia( precipitação pluviométrica, temperatura diária, velocidade do vento).
 
 Embora séries temporais tenham sido estudadas por mais de 100 anos na estatística, muitos de seus métodos não são escaláveis para análise de grandes volumes de séries temporais, o que aumenta o interesse no uso de métodos de mineração de dados e aprendizagem de máquina. \cite{Maimon:2005:DMK:1088958}
+
+\subsection{Repositório UCR}
+O conjunto de dados utilizados neste trabalho foi o repositório UCR \cite{UCRArchive}. Com nome oficial de ``\textit{UCR Time Series Classification Archive}", esse repositório foi criado em 2002 pela Universidade da Califórnia em Riverside(daí vem o acrônimo UCR) inicialmente com dezesseis conjunto de dados de séries temporais. Atualmente possui 128 conjuntos de dados(com uma atualização recente em 2018) e reúnem vários domínios de aplicação. Esses conjuntos de dados possuem partições padrão de treinamento e teste, facilitando a realização dos experimentos e a comparação de resultados. Tornou-se um importante recurso na comunidade de mineração de dados em séries temporais, com mais de mil artigos publicados que utilizam pelo menos um conjunto de dados do repositório \cite{Dau2018TheUT}.
+
+
 \subsection{Aplicações de Séries Temporais}
 As principais tarefas de interesse para mineração de séries temporais são sintetizadas a seguir\cite{Maimon:2005:DMK:1088958}:
 
@@ -386,12 +391,13 @@ Existem vários caminhos que satisfazem as condições acima, entretanto no cál
 DTW(A,B) = min \sqrt{\sum_{k=1}^{K} w_k}
 \end{equation}
 
-Este caminho pode ser encontrado utilizando programação dinâmica para buscar os próximos elementos do conjunto $W$. Assim, a distância cumulativa definida pela programação dinâmica $\gamma(i,j)$ e o mínimo das distâncias cumulativas das células adjacentes podem ser expressadas como:
+
+De forma intuitiva, o \textit{DTW} está interessado em obter o caminho que minimiza as distâncias entre as séries. É esperado que o caminho ótimo não esteja muito distante da diagonal da matriz. Este caminho pode ser encontrado utilizando programação dinâmica para buscar os próximos elementos do conjunto $W$. Assim, a distância cumulativa definida pela programação dinâmica $\gamma(i,j)$ e o mínimo das distâncias cumulativas das células adjacentes podem ser expressadas como:
 \begin{equation}
 \gamma(i,j) = d(a_i,b_j) + min\{ \gamma(i-1,j-1),\gamma(i-1,j),\gamma(i,j-1) \}
 \end{equation}
 
-A Distância Euclidiana entre duas sequências pode ser vista como um caso especial de DTW (KEOGH, 2002b). Nesse caso, os elementos $k$ de $W$ são restringidos à $w_k = (i,j)_k$ onde $i=j= k$. Também esse caso especial só pode ser aplicado se as duas sequências possuem o mesmo tamanho, ou seja $n=m$.
+A Distância Euclidiana entre duas sequências pode ser vista como um caso especial de DTW. Nesse caso, os elementos $k$ de $W$ são restringidos à $w_k = (i,j)_k$ onde $i=j= k$. Também esse caso especial só pode ser aplicado se as duas sequências possuem o mesmo tamanho, ou seja $n=m$.
 
 
 Na Figura \ref{fig-dtw2}, é exibido o resultado da aplicação da DTW para calcular a distância entre as série temporais. Pode-se notar que a DTW realiza o alinhamento entre as duas séries temporais, de modo a reconhecer a similaridade entre seus comportamentos, mesmo havendo um deslocamento na escala temporal.
@@ -404,6 +410,9 @@ Na Figura \ref{fig-dtw2}, é exibido o resultado da aplicação da DTW para calc
 \end{figure}
 
 \section{Classificação de Séries Temporais}
+Problemas de diversas áreas podem ser modelados como problemas de classificação de séries temporais, tais como: reconhecimento de fala, detecção de movimentos e detecção de arritmias em eletrocardiogramas. Estes são alguns dos exemplos comumente encontrados.
+
+Alta dimensionalidade, alta correlação entre as \textit{features} e a grande quantidade de ruído são algumas das características que tornam as séries temporais desafiadoras aos algoritmos clássicos de classificação. Essa dificuldade as torna um problema interessante que tem sido explorado pela literatura.
 
 Métodos de classificação de séries temporais podem ser divididos em duas categorias \cite{Deng:2013}:
 \begin{itemize}
@@ -411,7 +420,9 @@ Métodos de classificação de séries temporais podem ser divididos em duas cat
 	\item \textit{Baseados em instâncias: } classificam as instâncias de teste com base na similaridade com as instâncias de treino.
 \end{itemize}
 
-Um exemplo de classificador baseado em instâncias é o $k$-NN. Diversos estudos evidenciam que a distância DTW combinada com um classificador 1-NN é uma das abordagens mais competitivas em tarefas de classificação \cite{Wang2013} \cite{Lines2015} \cite{giusti2013}. Contudo existem algumas desvantagens. O 1-NN é um classificador do tipo "preguiçoso" pois ele precisa verificar toda a base de treino para classificar uma instância. O cálculo da DTW tem complexidade $O(nm)$, onde $n$ e $m$ são os tamanhos das séries temporais. Ou seja, para cada passo do 1-NN é feito um cálculo da DTW, o que provoca um tempo muito grande para classificar toda as instâncias de teste, especialmente se o tamanho das séries forem grandes.
+Grande parte das contribuições tem sido voltadas para a métodos baseados em atributos com definição de medidas de similaridade entre as séries temporais. \cite{Keogh2003}.
+
+Diversos estudos evidenciam que a distância DTW combinada com um classificador 1-NN é uma das abordagens mais competitivas em tarefas de classificação \cite{Wang2013} \cite{Lines2015} \cite{giusti2013}. Contudo existem algumas desvantagens. O 1-NN é um classificador do tipo ``preguiçoso" pois ele precisa verificar toda a base de treino para classificar uma instância. O cálculo da DTW tem complexidade $O(nm)$, onde $n$ e $m$ são os tamanhos das séries temporais. Ou seja, para cada passo do 1-NN é feito um cálculo da DTW, o que torna a classificação de toda a base de teste muito custosa, especialmente se o tamanho das séries forem grandes.
 
 
 % Fim Capítulo
