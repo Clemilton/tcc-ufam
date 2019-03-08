@@ -31,14 +31,16 @@
 \BOOKMARK [2][-]{subsection.2.3.2}{Aplica\347\365es de S\351ries Temporais}{section.2.3}% 31
 \BOOKMARK [2][-]{subsection.2.3.3}{Medidas de similaridade}{section.2.3}% 32
 \BOOKMARK [1][-]{section.2.4}{Classifica\347\343o de S\351ries Temporais}{chapter.2}% 33
-\BOOKMARK [2][-]{subsection.2.4.1}{Classifica\347\343o de series temporais com redes neurais}{section.2.4}% 34
-\BOOKMARK [0][-]{chapter.3}{Sistema Proposto}{}% 35
-\BOOKMARK [1][-]{subsection.3.0.1}{Conjunto de dados}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.0.2}{Metodologia}{subsection.3.0.1}% 37
-\BOOKMARK [1][-]{section.3.1}{Vis\343o geral}{chapter.3}% 38
-\BOOKMARK [0][-]{chapter.4}{Experimentos}{}% 39
-\BOOKMARK [1][-]{section.4.1}{M\351tricas}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.2}{Objetivos}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.3}{Resultados Obtidos}{chapter.4}% 42
-\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 43
-\BOOKMARK [0][-]{chapter*.30}{Refer\352ncias Bibliogr\341ficas}{}% 44
+\BOOKMARK [2][-]{subsection.2.4.1}{Classifica\347\343o de series temporais com aprendizado profundo}{section.2.4}% 34
+\BOOKMARK [3][-]{subsubsection.2.4.1.1}{Modelos Generativos}{subsection.2.4.1}% 35
+\BOOKMARK [3][-]{subsubsection.2.4.1.2}{Modelos Discriminativos}{subsection.2.4.1}% 36
+\BOOKMARK [0][-]{chapter.3}{Sistema Proposto}{}% 37
+\BOOKMARK [1][-]{subsection.3.0.1}{Conjunto de dados}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.0.2}{Metodologia}{subsection.3.0.1}% 39
+\BOOKMARK [1][-]{section.3.1}{Vis\343o geral}{chapter.3}% 40
+\BOOKMARK [0][-]{chapter.4}{Experimentos}{}% 41
+\BOOKMARK [1][-]{section.4.1}{M\351tricas}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.2}{Objetivos}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.3}{Resultados Obtidos}{chapter.4}% 44
+\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 45
+\BOOKMARK [0][-]{chapter*.31}{Refer\352ncias Bibliogr\341ficas}{}% 46

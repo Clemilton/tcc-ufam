@@ -218,7 +218,7 @@ A introdução da função de regularização ajuda a combater o overfitting e j
 	\label{fig-dropout}
 \end{figure}
 
-\subsection{Redes Convolutivas}
+\subsection{Redes Convolutivas} \label{cnn}
 
 As redes convolutivas  foram desenvolvidas tomando como inspiração o cortéx visual de animais, que contém  agrupamentos de células que detectam luz em pequena escala que são chamadas de campo receptivos. O campo receptivo de um único neurônio sensorial é a região específica da retina em que a presença de um estímulo causa a ativação dele.Os neurônios sensoriais que tem campos receptivos semelhantes se sobrepõe.
 Na figura \ref{fig-campo} é mostrada uma representação de um neurônio e o seu campo receptivo. 
@@ -232,7 +232,7 @@ Na figura \ref{fig-campo} é mostrada uma representação de um neurônio e o se
 
 Tais células atuam como filtros locais sobre o espaço de entrada e quanto mais complexa a célula, maior o seu campo receptivo. As redes convolutivas segue esse mesmo princípio de campos receptivos, o que ajuda a diminuir o custo computacional de treinamento. Esse tipo de rede recebe esse nome devido a sua camada mais predominante, a camada de convolução.
 
-Em \cite{haykin2009neural} Haykin divide a estrutura das redes convolutivas em três objetivos principais:
+Haykin \cite{haykin2009neural} divide a estrutura das redes convolutivas em três objetivos principais:
 
 \begin{itemize}
 	\item Extração de características: Cada neurônio recebe sinais de entrada de uma determinada janela da camada anterior, possibilitando a extração de características locais. Isto faz com que a posição exata de cada característica (ou pixel, no caso de uma imagem), seja irrelevante, desde que sua posição em relação às características vizinhas seja mantida.
@@ -433,19 +433,27 @@ Existem abordagens que tem como objetivo diminuir o tempo computacional da DTW. 
 
 Dentre as abordagens de estado-da-arte, os melhores resultados são alcançados por \textit{Bag-of-SFA-Symbols} (BOSS)\cite{schafer2015} e \textit{Collective of transform-based ensembles}(COTE) \cite{bagnall2015}. O primeiro método é um procedimento de transformação de séries temporais inspirado em processamento de texto, enquanto o segundo é um conjunto que agrega os resultados de 35 classificadores que processam quatro tipos de representação de séries temporais.
 
-\subsection{Classificação de series temporais com redes neurais}
+\subsection{Classificação de series temporais com aprendizado profundo}
 
-Ler: Time Series Classification with Recurrent Neural Networks e Time Series Classification from Scratch with Deep Neural Networks: A Strong Baseline
+As abordagens de redes profundas para classificação de séries temporais podem ser divididas em duas categorias\cite{ismail2018}: modelos generativos e discriminativos, conforme mostrado na Figura \ref{fig-dnn-overview} 
 
-Dentre as abordagens de estado-da-arte, os melhores resultados são alcançados por \textit{Bag-of-SFA-Symbols} (BOSS)\cite{schafer2015} e \textit{Collective of transform-based ensembles}(COTE) \cite{bagnall2015}. O primeiro método é um procedimento de transformação de séries temporais inspirado em processamento de texto, enquanto o segundo é um conjunto que agrega os resultados de 35 classificadores que processam quatro tipos de representação de séries temporais.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{pasta1_figuras/dnn-tsc.png}
+	\caption {Visão geral de diferentes abordagens de aprendizado profundo para classificação de séries temporais. Fonte: \cite{ismail2018}}
+	\label{fig-dnn-overview}
+\end{figure}
 
-Dentre as abordagens de estado-da-arte, os melhores resultados são alcançados por \textit{Bag-of-SFA-Symbols} (BOSS)\cite{schafer2015} e \textit{Collective of transform-based ensembles}(COTE) \cite{bagnall2015}. O primeiro método é um procedimento de transformação de séries temporais inspirado em processamento de texto, enquanto o segundo é um conjunto que agrega os resultados de 35 classificadores que processam quatro tipos de representação de séries temporais.
+\subsubsection{Modelos Generativos}
+Modelos generativos geralmente passam por uma etapa não-supervisionada que precede o de treinamento do classificador. O objetivo dos modelos generativos é encontrar uma boa representação das séries temporais antes de treinar um classificador. Um exemplo de modelo generativo é o auto-codificador que procura aprender uma representação comprimida da entrada, chamada espaço latente. Existem muitos tipos de auto-codificadores, mas o seu uso mais comum é como um modelo de extração de características automático. 
 
-Dentre as abordagens de estado-da-arte, os melhores resultados são alcançados por \textit{Bag-of-SFA-Symbols} (BOSS)\cite{schafer2015} e \textit{Collective of transform-based ensembles}(COTE) \cite{bagnall2015}. O primeiro método é um procedimento de transformação de séries temporais inspirado em processamento de texto, enquanto o segundo é um conjunto que agrega os resultados de 35 classificadores que processam quatro tipos de representação de séries temporais.
+Modelos generativos baseado em redes convolutivas são propostos em \cite{autoencoder1} \cite{autoencoder2} onde os autores usam a operação de deconvolução e \textit{upsampling} que ajudam a reconstruir series temporais multivariadas. Em \cite{autoencoder3} \cite{autoencoder4},os autores utilizam auto-codificadores com redes recorrentes para gerar séries temporais em um espaço latente, para então treinar um classificador (como \textit{SVM} ou \textit{Random Forest}) para prever a classe de uma determinada série temporal de entrada. 
 
-Dentre as abordagens de estado-da-arte, os melhores resultados são alcançados por \textit{Bag-of-SFA-Symbols} (BOSS)\cite{schafer2015} e \textit{Collective of transform-based ensembles}(COTE) \cite{bagnall2015}. O primeiro método é um procedimento de transformação de séries temporais inspirado em processamento de texto, enquanto o segundo é um conjunto que agrega os resultados de 35 classificadores que processam quatro tipos de representação de séries temporais.
+Outra abordagem em modelos generativos são as Redes com Estado de Eco \textit{(Echo State Networks - ESN)} que são utilizadas em \cite{ESN1} \cite{ESN2}. As ESN são redes neurais compostas por: uma camada de entradas; uma camada interna denominada reservatório de dinâmicas (RD), constituída de neurônios organizados numa estrutura recorrente totalmente conectados utilizando funções de ativação não-linear; e uma camada de saídas de característica linear; \cite{marton2018}. Em classificação de séries temporais, as ESN são utilizadas para transformar a entrada em um espaço conhecido como \textit{resovoir}, que é utilizado para classificação.
+  
+\subsubsection{Modelos Discriminativos}
 
-Ler: Time Series Classification with Recurrent Neural Networks e Time Series Classification from Scratch with Deep Neural Networks: A Strong Baseline
+
 
 
 % Fim Capítulo

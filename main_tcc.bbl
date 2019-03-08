@@ -55,11 +55,12 @@ Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1512.03385$>$.}
 \bibitem{ferraz2016}
 \abntrefinfo{Amaral}{AMARAL}{2016}
 {AMARAL, B.~F.
+
 \emph{Classificação semissupervisionada de séries temporais extraídas de
-  imagens de satélite}.
- 115~p. --- Instituto de Ciências Matemáticas e de Computação, Universidade
-  de São Paulo, São Carlos, 2016. Dissertação de Mestrado em Ciências de
-  Computação e Matemática Computacional. Disponível em:
+  imagens de satélite} --- Instituto de Ciências Matemáticas e de
+  Computação, Universidade de São Paulo, São Carlos, 2016. Dissertação de
+  Mestrado em Ciências de Computação e Matemática Computacional.
+  Disponível em:
   http://www.teses.usp.br/teses/disponiveis/55/55134/tde-18112016-105621/.}
 
 \bibitem{Keogh2005}
@@ -73,6 +74,12 @@ Dispon{\'\i}vel em: $<$https://doi.org/10.1007/s10115-004-0154-9$>$.}
 \abntrefinfo{Ratanamahatana e Keogh}{RATANAMAHATANA; KEOGH}{2004}
 {RATANAMAHATANA, C.; KEOGH, E.~J. Making time-series classification more
   accurate using learned constraints. In:  \emph{SDM}. [S.l.: s.n.], 2004.}
+
+\bibitem{ismail2018}
+\abntrefinfo{Fawaz et al.}{FAWAZ et al.}{2018}
+{FAWAZ, H.~I. et al. Deep learning for time series classification: a review.
+\emph{CoRR}, abs/1809.04356, 2018.
+Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1809.04356$>$.}
 
 \bibitem{monard2003}
 \abntrefinfo{Monard e Baranauskas}{MONARD; BARANAUSKAS}{2003}
@@ -255,5 +262,61 @@ Dispon{\'\i}vel em: $<$https://doi.org/10.1007/s10618-014-0377-7$>$.}
   transformation-based ensembles.
 \emph{IEEE Transactions on Knowledge and Data Engineering}, v.~27, p.~1--1, 09
   2015.}
+
+\bibitem{autoencoder1}
+\abntrefinfo{Wang et al.}{WANG et al.}{2016}
+{WANG, Z. et al. Representation learning with deconvolution for multivariate
+  time series classification and visualization.
+\emph{CoRR}, abs/1610.07258, 2016.
+Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1610.07258$>$.}
+
+\bibitem{autoencoder2}
+\abntrefinfo{Mittelman}{MITTELMAN}{2015}
+{MITTELMAN, R. Time-series modeling with undecimated fully convolutional neural
+  networks.
+08 2015.
+Dispon{\'\i}vel em: $<$https://arxiv.org/abs/1508.00317$>$.}
+
+\bibitem{autoencoder3}
+\abntrefinfo{Mehdiyev et al.}{MEHDIYEV et al.}{2017}
+{MEHDIYEV, N. et al. Time series classification using deep learning for process
+  planning: A case from the process industry.
+\emph{Procedia Computer Science}, v.~114, p. 242 -- 249, 2017.
+ISSN 1877-0509.
+Complex Adaptive Systems Conference with Theme: Engineering Cyber Physical
+  Systems, CAS October 30 – November 1, 2017, Chicago, Illinois, USA.
+Dispon{\'\i}vel em:
+  $<$http://www.sciencedirect.com/science/article/pii/S1877050917318707$>$.}
+
+\bibitem{autoencoder4}
+\abntrefinfo{Malhotra et al.}{MALHOTRA et al.}{2017}
+{MALHOTRA, P. et al. Timenet: Pre-trained deep recurrent neural network for
+  time series classification.
+\emph{CoRR}, abs/1706.08838, 2017.
+Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1706.08838$>$.}
+
+\bibitem{ESN1}
+\abntrefinfo{Aswolinskiy, Reinhart e Steil}{ASWOLINSKIY; REINHART; STEIL}{2018}
+{ASWOLINSKIY, W.; REINHART, R.~F.; STEIL, J. Time series classification in
+  reservoir- and model-space.
+\emph{Neural Processing Letters}, v.~48, n.~2, p. 789--809, Oct 2018.
+ISSN 1573-773X.
+Dispon{\'\i}vel em: $<$https://doi.org/10.1007/s11063-017-9765-5$>$.}
+
+\bibitem{ESN2}
+\abntrefinfo{Bianchi et al.}{BIANCHI et al.}{2018}
+{BIANCHI, F.~M. et al. Reservoir computing approaches for representation and
+  classification of multivariate time series.
+03 2018.}
+
+\bibitem{marton2018}
+\abntrefinfo{Santos}{SANTOS}{2018}
+{SANTOS, M.~S.
+
+\emph{Classificadores neurais de treinamento rápido aplicados na
+  identificação online de evento no detector de atlas} --- Universidade
+  Federal da Bahia, Salvador, 2018. Dissertação de Mestrado em Engenharia
+  Elétrica. Disponível em:
+  http://www.ppgee.eng.ufba.br/teses/c2125147ac78f314a43ec5d461e07f73.pdf.}
 
 \end{thebibliography}

@@ -34,14 +34,16 @@
 \contentsline {subsection}{\numberline {2.3.2}Aplica\IeC {\c c}\IeC {\~o}es de S\IeC {\'e}ries Temporais}{20}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Medidas de similaridade}{20}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Classifica\IeC {\c c}\IeC {\~a}o de S\IeC {\'e}ries Temporais}{23}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Classifica\IeC {\c c}\IeC {\~a}o de series temporais com redes neurais}{25}{subsection.2.4.1}
-\contentsline {chapter}{\numberline {3}Sistema Proposto}{26}{chapter.3}
-\contentsline {subsection}{\numberline {3.0.1}Conjunto de dados}{26}{subsection.3.0.1}
-\contentsline {subsection}{\numberline {3.0.2}Metodologia}{26}{subsection.3.0.2}
-\contentsline {section}{\numberline {3.1}Vis\IeC {\~a}o geral}{26}{section.3.1}
-\contentsline {chapter}{\numberline {4}Experimentos}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}M\IeC {\'e}tricas}{27}{section.4.1}
-\contentsline {section}{\numberline {4.2}Objetivos}{27}{section.4.2}
-\contentsline {section}{\numberline {4.3}Resultados Obtidos}{27}{section.4.3}
-\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{28}{chapter.5}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{29}{chapter*.30}
+\contentsline {subsection}{\numberline {2.4.1}Classifica\IeC {\c c}\IeC {\~a}o de series temporais com aprendizado profundo}{25}{subsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.1.1}Modelos Generativos}{25}{subsubsection.2.4.1.1}
+\contentsline {subsubsection}{\numberline {2.4.1.2}Modelos Discriminativos}{26}{subsubsection.2.4.1.2}
+\contentsline {chapter}{\numberline {3}Sistema Proposto}{27}{chapter.3}
+\contentsline {subsection}{\numberline {3.0.1}Conjunto de dados}{27}{subsection.3.0.1}
+\contentsline {subsection}{\numberline {3.0.2}Metodologia}{27}{subsection.3.0.2}
+\contentsline {section}{\numberline {3.1}Vis\IeC {\~a}o geral}{27}{section.3.1}
+\contentsline {chapter}{\numberline {4}Experimentos}{28}{chapter.4}
+\contentsline {section}{\numberline {4.1}M\IeC {\'e}tricas}{28}{section.4.1}
+\contentsline {section}{\numberline {4.2}Objetivos}{28}{section.4.2}
+\contentsline {section}{\numberline {4.3}Resultados Obtidos}{28}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{29}{chapter.5}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{30}{chapter*.31}
