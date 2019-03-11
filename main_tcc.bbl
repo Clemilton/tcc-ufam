@@ -264,8 +264,8 @@ Dispon{\'\i}vel em: $<$https://doi.org/10.1007/s10618-014-0377-7$>$.}
   2015.}
 
 \bibitem{autoencoder1}
-\abntrefinfo{Wang et al.}{WANG et al.}{2016}
-{WANG, Z. et al. Representation learning with deconvolution for multivariate
+\abntrefinfo{Zhiguang et al.}{ZHIGUANG et al.}{2016}
+{ZHIGUANG et al. Representation learning with deconvolution for multivariate
   time series classification and visualization.
 \emph{CoRR}, abs/1610.07258, 2016.
 Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1610.07258$>$.}
@@ -318,5 +318,58 @@ Dispon{\'\i}vel em: $<$https://doi.org/10.1007/s11063-017-9765-5$>$.}
   Federal da Bahia, Salvador, 2018. Dissertação de Mestrado em Engenharia
   Elétrica. Disponível em:
   http://www.ppgee.eng.ufba.br/teses/c2125147ac78f314a43ec5d461e07f73.pdf.}
+
+\bibitem{mlmastery}
+\abntrefinfo{{J. Browniee}}{{J. Browniee}}{2014}
+{{J. Browniee}. \emph{Discover Feature Engineering, How to Engineer Features
+  and How to Get Good at It}. 2014.
+[Online; acessado em 11 de março, 2019].
+Dispon{\'\i}vel em:
+  $<$https://machinelearningmastery.com/discover-feature-engineering-how-to-engineer-features-and-how-to-get-good-at-it/$>$.}
+
+\bibitem{Wang01}
+\abntrefinfo{Wang e Oates}{WANG; OATES}{2015}
+{WANG, Z.; OATES, T. Imaging time-series to improve classification and
+  imputation. In:  \emph{Proceedings of the 24th International Conference on
+  Artificial Intelligence}. AAAI Press, 2015.  (IJCAI'15), p. 3939--3945.
+ISBN 978-1-57735-738-4. Dispon{\'\i}vel em:
+  $<$http://dl.acm.org/citation.cfm?id=2832747.2832798$>$.}
+
+\bibitem{TRIPATHY2018}
+\abntrefinfo{Tripathy e Acharya}{TRIPATHY; ACHARYA}{2018}
+{TRIPATHY, R.; ACHARYA, U.~R. Use of features from rr-time series and eeg
+  signals for automated classification of sleep stages in deep neural network
+  framework.
+\emph{Biocybernetics and Biomedical Engineering}, v.~38, n.~4, p. 890 -- 902,
+  2018.
+ISSN 0208-5216.
+Dispon{\'\i}vel em:
+  $<$http://www.sciencedirect.com/science/article/pii/S0208521618300949$>$.}
+
+\bibitem{Wang02}
+\abntrefinfo{Wang e Oates}{WANG; OATES}{2015}
+{WANG, Z.; OATES, T. Spatially encoding temporal correlations to classify
+  temporal data using convolutional neural networks.
+\emph{CoRR}, abs/1509.07481, 2015.
+Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1509.07481$>$.}
+
+\bibitem{Zheng2014}
+\abntrefinfo{Zheng et al.}{ZHENG et al.}{2014}
+{ZHENG, Y. et al. Time series classification using multi-channels deep
+  convolutional neural networks. In:  \emph{WAIM}. [S.l.: s.n.], 2014.}
+
+\bibitem{tscFromScratch}
+\abntrefinfo{Wang, Yan e Oates}{WANG; YAN; OATES}{2016}
+{WANG, Z.; YAN, W.; OATES, T. Time series classification from scratch with deep
+  neural networks: {A} strong baseline.
+\emph{CoRR}, abs/1611.06455, 2016.
+Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1611.06455$>$.}
+
+\bibitem{karim2018}
+\abntrefinfo{{Karim} et al.}{{Karim} et al.}{2018}
+{{Karim}, F. et al. Lstm fully convolutional networks for time series
+  classification.
+\emph{IEEE Access}, v.~6, p. 1662--1669, 2018.
+ISSN 2169-3536.}
 
 \end{thebibliography}
