@@ -2,8 +2,13 @@
 
 \chapter{Introdução} %Contextualização, motivação e justificativa.
 
-% [Contemporâneo - Como as tecnologias ajudam na música (de forma geral)]
+Séries estão presentes em diversos fenômenos ao nosso redor. Tanto em atividades humanas como processos naturais, as séries temporais estão presentes em domínios como: clima, economia, medicina, transporte. Avanços rápidos em tecnologias, desde sensores remotos a \textit{wearables}, estão gerando um rápido crescimento no tamanho e na complexidade dos fluxos de dados de séries temporais. Assim, a importância e o impacto das técnicas de análise e modelagem de séries temporais continuam a crescer.
 
+Dentre as diferentes análises, a Classificação de Séries Temporais (\textit{TSC}) tem sido considerada um dos problemas mais desafiadores na mineração de dados. Uma característica que não pode ser ignorada é a correlação entre as amostras. Com o aumento de dados temporais, centenas de métodos para \textit{TSC} foram propostos desde 2015 \cite{Bagnall2017}. A abordagem mais popular e tradicional é o k-vizinhos mais próximos(KNN) combinada com a distância \textit{Dynamic Time Warping} (DTW). A ideia principal consiste em fazer o cálculo da distância 
+
+O objetivo deste trabalho é avaliar diferentes arquiteturas de aprendizagem profunda para classificação de séries temporais com base no repositório da UCR.
+
+Dentro dessa realidade, o presente projeto aborda o desenvolvimento de um sistema de detecção de f0 para áudios musicais monofônicos, através de processamento digital de sinais, com o intuito de mapear os áudios, fornecendo as frequências fundamentais soadas em cada instante de tempo e identificando os fenômenos aos quais um sistema nesse contexto é submetido. A detecção de f0 será realizada por meio da Transformada de Fourier de Curto Tempo(STFT), considerando f0 como a frequência de maior amplitude dentro de cada janela. Foi construída uma base de dados com áudios de 4 tipos de instrumentos musicais para realização de experimentos, visando validar as detecções realizadas pelo sistema. Este trabalho propõe-se ainda a avaliar a metodologia adotada por meio desses experimentos realizados. 
 \section{Organização do Trabalho}
 
 

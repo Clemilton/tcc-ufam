@@ -3,7 +3,7 @@
 \begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.6 }
+\abntbstabout{v-1.9.2 }
 
 \bibitem{towardsdatascience}
 \abntrefinfo{{Towards Data Science}}{{Towards Data Science}}{2017}
@@ -80,6 +80,14 @@ Dispon{\'\i}vel em: $<$https://doi.org/10.1007/s10115-004-0154-9$>$.}
 {FAWAZ, H.~I. et al. Deep learning for time series classification: a review.
 \emph{CoRR}, abs/1809.04356, 2018.
 Dispon{\'\i}vel em: $<$http://arxiv.org/abs/1809.04356$>$.}
+
+\bibitem{Bagnall2017}
+\abntrefinfo{Bagnall et al.}{BAGNALL et al.}{2017}
+{BAGNALL, A. et al. The great time series classification bake off: a review and
+  experimental evaluation of recent algorithmic advances.
+\emph{Data Mining and Knowledge Discovery}, v.~31, n.~3, p. 606--660, May 2017.
+ISSN 1573-756X.
+Dispon{\'\i}vel em: $<$https://doi.org/10.1007/s10618-016-0483-9$>$.}
 
 \bibitem{monard2003}
 \abntrefinfo{Monard e Baranauskas}{MONARD; BARANAUSKAS}{2003}
@@ -192,7 +200,7 @@ ISBN 0387244352, 9780387244358.}
 
 \bibitem{Dau2018TheUT}
 \abntrefinfo{Dau et al.}{DAU et al.}{2018}
-{DAU, H.~A. et al. The ucr time series archive.
+{DAU, H.~A. et al. Ucr time series archive.
 \emph{CoRR}, abs/1810.07758, 2018.}
 
 \bibitem{Berndt:1994:UDT:3000850.3000887}

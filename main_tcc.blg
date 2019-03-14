@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main_tcc.aux
 A level-1 auxiliary file: parte1_pre-textuais/item01_capa.aux
@@ -36,56 +36,56 @@ Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 You can't pop an empty literal stack for entry ferraz2016
-while executing---line 2146 of file abntex2-num.bst
+while executing---line 2217 of file abntex2-num.bst
 Warning--campo year vazio ou faltando em haykin2009
 You can't pop an empty literal stack for entry guedes2017
-while executing---line 2146 of file abntex2-num.bst
+while executing---line 2217 of file abntex2-num.bst
 You can't pop an empty literal stack for entry marton2018
-while executing---line 2146 of file abntex2-num.bst
+while executing---line 2217 of file abntex2-num.bst
 +---------------------------------------------------------+
-| Estilo bibliográfico abntex2-num.bst versão v-1.9.6           |
+| Estilo bibliográfico abntex2-num.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
-| http://www.abntex.net.br/                               |
+| http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 53 entries,
-            6714 wiz_defined-function locations,
-            1561 strings with 20696 characters,
-and the built_in function-call counts, 41221 in all, are:
-= -- 3352
-> -- 1437
-< -- 73
-+ -- 601
-- -- 426
-* -- 3012
-:= -- 5416
-add.period$ -- 228
-call.type$ -- 53
-change.case$ -- 602
-chr.to.int$ -- 140
-cite$ -- 54
-duplicate$ -- 2097
-empty$ -- 2911
-format.name$ -- 2228
-if$ -- 9836
+You've used 54 entries,
+            6706 wiz_defined-function locations,
+            1568 strings with 20966 characters,
+and the built_in function-call counts, 42077 in all, are:
+= -- 3412
+> -- 1472
+< -- 77
++ -- 615
+- -- 436
+* -- 3089
+:= -- 5527
+add.period$ -- 233
+call.type$ -- 54
+change.case$ -- 616
+chr.to.int$ -- 144
+cite$ -- 55
+duplicate$ -- 2134
+empty$ -- 2955
+format.name$ -- 2283
+if$ -- 10033
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 946
-newline$ -- 305
-num.names$ -- 212
-pop$ -- 1307
+missing$ -- 964
+newline$ -- 312
+num.names$ -- 216
+pop$ -- 1322
 preamble$ -- 1
-purify$ -- 220
+purify$ -- 225
 quote$ -- 0
-skip$ -- 2169
+skip$ -- 2211
 stack$ -- 1
-substring$ -- 1494
-swap$ -- 966
-text.length$ -- 44
+substring$ -- 1534
+swap$ -- 995
+text.length$ -- 47
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 21
 warning$ -- 1
-while$ -- 303
+while$ -- 310
 width$ -- 0
-write$ -- 765
+write$ -- 782
 (There were 3 error messages)
