@@ -38,9 +38,9 @@
 \contentsline {subsubsection}{\numberline {2.4.1.1}Modelos Generativos}{26}{subsubsection.2.4.1.1}
 \contentsline {subsubsection}{\numberline {2.4.1.2}Modelos Discriminativos}{27}{subsubsection.2.4.1.2}
 \contentsline {chapter}{\numberline {3}Sistema Proposto}{28}{chapter.3}
-\contentsline {subsection}{\numberline {3.0.2}Conjunto de dados}{28}{subsection.3.0.2}
-\contentsline {subsection}{\numberline {3.0.3}M\IeC {\'e}tricas}{28}{subsection.3.0.3}
-\contentsline {subsection}{\numberline {3.0.4}Metodologia}{28}{subsection.3.0.4}
+\contentsline {subsection}{\numberline {3.0.1}Conjunto de dados}{28}{subsection.3.0.1}
+\contentsline {subsection}{\numberline {3.0.2}M\IeC {\'e}tricas}{28}{subsection.3.0.2}
+\contentsline {subsection}{\numberline {3.0.3}Metodologia}{28}{subsection.3.0.3}
 \contentsline {section}{\numberline {3.1}Vis\IeC {\~a}o geral}{28}{section.3.1}
 \contentsline {chapter}{\numberline {4}Experimentos}{29}{chapter.4}
 \contentsline {section}{\numberline {4.1}M\IeC {\'e}tricas}{29}{section.4.1}
