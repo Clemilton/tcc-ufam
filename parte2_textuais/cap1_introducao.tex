@@ -10,9 +10,13 @@ Para \textit{TSC}, a abordagem mais popular e tradicional é o k-vizinhos mais p
 
 Em 2015 centenas de métodos para classificação de séries temporais foram propostos \cite{Bagnall2017}. Um fator que contribuiu para esse aumento, foi  a expansão do repositório UCR \textit{Time Series Classification} para 85 conjuntos de dados de diversos domínios diferentes  O repositório contribuiu para aumentar a qualidade da avaliação de novos algoritmos TSC. 
 
-Nos últimos anos as redes profundas tem alcançado resultados impressionantes em tarefas como reconhecimento de faces, localização de objetos e classificação de áudio. Em \textit{TSC},as redes neurais profundas estão sendo progressivamente introduzidas no problema da classificação de séries temporais \cite{Zheng2014} \cite{Wang01}  \cite{tscFromScratch}. Modelos de aprendizagem profunda em TSC são divididos em Generativos e Discriminativos \cite{ismail2018}.
+Nos últimos anos as redes profundas tem alcançado resultados impressionantes em tarefas como reconhecimento de faces, localização de objetos e classificação de áudio. Em \textit{TSC}, as redes neurais profundas estão sendo progressivamente introduzidas no problema da classificação de séries temporais \cite{Zheng2014} \cite{Wang01}  \cite{tscFromScratch}. Modelos de aprendizagem profunda em TSC são divididos em Generativos e Discriminativos \cite{ismail2018}.
+
+Modelos Generativos encontram, a partir de uma etapa não-supervisionada, um boa representação das séries temporais antes da etapa de classificação. Modelos Discriminativos aprendem a mapear a entrada bruta, ou através de Engenharia de Características(\textit{Feature Engineering}), de uma série temporal e gera uma distribuição de probabilidade sobre as classes do problema em questão na camada de saída. 
 
 Neste contexto, o objetivo deste trabalho é avaliar diferentes arquiteturas de aprendizagem profunda discriminativas para classificação de séries temporais com base no repositório da UCR. A ideia é que não haja pré-processamento.
+
+
 
 
 \section{Organização do Trabalho}
