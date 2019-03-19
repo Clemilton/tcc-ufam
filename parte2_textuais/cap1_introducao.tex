@@ -2,6 +2,12 @@
 
 \chapter{Introdução} %Contextualização, motivação e justificativa.
 
+%O texto de introdução deve conter três tipos de informações: apresentação do problema, estado da arte e justificativa do projeto.
+%A apresentação ou formulação do problema deve deixar, de forma bem clara, qual será o objeto de estudo do projeto. As razões para a escolha do tema deverão ser justificadas. Desta forma devem ser indicadas: a importância do estudo, quais as possíveis repercussões, quais hipóteses a serem verificadas, entre outras. 
+%O estado da arte serve para embasar tanto a formulação do problema como sua justificativa. É preciso situar historicamente a evolução do tema, quais as abordagens já investigadas, qual o estágio atual do conhecimento sobre o assunto ou quais as tendências que se apresentam. Indique as palavras-chave que foram utilizadas para a pesquisa bibliográfica.
+%A justificativa do projeto deve indicar por que o projeto deve ser feito, ou seja, por que o problema tratado é relevante. Descreva os fatores de motivação que o(s) levaram a abordar e trabalhar no assunto.
+%O final da introdução deve incluir uma descrição de como o documento está estruturado (um parágrafo para indicar o conteúdo de cada seção do Plano do Projeto).
+
 Séries temporais estão presentes em diversos fenômenos ao nosso redor. Tanto em atividades humanas, como em processos naturais, elas têm sido alvo de pesquisas em áreas como clima, economia, medicina, transporte. Além disso, em diversos domínios de pesquisa, dados tipicamente não temporais, como figuras geométricas, a face, mão ou postura corporal de um indivíduo, são representados e analisados como séries temporais. Com o aumento do volume de dados gerados e o avanço nas tecnologias de sensores, houve crescimento no tamanho e na complexidade dos fluxos de dados de séries temporais. Assim, a importância e o impacto das técnicas de análise e modelagem de séries temporais continuam a crescer. 
 
 No contexto da mineração de dados, uma das tarefas mais importantes é a classificação, cujo objetivo é associar cada instância de um conjunto de dados a uma pré-definida no problema. Os problemas de Classificação de Séries Temporais (\textit{TSC - Time Series Classification}) são diferentes pois a ordem das amostras são relevantes e tem correlação entre si. Diversos modelos clássicos de classificação tratam cada atributo de forma independente.  
@@ -12,22 +18,22 @@ Em 2015 centenas de métodos para classificação de séries temporais foram pro
 
 Nos últimos anos as redes profundas tem alcançado resultados impressionantes em tarefas como reconhecimento de faces, localização de objetos e classificação de áudio. Em \textit{TSC}, as redes neurais profundas estão sendo progressivamente introduzidas no problema da classificação de séries temporais \cite{Zheng2014} \cite{Wang01}  \cite{tscFromScratch}. Modelos de aprendizagem profunda em TSC são divididos em Generativos e Discriminativos \cite{ismail2018}.
 
-Modelos Generativos encontram, a partir de uma etapa não-supervisionada, um boa representação das séries temporais antes da etapa de classificação. Modelos Discriminativos aprendem a mapear a entrada bruta, ou através de Engenharia de Características(\textit{Feature Engineering}), de uma série temporal e gera uma distribuição de probabilidade sobre as classes do problema em questão na camada de saída. 
+Modelos Generativos encontram, a partir de uma etapa não-supervisionada, um boa representação das séries temporais antes da etapa de classificação.Os Modelos Discriminativos tem duas abordagens: \textit{End-to-End} e \textit{Feature Engeneering}. A abordagem \textit{end-to-end} aprende a mapear a entrada bruta de uma série temporal e gera uma distribuição de probabilidade sobre as classes do problema em questão na camada de saída. A abordagem \textit{Feature Engeneering}, há um processamento da série temporal para um domínio específico e por fim realizar o aprendizado neste. 
 
-Neste contexto, o objetivo deste trabalho é avaliar diferentes arquiteturas de aprendizagem profunda discriminativas para classificação de séries temporais com base no repositório da UCR. A ideia é que não haja pré-processamento.
+Neste contexto, este trabalho se propõe a fazer um estudo empírico de diferentes redes profundas que utilizam a abordagem \textit{end-to-end} para classificação de séries temporais.
 
 
 
 
 \section{Organização do Trabalho}
 
+Este trabalho escrito está organizado 3 capítulos, onde discorrem-se os fundamentos teóricos, as arquiteturas propostas e os experimentos realizados.
+
+No Capítulo \ref{cap2}, Fundamentação Teórica, são abordados os termos e conceitos utilizados na execução deste trabalho. São tratados conceitos de aprendizagem de máquina, classificação supervisionada e o Modelo K-NN que é importante para o contexto de classificação séries temporais. Neste capítulo é introduzido o conceito de redes neurais, Funções de Perda, Otimizadores, Hiper-parâmetros, Regularização, Redes Convolutivas e Redes Residuais. FALAR SOBRE SERIES TEMPORAIS
 
 
-%O texto de introdução deve conter três tipos de informações: apresentação do problema, estado da arte e justificativa do projeto.
-%A apresentação ou formulação do problema deve deixar, de forma bem clara, qual será o objeto de estudo do projeto. As razões para a escolha do tema deverão ser justificadas. Desta forma devem ser indicadas: a importância do estudo, quais as possíveis repercussões, quais hipóteses a serem verificadas, entre outras. 
-%O estado da arte serve para embasar tanto a formulação do problema como sua justificativa. É preciso situar historicamente a evolução do tema, quais as abordagens já investigadas, qual o estágio atual do conhecimento sobre o assunto ou quais as tendências que se apresentam. Indique as palavras-chave que foram utilizadas para a pesquisa bibliográfica.
-%A justificativa do projeto deve indicar por que o projeto deve ser feito, ou seja, por que o problema tratado é relevante. Descreva os fatores de motivação que o(s) levaram a abordar e trabalhar no assunto.
-%O final da introdução deve incluir uma descrição de como o documento está estruturado (um parágrafo para indicar o conteúdo de cada seção do Plano do Projeto).
+
+
 
 \section{Objetivo}
 

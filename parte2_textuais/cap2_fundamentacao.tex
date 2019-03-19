@@ -41,23 +41,6 @@ De maneira geral, a base de dados é dividida em dois conjuntos: conjunto de \te
 
 Em alguns casos, pode ser necessário utilizar um conjunto de \textit{validação}, extraído do conjunto de treinamento, para realizar ajustes no modelo construído pelo algoritmo de aprendizado. Logo tem-se três conjuntos: \textit{treino}, \textit{validação} e \textit{teste}. O treino é utilizado para aprendizagem do algoritmo. O modelo é avaliado através do conjunto de validação. É feita uma alteração dos parâmetros do classificador e outro treinamento é realizado. O intuito é melhorar o desempenho do modelo através desses "ajustes". Dessa maneira os exemplos de validação são indiretamente "vistos" durante o processo de aprendizado, o que obriga que esses exemplos sejam diferentes dos exemplos de testes.
 
-\subsection{Normalização e One-Hot Enconding} \label{ssec:norm}
-Os algoritmos de aprendizagem de máquina aprendem através dos dados. Dados do mundo real apresentam valores que estão em distintas faixas. A fim de evitar que algum atributo predomine sobre outro ou que inclua alguma ponderação indesejada ao induzir um modelo de AM, é comum fazer uma normalização dos valores de cada atributo. Um forma de normalizar os dados é mostrada na Equação \ref{eq-norm}:
-
-\begin{equation}\label{eq-norm}
-x_{ij} = \frac{x_{ij} - \overline{x}}{ \sigma_j}
-\end{equation}
-
-onde $\overline{x}$ representa a média do atributo e $\sigma_j$ representa o desvio padrão.
-
-Os algoritmos de AM geralmente possuem como entrada e saída valores numéricos, portanto é necessário converter os valores categóricos da base de dados para valores numéricos. A codificação one-hot é um processo que converte rótulos em vetores binários como mostrado na Figura \ref{fig-onehot}. Uma vantagem dessa codificação é que não cria uma "ordem" numérica nos dados. Essa ordem poderia interferir na indução do classificador, podendo dar maior importância para valores maiores, o que não faz sentido para variáveis categóricas.
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[scale=0.5]{pasta1_figuras/one-hot.png}
-	\caption{Codificação One-hot}
-	\label{fig-onehot}
-\end{figure}
 
 \subsection{K-Nearest Neighbors (KNN)}
 Um classificador bastante popular é o K-Nearest Neighbors(K-Vizinhos mais próximos). O KNN utiliza os próprios dados de treinamento como modelo de classificação. Para classificar uma instância de teste, procura-se entre os dados de treinamento os $K$ mais próximos da instância de teste. Por fim, verifica-se qual a classe predominante desses $K$ dados de treinamento, e instância de teste é classificada com essa mesma classe. A cada nova exemplo a ser classificado faz-se uma varredura nos dados de treinamento, o que provoca um grande esforço computacional
@@ -92,7 +75,7 @@ Um bloco básico de uma rede neural tem algumas semelhanças com um neurônio bi
 	\label{fig-neuronio}
 \end{figure}
 
-O modelo de um neurônio artifical é apresentado na Figura \ref{fig-guide-1}. Este modelo é composto por três elementos:
+O modelo de um neurônio artifical é apresentado na Figura \ref{fig-perceptron}. Este modelo é composto por três elementos:
 \begin{itemize}
 	\item Um cojunto de entradas $(x_1,x_2,...,x_n)$ que são multiplicadas por um conjunto e pesos $(p_1,p_2,...,p_n)$;
 	\item Um somador $(\sum)$ para acumular o sinais de entrada;
@@ -204,11 +187,11 @@ Número de épocas é a quantidade de vezes que o conjunto de treino é passado 
 \subsection{Regularização}
 
 Além do \textit{tuning} dos hiperparâmetros existe outras maneiras para aumentar a performance da rede e torná-la mais robusta em sua capacidade de generalização. 
-Um exemplo é a adição de um termo de regularização na função de perda. Esse termo é introduzido para regularizar os valores dos pesos buscando distribuir melhor o aprendizado por todos os neurônios. A função provavelmente mais usada para este fim é a da regularização L2, onde para cada parâmetro da rede o termo $\frac{1}{2}\lambda \omega^2$ é adicionado ao resultado da função de perda,$\omega$ representando o peso em questão, $\lambda$ sendo a força da regularização e o fator $\frac{1}{2}$ é multiplicado para simplificar o gradiente da função.
+Um exemplo é a adição de um termo de regularização na função de perda. Esse termo é introduzido para regularizar os valores dos pesos buscando distribuir melhor o aprendizado por todos os neurônios.A introdução da função de regularização ajuda a combater o \textit{overfitting}. %A função provavelmente mais usada para este fim é a da regularização L2, onde para cada parâmetro da rede o termo $\frac{1}{2}\lambda \omega^2$ é adicionado ao resultado da função de perda,$\omega$ representando o peso em questão, $\lambda$ sendo a força da regularização e o fator $\frac{1}{2}$ é multiplicado para simplificar o gradiente da função.
 
-Essa regularização penaliza neurônios com pesos muito altos levando a uma distribuição das atualizações para os neurônios com pesos menores. Ao introduzir essa função é necessário lembrar que os pesos também devem ser atualizados pelo gradiente da função de regularização, o que é um passo geralmente realizado após a atualização quanto ao gradiente da função loss.
+%%Essa regularização penaliza neurônios com pesos muito altos levando a uma distribuição das atualizações para os neurônios com pesos menores. Ao introduzir essa função é %%necessário lembrar que os pesos também devem ser atualizados pelo gradiente da função de regularização, o que é um passo geralmente realizado após a atualização quanto %%ao gradiente da função loss.
 
-A introdução da função de regularização ajuda a combater o overfitting e juntamente com ela uma outra técnica que é muito utilizada para esse fim é o \textit{Dropout} \cite{dropout2014}. O Dropout é uma técnica que condiciona à existência de um neurônio na fase de treinamento em função de uma probabilidade predefinida por um hiperparâmetro. Esse método essencialmente desativa neurônios com uma probabilidade p para que a rede seja capaz de otimizar a função loss mesmo sem a presença de todos os seus neurônios.
+Outra técnica que é muito utilizada para combater o \textit{overfitting} é o \textit{Dropout} \cite{dropout2014}. O Dropout é uma técnica que condiciona à existência de um neurônio na fase de treinamento em função de uma probabilidade predefinida por um hiperparâmetro. Ou seja, em cada época uma parcela aleatória dos neurônios são desativados com o objetivo de conseguir maior generalização entre os neurônios da rede.
 
 \begin{figure}[h]
 	\centering
@@ -235,8 +218,10 @@ Tais células atuam como filtros locais sobre o espaço de entrada e quanto mais
 Haykin \cite{haykin2009neural} divide a estrutura das redes convolutivas em três objetivos principais:
 
 \begin{itemize}
-	\item Extração de características: Cada neurônio recebe sinais de entrada de uma determinada janela da camada anterior, possibilitando a extração de características locais. Isto faz com que a posição exata de cada característica (ou pixel, no caso de uma imagem), seja irrelevante, desde que sua posição em relação às características vizinhas seja mantida.
-	\item Mapa de características: As camadas são compostas por diversos mapas de características (\textit{feature maps}) que são regiões onde os neurônios compartilham os mesmos pesos. Esses pesos são chamados de filtros ou kernels, e dão robustez ao modelo, fazendo com que ele seja capaz de lidar com variações de distorção, rotação e translação na imagem. O compartilhamento dos pesos também possibilita uma redução drástica no número de parâmetros a serem otimizados.
+	\item Extração de características: Cada neurônio recebe sinais de entrada de uma determinada janela da camada anterior, possibilitando a extração de características locais. 
+	%Isto faz com que a posição exata de cada característica (ou pixel, no caso de uma imagem), seja irrelevante, desde que sua posição em relação às características %vizinhas seja mantida.
+	\item Mapa de características: As camadas são compostas por diversos mapas de características (\textit{feature maps}) onde os neurônios compartilham os mesmos pesos. O compartilhamento de pesos possibilita uma redução no número de parâmetros a serem otimizados. Esses pesos são chamados de filtros e dão robustez ao modelo, fazendo com que ele seja capaz de lidar com variações de distorção, rotação e translação.
+	
 	\item Subamostragem: Após cada camada de convolução é aplicada uma camada de subamostragem(\textit{subsampling}), que é uma coleta de amostras de cada mapa de característica. Essas amostragens podem ser realizadas através da média, maior ou menor valor das amostras. O que produz uma sumarização do mapa de características
 \end{itemize}
 
