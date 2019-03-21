@@ -90,6 +90,7 @@ O modelo de um neurônio artifical é apresentado na Figura \ref{fig-perceptron}
 \end{figure}}
 
 Esse modelo foi proposto por \textit{McCulloch and Pitts} em 1943 \cite{McCulloch1943} e é conhecido como \textit{perceptron}. A função de ativação ($\varphi$) tem a seguinte definição:
+
 \begin{equation} \label{eq_activation}
 \varphi = \left\{ \,
 \begin{IEEEeqnarraybox}[][c]{l?s}
@@ -100,6 +101,8 @@ Esse modelo foi proposto por \textit{McCulloch and Pitts} em 1943 \cite{McCulloc
 \end{IEEEeqnarraybox}
 \right.
 \end{equation}
+
+
 Os valores dos pesos podem ser positivos ou negativos e eles refletem se aquela conexão é inibitória ou excitatória. Um valor positivo ou negativo reflete a importância da respectiva entrada para o processamento. Frequentemente é adicionado um \textit{viés} $b$ na entrada da função de ativação. A forma geral do modelo é descrito como:
 \begin{equation} \label{eq-output-percep}
 y(k) = \varphi(\sum_{i=1}^{n} p_i(k) x_i(k) +b(k))
@@ -151,7 +154,7 @@ A finalidade dos otimizadores é minimizar o valor da função de perda alterand
 \begin{itemize}
 	\item \textbf{ Stochastic Gradient Descent (SGD) com Nesterov Momentum} é um método onde, em uma alusão à mecânica clássica, a velocidade de descida do resultado da função de perda na superfície multidimensional determinada pelo gradiente é calculada e usada para escalar o tamanho do passo que será dado em direção ao ponto mínimo. Utilizando essa velocidade e o valor do gradiente na posição atual é possível prever a próxima posição dessa partícula virtual onde então é calculado o gradiente da nova posição. Os parâmetros são então atualizados baseados nesse segundo gradiente e em um hiperparâmetro denominado taxa de aprendizado (learning rate). \cite{bengio2012}
 	\item \textbf{Adagrad} é um método adaptativo de taxa de aprendizado proposto originalmente por \cite{adagrad2011} onde a taxa de aprendizado é normalizada pela raiz da soma dos gradientes de cada parâmetro ao quadrado. Isso tem o efeito de reduzir a taxa de aprendizado dos pesos que recebem gradientes altos e ao mesmo tempo aumentar a taxa de aprendizado de pesos que recebem atualizações infrequentes. Um hiperparâmetro de suavização também é usado para inibir a divisão por zero.
-	\item Adam é um método derivado de um outro método chamado RMSprop que basicamente ajusta o método Adagrad para que a taxa de aprendizado não diminua agressivamente. A contribuição do método Adam é adicionar um momento na atualização (semelhante ao Nesterov Momentum) e suavizar os ruídos do gradiente antes de fazer essa operação. Ele herda do RMSprop  adição de uma taxa de decaimento na soma dos gradientes de cada parâmetro que reduz a agressividade de quanto a taxa de aprendizado é reduzida a cada passo. \cite{adam2014}
+	\item \textbf{Adam} é um método derivado de um outro método chamado RMSprop que basicamente ajusta o método Adagrad para que a taxa de aprendizado não diminua agressivamente. A contribuição do método Adam é adicionar um momento na atualização (semelhante ao Nesterov Momentum) e suavizar os ruídos do gradiente antes de fazer essa operação. Ele herda do RMSprop  adição de uma taxa de decaimento na soma dos gradientes de cada parâmetro que reduz a agressividade de quanto a taxa de aprendizado é reduzida a cada passo. \cite{adam2014}
 \end{itemize}
 
 \subsection{Hiperparâmetros de uma Rede Neural}
