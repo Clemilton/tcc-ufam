@@ -13,32 +13,31 @@
 \BOOKMARK [2][-]{subsection.2.2.5}{Otimizadores}{section.2.2}% 13
 \BOOKMARK [2][-]{subsection.2.2.6}{Hiperpar\342metros de uma Rede Neural}{section.2.2}% 14
 \BOOKMARK [3][-]{subsubsection.2.2.6.1}{N\372mero de camadas e neur\364nios em cada camada}{subsection.2.2.6}% 15
-\BOOKMARK [3][-]{subsubsection.2.2.6.2}{Inicializa\347\343o dos pesos}{subsection.2.2.6}% 16
-\BOOKMARK [3][-]{subsubsection.2.2.6.3}{Fun\347\343o de Ativa\347\343o}{subsection.2.2.6}% 17
-\BOOKMARK [3][-]{subsubsection.2.2.6.4}{Mini-batches}{subsection.2.2.6}% 18
-\BOOKMARK [3][-]{subsubsection.2.2.6.5}{Taxa de aprendizado}{subsection.2.2.6}% 19
-\BOOKMARK [3][-]{subsubsection.2.2.6.6}{N\372mero de \351pocas}{subsection.2.2.6}% 20
-\BOOKMARK [2][-]{subsection.2.2.7}{Regulariza\347\343o}{section.2.2}% 21
-\BOOKMARK [2][-]{subsection.2.2.8}{Redes Convolutivas}{section.2.2}% 22
-\BOOKMARK [3][-]{subsubsection.2.2.8.1}{Camada de Convolu\347\343o}{subsection.2.2.8}% 23
-\BOOKMARK [3][-]{subsubsection.2.2.8.2}{Camada Pooling}{subsection.2.2.8}% 24
-\BOOKMARK [3][-]{subsubsection.2.2.8.3}{Normaliza\347\343o em lote}{subsection.2.2.8}% 25
-\BOOKMARK [3][-]{subsubsection.2.2.8.4}{Arquitetura de uma Rede Convolutiva}{subsection.2.2.8}% 26
-\BOOKMARK [2][-]{subsection.2.2.9}{Redes Residuais}{section.2.2}% 27
-\BOOKMARK [1][-]{section.2.3}{S\351ries Temporais}{chapter.2}% 28
-\BOOKMARK [2][-]{subsection.2.3.1}{Reposit\363rio UCR}{section.2.3}% 29
-\BOOKMARK [2][-]{subsection.2.3.2}{Aplica\347\365es de S\351ries Temporais}{section.2.3}% 30
-\BOOKMARK [2][-]{subsection.2.3.3}{Medidas de similaridade}{section.2.3}% 31
-\BOOKMARK [1][-]{section.2.4}{Classifica\347\343o de S\351ries Temporais}{chapter.2}% 32
-\BOOKMARK [2][-]{subsection.2.4.1}{Classifica\347\343o de series temporais com aprendizado profundo}{section.2.4}% 33
-\BOOKMARK [3][-]{subsubsection.2.4.1.1}{Modelos Generativos}{subsection.2.4.1}% 34
-\BOOKMARK [3][-]{subsubsection.2.4.1.2}{Modelos Discriminativos}{subsection.2.4.1}% 35
-\BOOKMARK [0][-]{chapter.3}{Arquiteturas Propostas}{}% 36
-\BOOKMARK [1][-]{subsection.3.0.1}{Conjunto de dados}{chapter.3}% 37
-\BOOKMARK [1][-]{section.3.1}{Vis\343o geral}{chapter.3}% 38
-\BOOKMARK [0][-]{chapter.4}{Experimentos}{}% 39
-\BOOKMARK [1][-]{section.4.1}{M\351tricas}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.2}{Objetivos}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.3}{Resultados Obtidos}{chapter.4}% 42
-\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 43
-\BOOKMARK [0][-]{chapter*.30}{Refer\352ncias Bibliogr\341ficas}{}% 44
+\BOOKMARK [3][-]{subsubsection.2.2.6.2}{Fun\347\343o de Ativa\347\343o}{subsection.2.2.6}% 16
+\BOOKMARK [3][-]{subsubsection.2.2.6.3}{Mini-batches}{subsection.2.2.6}% 17
+\BOOKMARK [3][-]{subsubsection.2.2.6.4}{Taxa de aprendizado}{subsection.2.2.6}% 18
+\BOOKMARK [3][-]{subsubsection.2.2.6.5}{N\372mero de \351pocas}{subsection.2.2.6}% 19
+\BOOKMARK [2][-]{subsection.2.2.7}{Redes Convolutivas}{section.2.2}% 20
+\BOOKMARK [3][-]{subsubsection.2.2.7.1}{Camada de Convolu\347\343o}{subsection.2.2.7}% 21
+\BOOKMARK [3][-]{subsubsection.2.2.7.2}{Camada Pooling}{subsection.2.2.7}% 22
+\BOOKMARK [3][-]{subsubsection.2.2.7.3}{Normaliza\347\343o em lote}{subsection.2.2.7}% 23
+\BOOKMARK [3][-]{subsubsection.2.2.7.4}{Arquitetura de uma Rede Convolutiva}{subsection.2.2.7}% 24
+\BOOKMARK [2][-]{subsection.2.2.8}{Redes Residuais}{section.2.2}% 25
+\BOOKMARK [1][-]{section.2.3}{S\351ries Temporais}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.3.1}{Reposit\363rio UCR}{section.2.3}% 27
+\BOOKMARK [2][-]{subsection.2.3.2}{Aplica\347\365es de S\351ries Temporais}{section.2.3}% 28
+\BOOKMARK [2][-]{subsection.2.3.3}{Medidas de similaridade}{section.2.3}% 29
+\BOOKMARK [1][-]{section.2.4}{Classifica\347\343o de S\351ries Temporais}{chapter.2}% 30
+\BOOKMARK [2][-]{subsection.2.4.1}{Classifica\347\343o de series temporais com aprendizado profundo}{section.2.4}% 31
+\BOOKMARK [3][-]{subsubsection.2.4.1.1}{Modelos Generativos}{subsection.2.4.1}% 32
+\BOOKMARK [3][-]{subsubsection.2.4.1.2}{Modelos Discriminativos}{subsection.2.4.1}% 33
+\BOOKMARK [0][-]{chapter.3}{Arquiteturas Propostas}{}% 34
+\BOOKMARK [1][-]{section.3.1}{Vis\343o geral}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.2}{Perceptron Multicamadas}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.3}{Fully Convolutional Networks}{chapter.3}% 37
+\BOOKMARK [0][-]{chapter.4}{Experimentos}{}% 38
+\BOOKMARK [1][-]{section.4.1}{M\351tricas}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.2}{Objetivos}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.3}{Resultados Obtidos}{chapter.4}% 41
+\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 42
+\BOOKMARK [0][-]{chapter*.29}{Refer\352ncias Bibliogr\341ficas}{}% 43

@@ -162,8 +162,6 @@ A maioria dos algoritmos de AM envolvem "hiperparâmetros", que são varíaveis 
 
 \subsubsection{Número de camadas e neurônios em cada camada}
 Em problemas de classificação geralmente as redes neurais tem: camada de entrada tem o mesmo número de neurônios do tamanho do vetor de características, camadas escondidas e a camada de saída que tem o mesmo número de classes do problema. Conforme o teorema da aproximação universal \cite{universal1989}, uma rede neural com uma única camada oculta com um número finito de neurônios é capaz de aproximar qualquer função contínua de $\mathbb{R}^n$. Isto quer dizer que teoricamente é possível aproximar qualquer 
-\subsubsection{Inicialização dos pesos}
-Idealmente, pode ser melhor usar diferentes estratégias de inicialização dos pesos conforme a função de ativação aplicada em cada camada. A distribuição uniforme é comumente utilizada. (*)
 
 \subsubsection{Função de Ativação}
 As funções de ativações são usadas para introduzir não-lineariedade nos modelos, que permite que as redes aprendam superfícies de decisões mais complexas. Dentre as funções de ativações mais utilzadas estão a Sigmoid e ReLU(\textit{Rectified Linear Units}). A vantagem  da ReLU é que ela evita o problema de dissipação do gradiente.
@@ -186,23 +184,6 @@ A taxa de aprendizado é um parâmetro constante no intervalo de [0,1] que inter
 
 \subsubsection{Número de épocas}
 Número de épocas é a quantidade de vezes que o conjunto de treino é passado pela rede. O recomendável é aumentar o número de épocas até que a acurácia do conjunto de validação diminuir, mesmo quando a acurácia do treino aumentar(\textit{overfitting})
-
-\subsection{Regularização}
-
-Além do \textit{tuning} dos hiperparâmetros existe outras maneiras para aumentar a performance da rede e torná-la mais robusta em sua capacidade de generalização. 
-Um exemplo é a adição de um termo de regularização na função de perda. Esse termo é introduzido para regularizar os valores dos pesos buscando distribuir melhor o aprendizado por todos os neurônios.A introdução da função de regularização ajuda a combater o \textit{overfitting}. %A função provavelmente mais usada para este fim é a da regularização L2, onde para cada parâmetro da rede o termo $\frac{1}{2}\lambda \omega^2$ é adicionado ao resultado da função de perda,$\omega$ representando o peso em questão, $\lambda$ sendo a força da regularização e o fator $\frac{1}{2}$ é multiplicado para simplificar o gradiente da função.
-
-%%Essa regularização penaliza neurônios com pesos muito altos levando a uma distribuição das atualizações para os neurônios com pesos menores. Ao introduzir essa função é %%necessário lembrar que os pesos também devem ser atualizados pelo gradiente da função de regularização, o que é um passo geralmente realizado após a atualização quanto %%ao gradiente da função loss.
-
-Outra técnica que é muito utilizada para combater o \textit{overfitting} é o \textit{Dropout} \cite{dropout2014}. O Dropout é uma técnica que condiciona à existência de um neurônio na fase de treinamento em função de uma probabilidade predefinida por um hiperparâmetro. Ou seja, em cada época uma parcela aleatória dos neurônios são desativados com o objetivo de conseguir maior generalização entre os neurônios da rede.
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[scale=0.4]{pasta1_figuras/dropout.png}
-	\caption{Imagem ilustrando o efeito do Dropout em uma rede neural onde os neurônios marcados foram desativados, forçando a rede nao depender deles, evitando o \textit{overfitting} \cite{dropout2014}.}
-	
-	\label{fig-dropout}
-\end{figure}
 
 \subsection{Redes Convolutivas} \label{cnn}
 

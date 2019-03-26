@@ -3,14 +3,17 @@
 Neste capítulo são expostas as arquiteturas de redes profundas utilizadas no trabalho.
 
 
-\subsection{Conjunto de dados}
-
-Conforme apresentado anteriormente, a classificação de séries temporais tem aplicações nas mais diferentes áreas. Dessa forma, faz-se necessário avaliar e analisar o comportamento do método proposto em dados de diferentes tipos de aplicações. Para os experimentos conduzidos neste capítulo, foram selecionados 11 conjuntos de dados do UCR Time Series Classification Archive\cite{UCRArchive}. 
-
-
-
-
 \section{Visão geral}
 
+
+\section{Perceptron Multicamadas}
+A primeira rede implementada foi o Perceptron Multicamadas. A rede contém: uma camada de entrada, três camadas ocultas e uma camada de saída. A camada de entrada tem o mesmo tamanho da série temporal. As camadas ocultas são compostas por 500 neurônios com a ReLu como função de ativação. A última camada é uma Softmax e contém o número de neurônios igual a quantidade de classes do dataset.
+
+Entre as camadas é utilizada a técnica de \textit{Dropout} com uma taxa de 0.1, 0.2, 0.2 e 0.3, depois da primeira, segunda, terceira e quarta camada respectivamente. Essas taxas determinam uma porcentagem de neurônios que são desativados durante o treinamento em cada época. \textit{Dropout} é uma forma de regularização que ajuda na prevenção do overfitting \cite{dropout2014}. 
+
+
+\section{Fully Convolutional Networks}
+
+http://principlesofdeeplearning.com/index.php/a-tutorial-on-global-average-pooling/
 
 
